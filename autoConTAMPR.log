@@ -1,0 +1,3818 @@
+****************************************************************************************************
+Checking on row number 2
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap10 (C)' NOT contains species 'A	D2'
+4,33	Hap10 (C)	Hap6-Hap10 (C) --->
+D14	Hprim34
+H_D14-HCO1_G06_036.scf
+H_D14-HCO1_G06_036.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/H_D14-HCO1_G06_036.scf._630
+cccccgctaggatcaaaaaatgaagaaccaaaattacgatctaataataatatagtaattcccccagctaagacaggcaatcttaaaactaacaaaaacctagtaacaattatagctcacacaaacaaagttaaaaactcaaatcttaaaacataactgattttaccttttaaacaagttgtaataaaattaattccccctaaaatagaagaaacaccagctacatgcaaactaaaaatagcaaaatctactgaccccccaaaatgataaatagaattagacaaaggtggatagacagtccatcctgtcccaggtccaagaccaaccagtaaacttaacattataaataataaagccacagggactaatcaaaatcttaaattattcaaacgaggaaaagctatatctatagcattcattatcaaaggcaataaccaatttccaaaaccacctacagctacgggtatgacaaaaaaaaaaattataagaaaagcatgtgcagtaaccatagaattataaatctgctcatctataataatactacctaccatccccaattctgtgcgaataattaatcttattctagcacctaaaaaaccagatcaaataccaacaatgaaatacgaagta
+
+Consensus:Hprim34
+ttggattcccaccaccactagggtcaaaaaaagaagagccaaaattacgatctaataataatatcgtaataccaccagctaaaacaggtagactaagtactaataaaaatctagtaacaattatcgctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaattttaccttttaaacatgtagtaataaaattaattccccctaaaattgaagaaacaccagctacatgaagactaaaaatagcaaaatcaatcgaaccaccaaaatgatagacagaattagataaaggggggtaaactgttcatcccgtaccaggacctaaaccaactaataagcttaaaactataaataataaagcaacaggaacaagtcaaaaccttaaattatttaaacgaggaaatgctatatctatagcatttatcattaaaggtaataatcaatttccaaaacctccaacagcaaccggtataacaaaaaagaaaattattaagaaagcatgggcagtaactatagaattataaatctgctcatctataataatcctgccaactatacctagctcagtgcgaataatcaaacttattctggctcctaaaaaaccagatcaaataccaataataaa
+
+Alignment
+ttggattcccaccaccactagggtcaaaaaaagaagagccaaaattacgatctaataataatatcgtaataccaccagctaaaacaggtagactaagtactaataaaaatctagtaacaattatcgctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaattttaccttttaaacatgtagtaataaaattaattccccctaaaattgaagaaacaccagctacatgaagactaaaaatagcaaaatcaatcgaaccaccaaaatgatagacagaattagataaaggggggtaaactgttcatcccgtaccaggacctaaaccaactaataagcttaaaactataaataataaagcaacaggaacaagtcaaaaccttaaattatttaaacgaggaaatgctatatctatagcatttatcattaaaggtaataatcaatttccaaaacctccaacagcaaccggtataacaaaaaagaaaattattaag*aaagcatgggcagtaactatagaattataaatctgctcatctataataatcctgccaactatacctagctcagtgcgaataatcaaacttattctggctcctaaaaaaccagatcaaata*c**caat**aat***aa**a
+*********c*cc*ccgctaggatcaaaaaatgaagaaccaaaattacgatctaataataatatagtaattcccccagctaagacaggcaatcttaaaactaacaaaaacctagtaacaattatagctcacacaaacaaagttaaaaactcaaatcttaaaacataactgattttaccttttaaacaagttgtaataaaattaattccccctaaaatagaagaaacaccagctacatgcaaactaaaaatagcaaaatctactgaccccccaaaatgataaatagaattagacaaaggtggatagacagtccatcctgtcccaggtccaagaccaaccagtaaacttaacattataaataataaagccacagggactaatcaaaatcttaaattattcaaacgaggaaaagctatatctatagcattcattatcaaaggcaataaccaatttccaaaaccacctacagctacgggtatgacaaaaaaaaaaatta*taagaaaagcatgtgcagtaaccatagaattataaatctgctcatctataataatactacctaccatccccaattctgtgcgaataattaatcttattctagcacctaaaaaaccagatcaaataccaacaatgaaatacgaagta
+a <=> g --- 16 => 5 <<<
+0	3
+g:973,a:0,t:15,c:41 -->>
+g <=> a --- 22 => 11 <<<
+44	1
+g:44,a:1053,t:14,c:36 -->>
+a <=> t --- 31 => 20 <<<
+16	2
+g:45,a:16,t:793,c:1 -->>
+g <=> a --- 37 => 26 <<<
+8	2
+g:8,a:839,t:0,c:17 -->>
+c <=> a --- 64 => 53 <<<
+0	3
+g:12,a:765,t:25,c:0 -->>
+a <=> t --- 70 => 59 <<<
+31	1
+g:2,a:31,t:1288,c:31 -->>
+a <=> c --- 73 => 62 <<<
+0	3
+g:6,a:0,t:6,c:868 -->>
+a <=> g --- 82 => 71 <<<
+26	1
+g:505,a:26,t:3,c:1 -->>
+t <=> c --- 88 => 77 <<<
+0	3
+g:9,a:38,t:0,c:653 -->>
+g <=> a --- 90 => 79 <<<
+15	2
+g:15,a:887,t:23,c:0 -->>
+a <=> t --- 91 => 80 <<<
+51	1
+g:1,a:51,t:870,c:19 -->>
+a <=> t --- 94 => 83 <<<
+32	1
+g:0,a:32,t:722,c:5 -->>
+g <=> a --- 96 => 85 <<<
+21	1
+g:21,a:756,t:1,c:0 -->>
+t <=> a --- 97 => 86 <<<
+24	1
+g:19,a:705,t:24,c:1 -->>
+t <=> c --- 103 => 92 <<<
+32	2
+g:0,a:34,t:32,c:707 -->>
+t <=> c --- 109 => 98 <<<
+51	1
+g:1,a:32,t:51,c:895 -->>
+c <=> a --- 124 => 113 <<<
+3	3
+g:60,a:449,t:17,c:3 -->>
+a <=> c --- 130 => 119 <<<
+41	1
+g:9,a:41,t:1,c:618 -->>
+t <=> c --- 136 => 125 <<<
+33	1
+g:12,a:18,t:33,c:919 -->>
+c <=> t --- 142 => 131 <<<
+2	3
+g:5,a:36,t:933,c:2 -->>
+t <=> c --- 148 => 137 <<<
+52	1
+g:0,a:15,t:52,c:888 -->>
+a <=> g --- 169 => 158 <<<
+25	1
+g:861,a:25,t:7,c:2 -->>
+t <=> a --- 187 => 176 <<<
+5	2
+g:40,a:779,t:5,c:0 -->>
+a <=> t --- 190 => 179 <<<
+1	3
+g:36,a:1,t:794,c:44 -->>
+t <=> a --- 217 => 206 <<<
+15	2
+g:32,a:970,t:15,c:5 -->>
+a <=> c --- 238 => 227 <<<
+43	1
+g:0,a:43,t:9,c:710 -->>
+g <=> a --- 240 => 229 <<<
+6	3
+g:6,a:644,t:9,c:10 -->>
+a <=> t --- 259 => 248 <<<
+35	2
+g:58,a:35,t:745,c:33 -->>
+t <=> c --- 261 => 250 <<<
+12	3
+g:17,a:30,t:12,c:824 -->>
+c <=> t --- 262 => 251 <<<
+21	2
+g:49,a:14,t:614,c:21 -->>
+a <=> c --- 265 => 254 <<<
+15	2
+g:4,a:15,t:33,c:866 -->>
+a <=> c --- 268 => 257 <<<
+5	2
+g:1,a:5,t:42,c:889 -->>
+g <=> a --- 280 => 269 <<<
+12	1
+g:12,a:855,t:11,c:2 -->>
+c <=> t --- 282 => 271 <<<
+5	2
+g:0,a:45,t:684,c:5 -->>
+t <=> c --- 292 => 281 <<<
+34	1
+g:8,a:32,t:34,c:755 -->>
+g <=> t --- 298 => 287 <<<
+52	1
+g:52,a:9,t:752,c:0 -->>
+g <=> a --- 301 => 290 <<<
+12	2
+g:12,a:1202,t:32,c:3 -->>
+a <=> g --- 304 => 293 <<<
+22	1
+g:749,a:22,t:19,c:10 -->>
+t <=> a --- 307 => 296 <<<
+33	2
+g:36,a:279,t:33,c:16 -->>
+t <=> c --- 310 => 299 <<<
+11	1
+g:1,a:2,t:11,c:870 -->>
+c <=> t --- 316 => 305 <<<
+17	3
+g:53,a:23,t:560,c:17 -->>
+a <=> c --- 319 => 308 <<<
+0	3
+g:41,a:0,t:13,c:798 -->>
+a <=> t --- 325 => 314 <<<
+3	2
+g:0,a:3,t:750,c:37 -->>
+t <=> a --- 328 => 317 <<<
+2	3
+g:10,a:533,t:2,c:12 -->>
+a <=> g --- 330 => 319 <<<
+29	1
+g:573,a:29,t:1,c:14 -->>
+t <=> c --- 337 => 326 <<<
+13	3
+g:36,a:31,t:13,c:749 -->>
+a <=> g --- 339 => 328 <<<
+11	2
+g:510,a:11,t:16,c:0 -->>
+g <=> a --- 343 => 332 <<<
+5	3
+g:5,a:846,t:33,c:28 -->>
+a <=> c --- 349 => 338 <<<
+26	3
+g:28,a:26,t:30,c:601 -->>
+c <=> t --- 351 => 340 <<<
+0	3
+g:36,a:22,t:705,c:0 -->>
+a <=> c --- 367 => 356 <<<
+25	2
+g:18,a:25,t:55,c:813 -->>
+a <=> g --- 373 => 362 <<<
+78	1
+g:955,a:78,t:6,c:7 -->>
+a <=> t --- 376 => 365 <<<
+49	1
+g:8,a:49,t:622,c:5 -->>
+g <=> a --- 378 => 367 <<<
+10	2
+g:10,a:746,t:69,c:3 -->>
+c <=> t --- 385 => 374 <<<
+22	1
+g:2,a:0,t:784,c:22 -->>
+t <=> c --- 397 => 386 <<<
+15	2
+g:4,a:32,t:15,c:765 -->>
+t <=> a --- 409 => 398 <<<
+26	2
+g:43,a:954,t:26,c:1 -->>
+t <=> c --- 427 => 416 <<<
+27	1
+g:12,a:22,t:27,c:687 -->>
+c <=> t --- 430 => 419 <<<
+4	3
+g:6,a:45,t:838,c:4 -->>
+t <=> c --- 433 => 422 <<<
+18	2
+g:11,a:32,t:18,c:624 -->>
+t <=> c --- 439 => 428 <<<
+24	2
+g:16,a:28,t:24,c:557 -->>
+t <=> c --- 445 => 434 <<<
+32	1
+g:2,a:9,t:32,c:796 -->>
+t <=> a --- 460 => 449 <<<
+14	2
+g:5,a:627,t:14,c:43 -->>
+a <=> t --- 463 => 452 <<<
+44	1
+g:6,a:44,t:776,c:9 -->>
+a <=> t --- 469 => 458 <<<
+27	1
+g:14,a:27,t:830,c:3 -->>
+c <=> g --- 472 => 461 <<<
+5	2
+g:221,a:14,t:5,c:5 -->>
+a <=> g --- 478 => 467 <<<
+67	1
+g:743,a:67,t:3,c:1 -->>
+g <=> a --- 487 => 476 <<<
+3	2
+g:3,a:647,t:7,c:2 -->>
+g <=> t --- 509 => 497 <<<
+299	1
+g:299,a:5,t:428,c:25 -->>
+t <=> c --- 518 => 506 <<<
+35	2
+g:4,a:161,t:35,c:488 -->>
+c <=> a --- 551 => 539 <<<
+197	1
+g:3,a:577,t:38,c:197 -->>
+g <=> a --- 554 => 542 <<<
+4	3
+g:4,a:557,t:9,c:218 -->>
+a <=> t --- 557 => 545 <<<
+223	1
+g:3,a:223,t:448,c:79 -->>
+t <=> c --- 560 => 548 <<<
+27	2
+g:7,a:147,t:27,c:478 -->>
+a <=> c --- 563 => 551 <<<
+0	3
+g:6,a:0,t:31,c:690 -->>
+t <=> c --- 566 => 554 <<<
+4	3
+g:8,a:120,t:4,c:446 -->>
+g <=> a --- 568 => 556 <<<
+15	2
+g:15,a:444,t:183,c:11 -->>
+c <=> t --- 569 => 557 <<<
+29	2
+g:9,a:36,t:629,c:29 -->>
+a <=> t --- 572 => 560 <<<
+4	3
+g:176,a:4,t:414,c:35 -->>
+c <=> t --- 584 => 572 <<<
+0	3
+g:1,a:176,t:543,c:0 -->>
+a <=> t --- 587 => 575 <<<
+28	2
+g:0,a:28,t:391,c:177 -->>
+g <=> a --- 596 => 584 <<<
+85	1
+g:85,a:415,t:12,c:38 -->>
+t <=> a --- 599 => 587 <<<
+9	2
+g:5,a:367,t:9,c:180 -->>
+31	30	22
+L_D14-LCO1_G06_036.scf
+L_D14-LCO1_G06_036.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/L_D14-LCO1_G06_036.scf._645
+gttggtatttgatctggttttttaggtgctagaataagattaattattcgcacagaattggggatggtaggtagtattattatagatgagcagatttataattctatggttactgcacatgcttttcttataatttttttttttgtcatacccgtagctgtaggtggttttggaaattggttattgcctttgataatgaatgctatagatatagcttttcctcgtttgaataatttaagattttgattagtccctgtggctttattatttataatgttaagtttactggttggtcttggacctgggacaggatggactgtctatccacctttgtctaattctatttatcattttggggggtcagtagattttgctatttttagtttgcatgtagctggtgtttcttctattttagggggaattaattttattacaacttgtttaaaaggtaaaatcagttatgttttaagatttgagtttttaactttgtttgtgtgagctataattgttactaggtttttgttagttttaagattgcctgtcttagctgggggaattactatattattattagatcgtaattttggttcttcattttttgatcctagcgggggtggtaaccctattttgtatcagcatttgttt
+
+Consensus:Hprim34
+tttattattggtatttgatctggttttttaggagccagaataagtttgattattcgcactgagctaggtatagttggcaggattattatagatgagcagatttataattctatagttactgcccatgctttcttaataattttcttttttgttataccggttgctgttggaggttttggaaattgattattacctttaatgataaatgctatagatatagcatttcctcgtttaaataatttaaggttttgacttgttcctgttgctttattatttatagttttaagcttattagttggtttaggtcctggtacgggatgaacagtttacccccctttatctaattctgtctatcattttggtggttcgattgattttgctatttttagtcttcatgtagctggtgtttcttcaattttagggggaattaattttattactacatgtttaaaaggtaaaattagttatgttttaagatttgaatttttgactttatttgtttgagcgataattgttactagatttttattagtacttagtctacctgttttagctggtggtattacgatattattattagatcgtaattttggctcttctttttttgaccctagtggtggtgggaatccaa
+
+Alignment
+tttattattggtatttgatctggttttttaggagccagaataagtttgattattcgcactgagctaggtatagttggcaggattattatagatgagcagatttataattctatagttactgcccatgc*tttcttaataattttcttttttgttataccggttgctgttggaggttttggaaattgattattacctttaatgataaatgctatagatatagcatttcctcgtttaaataatttaaggttttgacttgttcctgttgctttattatttatagttttaagcttattagttggtttaggtcctggtacgggatgaacagtttacccccctttatctaattctgtctatcattttggtggttcgattgattttgctatttttagtcttcatgtagctggtgtttcttcaattttagggggaattaattttattactacatgtttaaaaggtaaaattagttatgttttaagatttgaatttttgactttatttgtttgagcgataattgttactagatttttattagtacttagtctacctgttttagctggtggtattacgatattattattagatcgtaattttggctcttctttttttgaccctagtggtggtgg************gaatc**ca******a
+******gttggtatttgatctggttttttaggtgctagaataagattaattattcgcacagaattggggatggtaggtagtattattatagatgagcagatttataattctatggttactgcacatgcttttctt*ataatttttttttttgtcatacccgtagctgtaggtggttttggaaattggttattgcctttgataatgaatgctatagatatagcttttcctcgtttgaataatttaagattttgattagtccctgtggctttattatttataatgttaagtttactggttggtcttggacctgggacaggatggactgtctatccacctttgtctaattctatttatcattttggggggtcagtagattttgctatttttagtttgcatgtagctggtgtttcttctattttagggggaattaattttattacaacttgtttaaaaggtaaaatcagttatgttttaagatttgagtttttaactttgtttgtgtgagctataattgttactaggtttttgttagttttaagattgcctgtcttagctgggggaattactatattattattagatcgtaattttggttcttcattttttgatcctagcgggggtggtaaccctattttgtatcagcatttgttt
+a <=> g --- 6 => 0 <<<
+63	2
+g:916,a:63,t:203,c:27 -->>
+a <=> t --- 32 => 26 <<<
+30	3
+g:61,a:30,t:845,c:88 -->>
+c <=> t --- 35 => 29 <<<
+50	2
+g:4,a:54,t:755,c:50 -->>
+t <=> a --- 44 => 38 <<<
+59	1
+g:2,a:1553,t:59,c:0 -->>
+g <=> a --- 47 => 41 <<<
+0	3
+g:0,a:972,t:7,c:13 -->>
+t <=> a --- 59 => 53 <<<
+41	1
+g:19,a:778,t:41,c:0 -->>
+g <=> a --- 62 => 56 <<<
+42	1
+g:42,a:1023,t:23,c:7 -->>
+c <=> t --- 63 => 57 <<<
+3	3
+g:13,a:12,t:580,c:3 -->>
+a <=> g --- 65 => 59 <<<
+38	1
+g:1175,a:38,t:0,c:4 -->>
+t <=> g --- 68 => 62 <<<
+11	2
+g:1209,a:44,t:11,c:2 -->>
+a <=> g --- 71 => 65 <<<
+26	1
+g:1328,a:26,t:2,c:7 -->>
+t <=> a --- 74 => 68 <<<
+11	2
+g:33,a:927,t:11,c:5 -->>
+c <=> t --- 77 => 71 <<<
+20	2
+g:16,a:44,t:816,c:20 -->>
+g <=> t --- 80 => 74 <<<
+5	3
+g:5,a:52,t:756,c:9 -->>
+a <=> g --- 113 => 107 <<<
+6	1
+g:1011,a:6,t:5,c:2 -->>
+c <=> a --- 122 => 116 <<<
+27	1
+g:11,a:520,t:17,c:27 -->>
+c <=> t --- 144 => 137 <<<
+0	2
+g:0,a:7,t:776,c:0 -->>
+t <=> c --- 153 => 146 <<<
+50	2
+g:15,a:119,t:50,c:495 -->>
+g <=> c --- 159 => 152 <<<
+95	1
+g:95,a:40,t:20,c:630 -->>
+t <=> a --- 162 => 155 <<<
+50	2
+g:69,a:478,t:50,c:23 -->>
+t <=> a --- 168 => 161 <<<
+49	2
+g:97,a:334,t:49,c:0 -->>
+a <=> t --- 171 => 164 <<<
+14	2
+g:253,a:14,t:459,c:0 -->>
+a <=> g --- 186 => 179 <<<
+8	2
+g:365,a:8,t:132,c:0 -->>
+a <=> g --- 192 => 185 <<<
+14	3
+g:577,a:14,t:32,c:152 -->>
+a <=> g --- 198 => 191 <<<
+157	1
+g:365,a:157,t:46,c:36 -->>
+g <=> a --- 201 => 194 <<<
+0	3
+g:0,a:517,t:32,c:7 -->>
+a <=> g --- 204 => 197 <<<
+191	1
+g:452,a:191,t:16,c:0 -->>
+a <=> t --- 222 => 215 <<<
+23	2
+g:0,a:23,t:536,c:31 -->>
+a <=> g --- 234 => 227 <<<
+167	1
+g:436,a:167,t:12,c:3 -->>
+g <=> a --- 246 => 239 <<<
+26	2
+g:26,a:745,t:112,c:0 -->>
+c <=> t --- 253 => 246 <<<
+0	3
+g:4,a:90,t:443,c:0 -->>
+t <=> a --- 255 => 248 <<<
+52	2
+g:56,a:453,t:52,c:2 -->>
+t <=> c --- 258 => 251 <<<
+18	1
+g:4,a:0,t:18,c:592 -->>
+t <=> g --- 264 => 257 <<<
+36	1
+g:552,a:5,t:36,c:22 -->>
+g <=> a --- 280 => 273 <<<
+28	2
+g:28,a:424,t:67,c:0 -->>
+t <=> g --- 282 => 275 <<<
+132	1
+g:566,a:9,t:132,c:0 -->>
+c <=> t --- 288 => 281 <<<
+0	3
+g:36,a:16,t:431,c:0 -->>
+t <=> c --- 292 => 285 <<<
+80	1
+g:37,a:38,t:80,c:391 -->>
+a <=> g --- 294 => 287 <<<
+5	2
+g:651,a:5,t:52,c:3 -->>
+t <=> c --- 301 => 294 <<<
+129	1
+g:1,a:56,t:129,c:389 -->>
+a <=> t --- 303 => 296 <<<
+4	2
+g:157,a:4,t:356,c:2 -->>
+t <=> a --- 306 => 299 <<<
+8	3
+g:23,a:491,t:8,c:114 -->>
+t <=> g --- 312 => 305 <<<
+2	3
+g:267,a:149,t:2,c:21 -->>
+g <=> a --- 315 => 308 <<<
+95	1
+g:95,a:322,t:0,c:26 -->>
+a <=> g --- 321 => 314 <<<
+156	1
+g:353,a:156,t:1,c:12 -->>
+a <=> t --- 324 => 317 <<<
+13	3
+g:168,a:13,t:320,c:33 -->>
+t <=> c --- 327 => 320 <<<
+99	1
+g:0,a:26,t:99,c:343 -->>
+c <=> t --- 330 => 323 <<<
+160	1
+g:0,a:33,t:331,c:160 -->>
+c <=> a --- 333 => 326 <<<
+177	1
+g:0,a:207,t:20,c:177 -->>
+a <=> g --- 339 => 332 <<<
+23	2
+g:326,a:23,t:101,c:23 -->>
+g <=> a --- 349 => 342 <<<
+3	2
+g:3,a:312,t:128,c:2 -->>
+c <=> t --- 351 => 344 <<<
+1	3
+g:13,a:27,t:398,c:1 -->>
+t <=> g --- 363 => 356 <<<
+22	1
+g:506,a:5,t:22,c:0 -->>
+t <=> g --- 366 => 359 <<<
+57	1
+g:421,a:8,t:57,c:34 -->>
+g <=> a --- 369 => 362 <<<
+79	1
+g:79,a:320,t:2,c:60 -->>
+a <=> g --- 370 => 363 <<<
+58	2
+g:194,a:58,t:85,c:2 -->>
+t <=> a --- 372 => 365 <<<
+9	2
+g:56,a:367,t:9,c:4 -->>
+c <=> t --- 391 => 384 <<<
+1	3
+g:34,a:11,t:410,c:1 -->>
+t <=> g --- 393 => 386 <<<
+21	3
+g:328,a:42,t:21,c:88 -->>
+a <=> t --- 414 => 407 <<<
+86	1
+g:2,a:86,t:244,c:44 -->>
+t <=> a --- 441 => 434 <<<
+8	2
+g:3,a:298,t:8,c:47 -->>
+a <=> t --- 444 => 437 <<<
+3	3
+g:16,a:3,t:378,c:38 -->>
+t <=> c --- 462 => 455 <<<
+16	2
+g:2,a:68,t:16,c:286 -->>
+a <=> g --- 483 => 476 <<<
+39	2
+g:181,a:39,t:100,c:1 -->>
+g <=> a --- 489 => 482 <<<
+4	3
+g:4,a:358,t:11,c:11 -->>
+a <=> g --- 495 => 488 <<<
+3	2
+g:236,a:3,t:102,c:2 -->>
+t <=> g --- 501 => 494 <<<
+90	1
+g:274,a:2,t:90,c:1 -->>
+g <=> t --- 507 => 500 <<<
+6	3
+g:6,a:84,t:244,c:29 -->>
+a <=> g --- 522 => 515 <<<
+5	3
+g:281,a:5,t:66,c:10 -->>
+a <=> g --- 528 => 521 <<<
+3	2
+g:280,a:3,t:94,c:0 -->>
+a <=> t --- 534 => 527 <<<
+4	1
+g:0,a:4,t:345,c:0 -->>
+c <=> t --- 535 => 528 <<<
+0	2
+g:0,a:15,t:308,c:0 -->>
+t <=> a --- 537 => 530 <<<
+4	2
+g:9,a:314,t:4,c:1 -->>
+t <=> a --- 540 => 533 <<<
+75	1
+g:15,a:478,t:75,c:0 -->>
+c <=> t --- 541 => 534 <<<
+1	3
+g:12,a:43,t:296,c:1 -->>
+a <=> g --- 543 => 536 <<<
+9	2
+g:283,a:9,t:9,c:88 -->>
+t <=> c --- 549 => 542 <<<
+82	1
+g:5,a:0,t:82,c:236 -->>
+t <=> g --- 558 => 551 <<<
+0	2
+g:273,a:0,t:0,c:5 -->>
+t <=> a --- 561 => 554 <<<
+1	2
+g:35,a:508,t:1,c:0 -->>
+g <=> t --- 567 => 560 <<<
+1	3
+g:1,a:97,t:190,c:28 -->>
+c <=> t --- 594 => 587 <<<
+10	2
+g:17,a:0,t:264,c:10 -->>
+t <=> a --- 600 => 593 <<<
+72	1
+g:1,a:173,t:72,c:27 -->>
+c <=> t --- 609 => 602 <<<
+87	1
+g:3,a:21,t:193,c:87 -->>
+t <=> c --- 615 => 608 <<<
+0	3
+g:63,a:3,t:0,c:174 -->>
+t <=> g --- 618 => 611 <<<
+1	2
+g:296,a:7,t:1,c:0 -->>
+a <=> t --- 637 => 630 <<<
+72	1
+g:19,a:72,t:157,c:0 -->>
+a <=> t --- 651 => 644 <<<
+9	1
+g:9,a:9,t:286,c:3 -->>
+33	33	21
+'Hap3 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 3
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap9-Hap10 (C)' NOT contains species 'A	D3'
+4,33	Hap9-Hap10 (C)	Hap6-Hap10 (C) --->
+B14	Hprim34
+'Hap6 (A)' contains 'A'
+'Hap16-Hap20 (E)' NOT contains species 'A	F3'
+6,67	Hap16-Hap20 (E)	Hap16 (E) --->
+B14	B39
+****************************************************************************************************
+Checking on row number 4
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap6 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap2 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 5
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap3 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 6
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap3 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1-Hap5 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 7
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap1-Hap4 (A)' contains 'A'
+'Hap3 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1-Hap6 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 8
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap1-Hap4 (A)' contains 'A'
+'Hap3 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1-Hap7 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 9
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap4 (A)' contains 'A'
+'Hap4 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 10
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap1-Hap4 (A)' contains 'A'
+'Hap4 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1-Hap4 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 11
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1-Hap8 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 12
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap1-Hap2 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1-Hap2 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 13
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap2-Hap4 (A)' contains 'A'
+'Hap2 (A)' contains 'A'
+'Hap1-Hap3 (A)' contains 'A'
+'Hap2-Hap9 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 14
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap1-Hap2 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1-Hap2 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 15
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap4 (A)' contains 'A'
+'Hap3 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap2 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 16
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap1-Hap4 (A)' contains 'A'
+'Hap9 (A)' contains 'A'
+'Hap1-Hap3 (A)' contains 'A'
+'Hap2-Hap3 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 17
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap4 (A)' contains 'A'
+'Hap3 (A)' contains 'A'
+'Hap3 (A)' contains 'A'
+'Hap2 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 18
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap2-Hap4 (A)' contains 'A'
+'Hap4 (A)' contains 'A'
+'Hap2-Hap3 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 19
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap2-Hap4 (A)' contains 'A'
+'Hap3 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap2 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 20
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap4 (A)' contains 'A'
+'Hap3 (A)' contains 'A'
+'Hap3 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 21
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap3-Hap5 (A)' contains 'A'
+'Hap5 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+'Hap1-Hap3 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 22
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap35 (E)' NOT contains species 'A	D22'
+4,82	Hap35 (E)	Hap30-Hap35 (E) --->
+B11	HPRIM14
+H_ND_B11-HCO1_A01_015.scf
+H_ND_B11-HCO1_A01_015.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/H_ND_B11-HCO1_A01_015.scf._610
+tgaagaaccaaaattacgatctaataataatatagtaattcccccagctaagacaggcaatcttaaaactaacaaaaacctagtaacaattatagctcacacaaacaaagttaaaaactcaaatcttaaaacataactgattttaccttttaaacaagttgtaatgaaattaattccccctaaaatagaagaaacaccagctacatgcaaactaaaaatagcaaaatctactgaccccccaaaatgataaatagaattagacaaaggtggatagacagtccatcctgtcccgggtccaagaccaaccagtaaacttaacattataaataataaagccacagggactaatcaaaatcttaaattattcaaacgaggaaaagctatatctatagcattcattatcaaaggcaataaccaatttccaaaaccacctacagctacgggtataacaaaaaaaaaaattataagaaaagcatgtgcagtaaccatagaattataaatctgctcatctataataatactacctaccatccccaattctgtgcgaataattaatcttattctagcacctaaaaaaccagatcaaataccaacaatgaaatacgaagta
+
+Consensus:HPRIM14
+ttggattccctcctccactagggtcgaagaaagaagatccaaaattacgatctaacaataatatagtaataccaccagcaagaactggtaaacttaaaaccaataaaaaactagtaacaatcatagctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaatcttaccttttaaacaagtagtaataaaattaatcccccctaaaatagaagatactcctgccacatgtaatctaaaaatagctaaatcaatagaaccaccaaaatgataaaccgaattagataaaggaggataaacagttcaaccagttcctgggcctaaacctactaataaacttaaacttataaataataaagccacagggactagtcaaaaactcaaattatttaaacgaggaaaagccatatctatagcatttatcatcaaaggcaataatcaatttccaaaaccaccaacagcaactggtataacaaaaaaaaaaattattaaaaaagcatgagctgtaactatagaattataaatttgttcatctataataatccttcccactatccctaactccgtacgaataattaaacttatcctagcacctaaaaatcctgatcagattccaataataaa
+
+Alignment
+ttggattccctcctccactagggtcgaagaaagaagatccaaaattacgatctaacaataatatagtaataccaccagc*aagaactggtaaacttaaaaccaataaaaaactagtaacaatcatagctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaatcttaccttttaaacaagtagtaataaaattaatcccccctaaaatagaagatactcctgccacatgtaatctaaaaatagctaaatcaatagaaccaccaaaatgataaaccgaattagataaaggaggataaacagttcaaccagttcctgggcctaaacctactaataaacttaaacttataaataataaagccacagggactagtcaaaaactcaaattatttaaacgaggaaaagccatatctatagcatttatcatcaaaggcaataatcaatttccaaaaccaccaacagcaactggtataacaaaaaaaaaaattattaaaaaagcatgagctgtaactatagaattataaatttgttcatctataataatccttcccactatccctaactccgtacgaataattaaacttatcctagcacctaaaaatcctgatcagat*tc**caat**aat***aa**a
+***********************t****g*aag*a*a*ccaaaattacgatctaataataatatagtaattcccccagctaag*acaggcaatcttaaaactaacaaaaacctagtaacaattatagctcacacaaacaaagttaaaaactcaaatcttaaaacataactgattttaccttttaaacaagttgtaatgaaattaattccccctaaaatagaagaaacaccagctacatgcaaactaaaaatagcaaaatctactgaccccccaaaatgataaatagaattagacaaaggtggatagacagtccatcctgtcccgggtccaagaccaaccagtaaacttaacattataaataataaagccacagggactaatcaaaatcttaaattattcaaacgaggaaaagctatatctatagcattcattatcaaaggcaataaccaatttccaaaaccacctacagctacgggtataacaaaaaaaaaaattataagaaaagcatgtgcagtaaccatagaattataaatctgctcatctataataatactacctaccatccccaattctgtgcgaataattaatcttattctagcacctaaaaaaccagatcaaataccaacaatgaaatacgaagta
+c <=> t --- 55 => 24 <<<
+56	1
+g:0,a:10,t:585,c:56 -->>
+a <=> t --- 70 => 39 <<<
+68	1
+g:15,a:68,t:904,c:25 -->>
+a <=> c --- 73 => 42 <<<
+26	1
+g:8,a:26,t:3,c:655 -->>
+t <=> a --- 86 => 54 <<<
+68	2
+g:71,a:520,t:68,c:9 -->>
+t <=> c --- 89 => 57 <<<
+32	1
+g:29,a:9,t:32,c:506 -->>
+a <=> t --- 92 => 60 <<<
+100	1
+g:14,a:100,t:669,c:6 -->>
+c <=> t --- 101 => 69 <<<
+86	1
+g:0,a:19,t:735,c:86 -->>
+t <=> c --- 104 => 72 <<<
+81	1
+g:0,a:31,t:81,c:614 -->>
+a <=> c --- 110 => 78 <<<
+92	1
+g:14,a:92,t:28,c:693 -->>
+c <=> t --- 122 => 90 <<<
+83	1
+g:3,a:62,t:846,c:83 -->>
+a <=> c --- 131 => 99 <<<
+116	1
+g:1,a:116,t:1,c:600 -->>
+t <=> c --- 137 => 105 <<<
+100	1
+g:8,a:46,t:100,c:695 -->>
+c <=> t --- 143 => 111 <<<
+67	1
+g:20,a:17,t:704,c:67 -->>
+t <=> c --- 149 => 117 <<<
+125	1
+g:0,a:7,t:125,c:738 -->>
+a <=> g --- 170 => 138 <<<
+43	1
+g:1195,a:43,t:17,c:0 -->>
+c <=> t --- 173 => 141 <<<
+66	1
+g:8,a:0,t:888,c:66 -->>
+a <=> t --- 191 => 159 <<<
+62	1
+g:31,a:62,t:731,c:0 -->>
+a <=> g --- 197 => 165 <<<
+70	1
+g:1325,a:70,t:0,c:0 -->>
+c <=> t --- 206 => 174 <<<
+107	1
+g:0,a:7,t:1113,c:107 -->>
+t <=> a --- 224 => 192 <<<
+29	1
+g:21,a:734,t:29,c:21 -->>
+t <=> a --- 227 => 195 <<<
+59	1
+g:7,a:617,t:59,c:44 -->>
+t <=> a --- 230 => 198 <<<
+95	1
+g:14,a:571,t:95,c:31 -->>
+c <=> t --- 233 => 201 <<<
+64	1
+g:1,a:31,t:829,c:64 -->>
+t <=> c --- 239 => 207 <<<
+65	1
+g:17,a:31,t:65,c:599 -->>
+t <=> a --- 242 => 210 <<<
+75	1
+g:3,a:689,t:75,c:19 -->>
+t <=> a --- 254 => 222 <<<
+95	1
+g:7,a:573,t:95,c:31 -->>
+a <=> t --- 260 => 228 <<<
+52	1
+g:28,a:52,t:677,c:29 -->>
+t <=> c --- 262 => 230 <<<
+80	1
+g:7,a:12,t:80,c:748 -->>
+a <=> t --- 263 => 231 <<<
+36	1
+g:26,a:36,t:723,c:33 -->>
+a <=> c --- 266 => 234 <<<
+46	1
+g:0,a:46,t:18,c:746 -->>
+a <=> c --- 269 => 237 <<<
+24	2
+g:2,a:24,t:34,c:754 -->>
+c <=> t --- 283 => 251 <<<
+74	1
+g:2,a:34,t:671,c:74 -->>
+c <=> a --- 284 => 252 <<<
+74	1
+g:0,a:787,t:21,c:74 -->>
+t <=> c --- 293 => 261 <<<
+93	1
+g:14,a:30,t:93,c:631 -->>
+a <=> t --- 299 => 267 <<<
+145	1
+g:62,a:145,t:565,c:0 -->>
+a <=> g --- 305 => 273 <<<
+105	1
+g:685,a:105,t:7,c:0 -->>
+t <=> c --- 311 => 279 <<<
+94	1
+g:20,a:0,t:94,c:706 -->>
+a <=> t --- 314 => 282 <<<
+52	1
+g:10,a:52,t:780,c:20 -->>
+a <=> t --- 317 => 285 <<<
+40	1
+g:36,a:40,t:646,c:10 -->>
+t <=> c --- 320 => 288 <<<
+76	1
+g:31,a:11,t:76,c:649 -->>
+t <=> g --- 323 => 291 <<<
+48	1
+g:828,a:17,t:48,c:6 -->>
+g <=> t --- 326 => 294 <<<
+29	1
+g:29,a:4,t:516,c:27 -->>
+t <=> a --- 329 => 297 <<<
+80	1
+g:0,a:458,t:80,c:20 -->>
+a <=> g --- 331 => 299 <<<
+72	1
+g:486,a:72,t:10,c:13 -->>
+t <=> a --- 335 => 303 <<<
+97	1
+g:3,a:572,t:97,c:13 -->>
+t <=> c --- 338 => 306 <<<
+99	1
+g:0,a:28,t:99,c:653 -->>
+a <=> g --- 340 => 308 <<<
+73	1
+g:417,a:73,t:26,c:3 -->>
+a <=> c --- 350 => 318 <<<
+85	1
+g:5,a:85,t:41,c:572 -->>
+c <=> a --- 351 => 319 <<<
+67	1
+g:2,a:626,t:50,c:67 -->>
+g <=> a --- 379 => 347 <<<
+46	1
+g:46,a:632,t:33,c:15 -->>
+a <=> t --- 386 => 354 <<<
+69	1
+g:1,a:69,t:722,c:21 -->>
+c <=> t --- 389 => 357 <<<
+77	1
+g:7,a:30,t:654,c:77 -->>
+t <=> c --- 398 => 366 <<<
+105	1
+g:35,a:26,t:105,c:667 -->>
+c <=> t --- 413 => 381 <<<
+66	1
+g:12,a:19,t:735,c:66 -->>
+t <=> c --- 428 => 396 <<<
+122	1
+g:4,a:19,t:122,c:617 -->>
+c <=> t --- 431 => 399 <<<
+62	1
+g:19,a:27,t:791,c:62 -->>
+t <=> c --- 446 => 414 <<<
+118	1
+g:0,a:10,t:118,c:683 -->>
+a <=> t --- 464 => 432 <<<
+69	1
+g:30,a:69,t:674,c:11 -->>
+a <=> t --- 470 => 438 <<<
+56	1
+g:29,a:56,t:705,c:3 -->>
+t <=> g --- 473 => 441 <<<
+49	1
+g:372,a:29,t:49,c:4 -->>
+t <=> a --- 497 => 465 <<<
+71	1
+g:32,a:486,t:71,c:1 -->>
+a <=> g --- 499 => 467 <<<
+382	0
+g:271,a:382,t:0,c:3 -->>
+a <=> t --- 509 => 477 <<<
+47	2
+g:302,a:47,t:326,c:20 -->>
+t <=> a --- 512 => 480 <<<
+29	2
+g:127,a:311,t:29,c:29 -->>
+t <=> c --- 518 => 486 <<<
+90	2
+g:1,a:159,t:90,c:423 -->>
+t <=> c --- 533 => 501 <<<
+254	1
+g:49,a:0,t:254,c:394 -->>
+t <=> c --- 536 => 504 <<<
+197	1
+g:52,a:10,t:197,c:351 -->>
+c <=> a --- 551 => 519 <<<
+235	1
+g:38,a:459,t:7,c:235 -->>
+t <=> a --- 554 => 522 <<<
+28	3
+g:29,a:406,t:28,c:193 -->>
+c <=> t --- 557 => 525 <<<
+106	2
+g:13,a:191,t:381,c:106 -->>
+t <=> c --- 560 => 528 <<<
+51	2
+g:10,a:132,t:51,c:400 -->>
+t <=> c --- 566 => 534 <<<
+49	2
+g:1,a:128,t:49,c:355 -->>
+c <=> t --- 569 => 537 <<<
+48	1
+g:17,a:23,t:552,c:48 -->>
+c <=> t --- 572 => 540 <<<
+56	2
+g:203,a:0,t:357,c:56 -->>
+a <=> g --- 575 => 543 <<<
+36	2
+g:537,a:36,t:2,c:110 -->>
+a <=> t --- 587 => 555 <<<
+44	2
+g:13,a:44,t:387,c:160 -->>
+c <=> t --- 593 => 561 <<<
+198	1
+g:2,a:0,t:472,c:198 -->>
+t <=> a --- 608 => 576 <<<
+46	2
+g:12,a:361,t:46,c:140 -->>
+t <=> a --- 611 => 579 <<<
+15	3
+g:103,a:248,t:15,c:31 -->>
+g <=> a --- 617 => 585 <<<
+42	1
+g:42,a:383,t:0,c:0 -->>
+t <=> c --- 621 => 589 <<<
+35	1
+g:2,a:11,t:35,c:468 -->>
+66	12	2
+L_ND_B11-LCO1_A01_015.scf
+L_ND_B11-LCO1_A01_015.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/L_ND_B11-LCO1_A01_015.scf._646
+tgttggtatttgatctggttttttaggtgctagaataagattaattattcgcacagaattggggatggtaggtagtattattatagatgagcagatttataattctatggttactgcacatgcttttcttataatttttttttttgttatacccgtagctgtaggtggttttggaaattggttattgcctttgataatgaatgctatagatatagcttttcctcgtttgaataatttaagattttgattagtccctgtggctttattatttataatgttaagtttactggttggtcttggacccgggacaggatggactgtctatccacctttgtctaattctatttatcattttggggggtcagtagattttgctatttttagtttgcatgtagctggtgtttcttctattttagggggaattaatttcattacaacttgtttaaaaggtaaaatcagttatgttttaagatttgagtttttaactttgtttgtgtgagctataattgttactaggtttttgttagttttaagattgcctgtcttagctgggggaattactatattattattagatcgtaattttggttcttcattttttgaccctagcgggggtgggaaccccattttgtatcagcatttgttt
+
+Consensus:HPRIM14
+tttattattggaatctgatcaggatttttaggtgctaggataagtttaattattcgtacggagttagggatagtgggaaggattattatagatgaacaaatttataattctatagttacagctcatgcttttttaataatttttttttttgttataccagttgctgttggtggttttggaaattgattattgcctttgatgataaatgctatagatatggcttttcctcgtttaaataatttgagtttttgactagtccctgtggctttattatttataagtttaagtttattagtaggtttaggcccaggaactggttgaactgtttatcctcctttatctaattcggtttatcattttggtggttctattgatttagctatttttagattacatgtggcaggagtatcttctattttaggggggattaattttattactacttgtttaaaaggtaagattagttatgttttaagatttgaatttttgactttatttgtttgagctatgattgttactagttttttattggttttaagtttaccagttcttgctggtggtattactatattattgttagatcgtaattttggatcttctttcttcgaccctagtggaggagggaatccaa
+
+Alignment
+tttattattggaatctgatcaggatttttaggtgctaggataagtttaattattcgtacggagttagggatagtgggaaggattattatagatgaacaaatttataattctatagttacagctcatgcttttttaataatttttttttttgttataccagttgctgttggtggttttggaaattgattattgcctttgatgataaatgctatagatatggcttttcctcgtttaaataatttgagtttttgactagtccctgtggctttattatttataagtttaagtttattagtaggtttaggcccaggaactggttgaactgtttatcctcctttatctaattcggtttatcattttggtggttctattgatttagctatttttagattacatgtggcaggagtatcttctattttaggggggattaattttattactacttgtttaaaaggtaagattagttatgttttaagatttgaatttttgactttatttgtttgagctatgattgttactagttttttattggttttaagtttaccagttctt*gctggtggtattactatattattgttagatcgtaattttggatcttctttcttcgaccctagtggaggaggg******a******atc**ca******a
+*****tgttggtatttgatctggttttttaggtgctagaataagattaattattcgcacagaattggggatggtaggtagtattattatagatgagcagatttataattctatggttactgcacatgcttttcttataatttttttttttgttatacccgtagctgtaggtggttttggaaattggttattgcctttgataatgaatgctatagatatagcttttcctcgtttgaataatttaagattttgattagtccctgtggctttattatttataatgttaagtttactggttggtcttggacccgggacaggatggactgtctatccacctttgtctaattctatttatcattttggggggtcagtagattttgctatttttagtttgcatgtagctggtgtttcttctattttagggggaattaatttcattacaacttgtttaaaaggtaaaatcagttatgttttaagatttgagtttttaactttgtttgtgtgagctataattgttactaggtttttgttagttttaagattgcctg*tcttagctgggggaattactatattattattagatcgtaattttggttcttcattttttgaccctagcgggggtgggaaccccattttgtatcagcatttgttt
+a <=> g --- 6 => 1 <<<
+154	2
+g:944,a:154,t:782,c:47 -->>
+a <=> t --- 11 => 6 <<<
+555	1
+g:313,a:555,t:697,c:243 -->>
+c <=> t --- 14 => 9 <<<
+299	1
+g:148,a:132,t:1022,c:299 -->>
+a <=> t --- 20 => 15 <<<
+129	2
+g:68,a:129,t:822,c:219 -->>
+a <=> t --- 23 => 18 <<<
+279	1
+g:29,a:279,t:947,c:42 -->>
+g <=> a --- 38 => 33 <<<
+99	1
+g:99,a:957,t:34,c:0 -->>
+t <=> a --- 44 => 39 <<<
+192	1
+g:0,a:1303,t:192,c:0 -->>
+t <=> c --- 56 => 51 <<<
+94	2
+g:5,a:146,t:94,c:736 -->>
+g <=> a --- 59 => 54 <<<
+78	1
+g:78,a:639,t:77,c:0 -->>
+g <=> a --- 62 => 57 <<<
+110	1
+g:110,a:987,t:11,c:0 -->>
+a <=> g --- 65 => 60 <<<
+294	1
+g:1028,a:294,t:3,c:25 -->>
+a <=> g --- 71 => 66 <<<
+136	1
+g:1241,a:136,t:16,c:0 -->>
+g <=> a --- 74 => 69 <<<
+289	1
+g:289,a:785,t:75,c:14 -->>
+a <=> t --- 77 => 72 <<<
+164	1
+g:21,a:164,t:750,c:3 -->>
+g <=> t --- 80 => 75 <<<
+129	1
+g:129,a:9,t:699,c:43 -->>
+a <=> g --- 95 => 90 <<<
+43	1
+g:564,a:43,t:0,c:15 -->>
+a <=> g --- 98 => 93 <<<
+54	2
+g:388,a:54,t:105,c:0 -->>
+a <=> g --- 113 => 108 <<<
+70	1
+g:1252,a:70,t:2,c:0 -->>
+a <=> t --- 119 => 114 <<<
+112	1
+g:12,a:112,t:663,c:28 -->>
+t <=> a --- 122 => 117 <<<
+78	1
+g:12,a:642,t:78,c:33 -->>
+t <=> c --- 132 => 127 <<<
+60	1
+g:4,a:11,t:60,c:986 -->>
+a <=> t --- 134 => 129 <<<
+39	1
+g:0,a:39,t:823,c:32 -->>
+a <=> c --- 158 => 153 <<<
+9	2
+g:139,a:9,t:5,c:644 -->>
+t <=> a --- 161 => 156 <<<
+45	2
+g:87,a:481,t:45,c:26 -->>
+t <=> a --- 167 => 162 <<<
+53	2
+g:146,a:843,t:53,c:8 -->>
+a <=> g --- 185 => 180 <<<
+31	2
+g:386,a:31,t:164,c:0 -->>
+g <=> a --- 200 => 195 <<<
+56	1
+g:56,a:570,t:23,c:0 -->>
+a <=> g --- 203 => 198 <<<
+234	1
+g:504,a:234,t:16,c:0 -->>
+g <=> a --- 218 => 213 <<<
+137	1
+g:137,a:357,t:46,c:13 -->>
+a <=> g --- 233 => 228 <<<
+212	1
+g:444,a:212,t:25,c:10 -->>
+g <=> a --- 242 => 237 <<<
+48	1
+g:48,a:497,t:16,c:0 -->>
+t <=> a --- 245 => 240 <<<
+173	1
+g:28,a:816,t:173,c:12 -->>
+c <=> t --- 252 => 247 <<<
+35	2
+g:5,a:78,t:450,c:35 -->>
+g <=> t --- 280 => 275 <<<
+209	1
+g:209,a:60,t:274,c:0 -->>
+t <=> g --- 281 => 276 <<<
+164	1
+g:571,a:14,t:164,c:0 -->>
+t <=> c --- 291 => 286 <<<
+127	1
+g:9,a:68,t:127,c:356 -->>
+a <=> g --- 293 => 288 <<<
+32	2
+g:644,a:32,t:47,c:0 -->>
+a <=> t --- 296 => 291 <<<
+13	2
+g:201,a:13,t:272,c:1 -->>
+t <=> c --- 300 => 295 <<<
+152	1
+g:0,a:16,t:152,c:364 -->>
+a <=> t --- 302 => 297 <<<
+9	2
+g:212,a:9,t:297,c:3 -->>
+c <=> a --- 305 => 300 <<<
+112	1
+g:32,a:449,t:4,c:112 -->>
+a <=> c --- 308 => 303 <<<
+14	2
+g:102,a:14,t:13,c:371 -->>
+a <=> g --- 311 => 306 <<<
+175	1
+g:252,a:175,t:0,c:22 -->>
+t <=> a --- 314 => 309 <<<
+9	3
+g:110,a:271,t:9,c:29 -->>
+t <=> a --- 317 => 312 <<<
+88	1
+g:56,a:430,t:88,c:5 -->>
+a <=> g --- 320 => 315 <<<
+217	1
+g:316,a:217,t:0,c:4 -->>
+t <=> c --- 326 => 321 <<<
+123	1
+g:1,a:5,t:123,c:318 -->>
+t <=> a --- 332 => 327 <<<
+14	2
+g:0,a:188,t:14,c:204 -->>
+a <=> g --- 338 => 333 <<<
+9	3
+g:322,a:9,t:106,c:39 -->>
+g <=> t --- 347 => 342 <<<
+17	3
+g:17,a:119,t:260,c:39 -->>
+g <=> a --- 348 => 343 <<<
+21	2
+g:21,a:302,t:149,c:2 -->>
+t <=> g --- 362 => 357 <<<
+10	2
+g:480,a:25,t:10,c:1 -->>
+t <=> g --- 365 => 360 <<<
+70	1
+g:378,a:23,t:70,c:13 -->>
+t <=> a --- 368 => 363 <<<
+20	3
+g:84,a:322,t:20,c:23 -->>
+a <=> g --- 369 => 364 <<<
+89	1
+g:191,a:89,t:60,c:0 -->>
+t <=> a --- 371 => 366 <<<
+29	3
+g:63,a:322,t:29,c:31 -->>
+a <=> t --- 377 => 372 <<<
+22	2
+g:167,a:22,t:290,c:12 -->>
+a <=> t --- 389 => 384 <<<
+46	1
+g:13,a:46,t:314,c:0 -->>
+a <=> g --- 392 => 387 <<<
+17	2
+g:319,a:17,t:16,c:89 -->>
+g <=> a --- 398 => 393 <<<
+78	1
+g:78,a:223,t:16,c:11 -->>
+a <=> t --- 401 => 396 <<<
+13	3
+g:137,a:13,t:268,c:30 -->>
+a <=> t --- 404 => 399 <<<
+56	2
+g:199,a:56,t:167,c:2 -->>
+a <=> t --- 407 => 402 <<<
+62	1
+g:13,a:62,t:380,c:22 -->>
+g <=> a --- 425 => 420 <<<
+68	1
+g:68,a:617,t:8,c:0 -->>
+t <=> c --- 434 => 429 <<<
+101	1
+g:0,a:72,t:101,c:294 -->>
+t <=> a --- 440 => 435 <<<
+26	2
+g:9,a:299,t:26,c:34 -->>
+g <=> a --- 458 => 453 <<<
+16	1
+g:16,a:403,t:3,c:2 -->>
+t <=> c --- 461 => 456 <<<
+40	2
+g:3,a:101,t:40,c:260 -->>
+a <=> g --- 482 => 477 <<<
+87	2
+g:176,a:87,t:115,c:1 -->>
+g <=> a --- 488 => 483 <<<
+13	2
+g:13,a:376,t:18,c:9 -->>
+a <=> g --- 494 => 489 <<<
+48	2
+g:247,a:48,t:123,c:0 -->>
+t <=> g --- 500 => 495 <<<
+112	1
+g:288,a:18,t:112,c:0 -->>
+g <=> a --- 509 => 504 <<<
+20	1
+g:20,a:312,t:19,c:6 -->>
+t <=> g --- 521 => 516 <<<
+86	1
+g:272,a:6,t:86,c:12 -->>
+a <=> g --- 527 => 522 <<<
+34	2
+g:294,a:34,t:109,c:0 -->>
+g <=> a --- 530 => 525 <<<
+62	1
+g:62,a:290,t:20,c:0 -->>
+t <=> a --- 539 => 534 <<<
+92	1
+g:12,a:488,t:92,c:12 -->>
+a <=> g --- 542 => 537 <<<
+18	3
+g:288,a:18,t:21,c:118 -->>
+a <=> t --- 545 => 540 <<<
+20	3
+g:142,a:20,t:229,c:23 -->>
+t <=> g --- 558 => 552 <<<
+5	1
+g:257,a:0,t:5,c:5 -->>
+t <=> a --- 561 => 555 <<<
+15	2
+g:27,a:504,t:15,c:4 -->>
+g <=> a --- 576 => 570 <<<
+23	2
+g:23,a:267,t:102,c:0 -->>
+a <=> t --- 594 => 588 <<<
+13	3
+g:15,a:13,t:252,c:14 -->>
+t <=> a --- 600 => 594 <<<
+72	1
+g:2,a:182,t:72,c:27 -->>
+c <=> t --- 603 => 597 <<<
+16	1
+g:0,a:0,t:321,c:16 -->>
+c <=> t --- 606 => 600 <<<
+3	3
+g:88,a:16,t:194,c:3 -->>
+t <=> c --- 615 => 609 <<<
+0	2
+g:86,a:0,t:0,c:167 -->>
+a <=> g --- 618 => 612 <<<
+19	1
+g:284,a:19,t:5,c:0 -->>
+a <=> t --- 621 => 615 <<<
+0	3
+g:154,a:0,t:151,c:24 -->>
+a <=> t --- 651 => 645 <<<
+4	2
+g:3,a:4,t:290,c:6 -->>
+50	29	11
+'Hap6 (A)' contains 'A'
+'Hap16 (E)' NOT contains species 'A	F22'
+6,67	Hap16 (E)	Hap16 (E) --->
+B11	B39
+H_ND_B11-HCO1_A01_015.scf
+H_ND_B11-HCO1_A01_015.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/H_ND_B11-HCO1_A01_015.scf._610
+tgaagaaccaaaattacgatctaataataatatagtaattcccccagctaagacaggcaatcttaaaactaacaaaaacctagtaacaattatagctcacacaaacaaagttaaaaactcaaatcttaaaacataactgattttaccttttaaacaagttgtaatgaaattaattccccctaaaatagaagaaacaccagctacatgcaaactaaaaatagcaaaatctactgaccccccaaaatgataaatagaattagacaaaggtggatagacagtccatcctgtcccgggtccaagaccaaccagtaaacttaacattataaataataaagccacagggactaatcaaaatcttaaattattcaaacgaggaaaagctatatctatagcattcattatcaaaggcaataaccaatttccaaaaccacctacagctacgggtataacaaaaaaaaaaattataagaaaagcatgtgcagtaaccatagaattataaatctgctcatctataataatactacctaccatccccaattctgtgcgaataattaatcttattctagcacctaaaaaaccagatcaaataccaacaatgaaatacgaagta
+
+Consensus:B39
+ttggattcccaccaccactagggtcaaaaaaagaagagccaaaattacgatctaataataatatcgtaataccaccagctaaaacaggtagactaagtactaataaaaatctagtaacaattatcgctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaattttaccttttaaacatgtagtaataaaattaattccccctaaaattgaagaaacaccagctacatgaagactaaaaatagcaaaatcaatcgaaccaccaaaatgataaacagaattagataaaggggggtaaactgttcatcccgtaccaggacctaaaccaactaataagcttaaaactataaataataaagcaacaggaacaagtcaaaaccttaaattatttaaacgaggaaatgctatatctatagcatttatcattaaaggtaataatcaatttccaaaacctccaacagcaaccggtataacaaaaaagaaaattattaagaaagcatgggcagtaactatagaattataaatctgctcatctataataatcctgccaactatacctagctcagtgcgaataatcaaacttattctagctcctaaaaaaccagatcaaataccaataataaa
+
+Alignment
+ttggattcccaccaccactagggtcaaaaaaagaagagccaaaattacgatctaataataatatcgtaataccaccagctaaaacaggtagactaagtactaataaaaatctagtaacaattatcgctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaattttaccttttaaacatgtagtaataaaattaattccccctaaaattgaagaaacaccagctacatgaagactaaaaatagcaaaatcaatcgaaccaccaaaatgataaacagaattagataaaggggggtaaactgttcatcccgtaccaggacctaaaccaactaataagcttaaaactataaataataaagcaacaggaacaagtcaaaaccttaaattatttaaacgaggaaatgctatatctatagcatttatcattaaaggtaataatcaatttccaaaacctccaacagcaaccggtataacaaaaaagaaaattattaag*aaagcatgggcagtaactatagaattataaatctgctcatctataataatcctgccaactatacctagctcagtgcgaataatcaaacttattctagctcctaaaaaaccagatcaaata*c**caat**aat***aa**a
+******************t***g*******aag*a*a*ccaaaattacgatctaataataatatagtaattcccccagctaagacaggcaatcttaaaactaacaaaaacctagtaacaattatagctcacacaaacaaagttaaaaactcaaatcttaaaacataactgattttaccttttaaacaagttgtaatgaaattaattccccctaaaatagaagaaacaccagctacatgcaaactaaaaatagcaaaatctactgaccccccaaaatgataaatagaattagacaaaggtggatagacagtccatcctgtcccgggtccaagaccaaccagtaaacttaacattataaataataaagccacagggactaatcaaaatcttaaattattcaaacgaggaaaagctatatctatagcattcattatcaaaggcaataaccaatttccaaaaccacctacagctacgggtataacaaaaaaaaaaatta*taagaaaagcatgtgcagtaaccatagaattataaatctgctcatctataataatactacctaccatccccaattctgtgcgaataattaatcttattctagcacctaaaaaaccagatcaaataccaacaatgaaatacgaagta
+c <=> a --- 64 => 33 <<<
+3	3
+g:43,a:679,t:7,c:3 -->>
+a <=> t --- 70 => 39 <<<
+68	1
+g:15,a:68,t:904,c:25 -->>
+a <=> c --- 73 => 42 <<<
+26	1
+g:8,a:26,t:3,c:655 -->>
+a <=> g --- 82 => 51 <<<
+127	1
+g:457,a:127,t:44,c:0 -->>
+t <=> c --- 88 => 57 <<<
+32	1
+g:29,a:9,t:32,c:506 -->>
+g <=> a --- 90 => 59 <<<
+18	3
+g:18,a:695,t:23,c:27 -->>
+a <=> t --- 91 => 60 <<<
+100	1
+g:14,a:100,t:669,c:6 -->>
+a <=> t --- 94 => 63 <<<
+15	1
+g:0,a:15,t:832,c:0 -->>
+g <=> a --- 96 => 65 <<<
+8	2
+g:8,a:688,t:19,c:5 -->>
+t <=> a --- 97 => 66 <<<
+68	1
+g:5,a:591,t:68,c:6 -->>
+t <=> c --- 103 => 72 <<<
+81	1
+g:0,a:31,t:81,c:614 -->>
+t <=> c --- 109 => 78 <<<
+28	2
+g:14,a:92,t:28,c:693 -->>
+c <=> a --- 124 => 93 <<<
+21	2
+g:8,a:533,t:68,c:21 -->>
+a <=> c --- 130 => 99 <<<
+116	1
+g:1,a:116,t:1,c:600 -->>
+t <=> c --- 136 => 105 <<<
+100	1
+g:8,a:46,t:100,c:695 -->>
+c <=> t --- 142 => 111 <<<
+67	1
+g:20,a:17,t:704,c:67 -->>
+t <=> c --- 148 => 117 <<<
+125	1
+g:0,a:7,t:125,c:738 -->>
+a <=> g --- 169 => 138 <<<
+43	1
+g:1195,a:43,t:17,c:0 -->>
+t <=> a --- 187 => 156 <<<
+9	2
+g:26,a:672,t:9,c:4 -->>
+a <=> t --- 190 => 159 <<<
+62	1
+g:31,a:62,t:731,c:0 -->>
+a <=> g --- 196 => 165 <<<
+70	1
+g:1325,a:70,t:0,c:0 -->>
+t <=> a --- 217 => 186 <<<
+18	1
+g:11,a:869,t:18,c:6 -->>
+a <=> c --- 238 => 207 <<<
+31	2
+g:17,a:31,t:65,c:599 -->>
+g <=> a --- 240 => 209 <<<
+0	3
+g:0,a:663,t:14,c:7 -->>
+a <=> t --- 259 => 228 <<<
+52	1
+g:28,a:52,t:677,c:29 -->>
+t <=> c --- 261 => 230 <<<
+80	1
+g:7,a:12,t:80,c:748 -->>
+c <=> t --- 262 => 231 <<<
+33	2
+g:26,a:36,t:723,c:33 -->>
+a <=> c --- 265 => 234 <<<
+46	1
+g:0,a:46,t:18,c:746 -->>
+a <=> c --- 268 => 237 <<<
+24	2
+g:2,a:24,t:34,c:754 -->>
+c <=> t --- 282 => 251 <<<
+74	1
+g:2,a:34,t:671,c:74 -->>
+t <=> c --- 292 => 261 <<<
+93	1
+g:14,a:30,t:93,c:631 -->>
+g <=> t --- 298 => 267 <<<
+62	2
+g:62,a:145,t:565,c:0 -->>
+g <=> a --- 301 => 270 <<<
+0	3
+g:0,a:1161,t:36,c:6 -->>
+a <=> g --- 304 => 273 <<<
+105	1
+g:685,a:105,t:7,c:0 -->>
+t <=> a --- 307 => 276 <<<
+0	3
+g:19,a:474,t:0,c:8 -->>
+t <=> c --- 310 => 279 <<<
+94	1
+g:20,a:0,t:94,c:706 -->>
+c <=> t --- 316 => 285 <<<
+10	3
+g:36,a:40,t:646,c:10 -->>
+a <=> c --- 319 => 288 <<<
+11	3
+g:31,a:11,t:76,c:649 -->>
+a <=> g --- 322 => 291 <<<
+17	2
+g:828,a:17,t:48,c:6 -->>
+a <=> t --- 325 => 294 <<<
+4	3
+g:29,a:4,t:516,c:27 -->>
+t <=> a --- 328 => 297 <<<
+80	1
+g:0,a:458,t:80,c:20 -->>
+a <=> g --- 330 => 299 <<<
+72	1
+g:486,a:72,t:10,c:13 -->>
+t <=> c --- 337 => 306 <<<
+99	1
+g:0,a:28,t:99,c:653 -->>
+a <=> g --- 339 => 308 <<<
+73	1
+g:417,a:73,t:26,c:3 -->>
+g <=> a --- 343 => 312 <<<
+1	3
+g:1,a:792,t:31,c:22 -->>
+a <=> c --- 349 => 318 <<<
+85	1
+g:5,a:85,t:41,c:572 -->>
+c <=> t --- 351 => 320 <<<
+0	2
+g:0,a:13,t:881,c:0 -->>
+a <=> c --- 367 => 336 <<<
+34	2
+g:43,a:34,t:20,c:773 -->>
+a <=> g --- 373 => 342 <<<
+42	1
+g:847,a:42,t:0,c:6 -->>
+a <=> t --- 376 => 345 <<<
+43	1
+g:13,a:43,t:726,c:26 -->>
+g <=> a --- 378 => 347 <<<
+46	1
+g:46,a:632,t:33,c:15 -->>
+c <=> t --- 385 => 354 <<<
+21	2
+g:1,a:69,t:722,c:21 -->>
+t <=> c --- 397 => 366 <<<
+105	1
+g:35,a:26,t:105,c:667 -->>
+t <=> a --- 409 => 378 <<<
+16	2
+g:22,a:917,t:16,c:3 -->>
+t <=> c --- 427 => 396 <<<
+122	1
+g:4,a:19,t:122,c:617 -->>
+c <=> t --- 430 => 399 <<<
+62	1
+g:19,a:27,t:791,c:62 -->>
+t <=> c --- 433 => 402 <<<
+44	1
+g:22,a:15,t:44,c:648 -->>
+t <=> c --- 439 => 408 <<<
+50	1
+g:14,a:17,t:50,c:452 -->>
+t <=> c --- 445 => 414 <<<
+118	1
+g:0,a:10,t:118,c:683 -->>
+t <=> a --- 460 => 429 <<<
+2	3
+g:10,a:547,t:2,c:30 -->>
+a <=> t --- 463 => 432 <<<
+69	1
+g:30,a:69,t:674,c:11 -->>
+a <=> t --- 469 => 438 <<<
+56	1
+g:29,a:56,t:705,c:3 -->>
+c <=> g --- 472 => 441 <<<
+4	3
+g:372,a:29,t:49,c:4 -->>
+g <=> a --- 487 => 456 <<<
+0	3
+g:0,a:621,t:15,c:5 -->>
+g <=> t --- 509 => 477 <<<
+302	1
+g:302,a:47,t:326,c:20 -->>
+t <=> c --- 518 => 486 <<<
+90	2
+g:1,a:159,t:90,c:423 -->>
+c <=> a --- 551 => 519 <<<
+235	1
+g:38,a:459,t:7,c:235 -->>
+g <=> a --- 554 => 522 <<<
+29	2
+g:29,a:406,t:28,c:193 -->>
+a <=> t --- 557 => 525 <<<
+191	1
+g:13,a:191,t:381,c:106 -->>
+t <=> c --- 560 => 528 <<<
+51	2
+g:10,a:132,t:51,c:400 -->>
+a <=> c --- 563 => 531 <<<
+10	2
+g:0,a:10,t:17,c:620 -->>
+t <=> c --- 566 => 534 <<<
+49	2
+g:1,a:128,t:49,c:355 -->>
+g <=> a --- 568 => 536 <<<
+9	3
+g:9,a:375,t:149,c:22 -->>
+c <=> t --- 569 => 537 <<<
+48	1
+g:17,a:23,t:552,c:48 -->>
+a <=> t --- 572 => 540 <<<
+0	3
+g:203,a:0,t:357,c:56 -->>
+c <=> t --- 584 => 552 <<<
+0	2
+g:0,a:191,t:506,c:0 -->>
+a <=> t --- 587 => 555 <<<
+44	2
+g:13,a:44,t:387,c:160 -->>
+t <=> a --- 599 => 567 <<<
+13	2
+g:3,a:286,t:13,c:170 -->>
+43	21	14
+L_ND_B11-LCO1_A01_015.scf
+L_ND_B11-LCO1_A01_015.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/L_ND_B11-LCO1_A01_015.scf._646
+tgttggtatttgatctggttttttaggtgctagaataagattaattattcgcacagaattggggatggtaggtagtattattatagatgagcagatttataattctatggttactgcacatgcttttcttataatttttttttttgttatacccgtagctgtaggtggttttggaaattggttattgcctttgataatgaatgctatagatatagcttttcctcgtttgaataatttaagattttgattagtccctgtggctttattatttataatgttaagtttactggttggtcttggacccgggacaggatggactgtctatccacctttgtctaattctatttatcattttggggggtcagtagattttgctatttttagtttgcatgtagctggtgtttcttctattttagggggaattaatttcattacaacttgtttaaaaggtaaaatcagttatgttttaagatttgagtttttaactttgtttgtgtgagctataattgttactaggtttttgttagttttaagattgcctgtcttagctgggggaattactatattattattagatcgtaattttggttcttcattttttgaccctagcgggggtgggaaccccattttgtatcagcatttgttt
+
+Consensus:B39
+tttattattggtatttgatctggttttttaggagctagaataagtttgattattcgcactgagctaggtatagttggcaggattattatagatgagcagatttataattctatagttactgcccatgctttcttaataattttcttttttgttataccggttgctgttggaggttttggaaattgattattacctttaatgataaatgctatagatatagcatttcctcgtttaaataatttaaggttttgacttgttcctgttgctttattatttatagttttaagcttattagttggtttaggtcctggtacgggatgaacagtttacccccctttatctaattctgtttatcattttggtggttcgattgattttgctatttttagtcttcatgtagctggtgtttcttcaattttagggggaattaattttattactacatgtttaaaaggtaaaattagttatgttttaagatttgaatttttgactttatttgtttgagcgataattgttactagatttttattagtacttagtctacctgttttagctggtggtattacgatattattattagatcgtaattttggctcttctttttttgaccctagtggtggtgggaatccaa
+
+Alignment
+tttattattggtatttgatctggttttttaggagctagaataagtttgattattcgcactgagctaggtatagttggcaggattattatagatgagcagatttataattctatagttactgcccatgc*tttcttaataattttcttttttgttataccggttgctgttggaggttttggaaattgattattacctttaatgataaatgctatagatatagcatttcctcgtttaaataatttaaggttttgacttgttcctgttgctttattatttatagttttaagcttattagttggtttaggtcctggtacgggatgaacagtttacccccctttatctaattctgtttatcattttggtggttcgattgattttgctatttttagtcttcatgtagctggtgtttcttcaattttagggggaattaattttattactacatgtttaaaaggtaaaattagttatgttttaagatttgaatttttgactttatttgtttgagcgataattgttactagatttttattagtacttagtctacctgttttagctggtggtattacgatattattattagatcgtaattttggctcttctttttttgaccctagtggtggtggg******a******atc**ca******a
+*****tgttggtatttgatctggttttttaggtgctagaataagattaattattcgcacagaattggggatggtaggtagtattattatagatgagcagatttataattctatggttactgcacatgcttttctt*ataatttttttttttgttatacccgtagctgtaggtggttttggaaattggttattgcctttgataatgaatgctatagatatagcttttcctcgtttgaataatttaagattttgattagtccctgtggctttattatttataatgttaagtttactggttggtcttggacccgggacaggatggactgtctatccacctttgtctaattctatttatcattttggggggtcagtagattttgctatttttagtttgcatgtagctggtgtttcttctattttagggggaattaatttcattacaacttgtttaaaaggtaaaatcagttatgttttaagatttgagtttttaactttgtttgtgtgagctataattgttactaggtttttgttagttttaagattgcctgtcttagctgggggaattactatattattattagatcgtaattttggttcttcattttttgaccctagcgggggtgggaaccccattttgtatcagcatttgttt
+a <=> g --- 6 => 1 <<<
+154	2
+g:944,a:154,t:782,c:47 -->>
+a <=> t --- 32 => 27 <<<
+2	3
+g:178,a:2,t:655,c:20 -->>
+t <=> a --- 44 => 39 <<<
+192	1
+g:0,a:1303,t:192,c:0 -->>
+g <=> a --- 47 => 42 <<<
+7	2
+g:7,a:902,t:2,c:121 -->>
+t <=> a --- 59 => 54 <<<
+77	2
+g:78,a:639,t:77,c:0 -->>
+g <=> a --- 62 => 57 <<<
+110	1
+g:110,a:987,t:11,c:0 -->>
+c <=> t --- 63 => 58 <<<
+11	1
+g:0,a:7,t:842,c:11 -->>
+a <=> g --- 65 => 60 <<<
+294	1
+g:1028,a:294,t:3,c:25 -->>
+t <=> g --- 68 => 63 <<<
+11	2
+g:1124,a:64,t:11,c:0 -->>
+a <=> g --- 71 => 66 <<<
+136	1
+g:1241,a:136,t:16,c:0 -->>
+t <=> a --- 74 => 69 <<<
+75	2
+g:289,a:785,t:75,c:14 -->>
+c <=> t --- 77 => 72 <<<
+3	3
+g:21,a:164,t:750,c:3 -->>
+g <=> t --- 80 => 75 <<<
+129	1
+g:129,a:9,t:699,c:43 -->>
+a <=> g --- 113 => 108 <<<
+70	1
+g:1252,a:70,t:2,c:0 -->>
+c <=> a --- 122 => 117 <<<
+33	2
+g:12,a:642,t:78,c:33 -->>
+c <=> t --- 144 => 138 <<<
+8	2
+g:4,a:187,t:765,c:8 -->>
+g <=> c --- 159 => 153 <<<
+139	1
+g:139,a:9,t:5,c:644 -->>
+t <=> a --- 162 => 156 <<<
+45	2
+g:87,a:481,t:45,c:26 -->>
+t <=> a --- 168 => 162 <<<
+53	2
+g:146,a:843,t:53,c:8 -->>
+a <=> t --- 171 => 165 <<<
+21	2
+g:369,a:21,t:393,c:0 -->>
+a <=> g --- 186 => 180 <<<
+31	2
+g:386,a:31,t:164,c:0 -->>
+a <=> g --- 192 => 186 <<<
+42	2
+g:650,a:42,t:24,c:166 -->>
+a <=> g --- 198 => 192 <<<
+199	1
+g:415,a:199,t:66,c:1 -->>
+g <=> a --- 201 => 195 <<<
+56	1
+g:56,a:570,t:23,c:0 -->>
+a <=> g --- 204 => 198 <<<
+234	1
+g:504,a:234,t:16,c:0 -->>
+a <=> t --- 222 => 216 <<<
+16	2
+g:0,a:16,t:619,c:37 -->>
+a <=> g --- 234 => 228 <<<
+212	1
+g:444,a:212,t:25,c:10 -->>
+g <=> a --- 246 => 240 <<<
+28	2
+g:28,a:816,t:173,c:12 -->>
+c <=> t --- 253 => 247 <<<
+35	2
+g:5,a:78,t:450,c:35 -->>
+t <=> a --- 255 => 249 <<<
+40	2
+g:48,a:518,t:40,c:4 -->>
+t <=> c --- 258 => 252 <<<
+23	1
+g:2,a:0,t:23,c:631 -->>
+t <=> g --- 264 => 258 <<<
+37	1
+g:613,a:0,t:37,c:15 -->>
+g <=> a --- 280 => 274 <<<
+31	2
+g:31,a:451,t:89,c:0 -->>
+t <=> g --- 282 => 276 <<<
+164	1
+g:571,a:14,t:164,c:0 -->>
+c <=> t --- 288 => 282 <<<
+2	3
+g:25,a:36,t:423,c:2 -->>
+t <=> c --- 292 => 286 <<<
+127	1
+g:9,a:68,t:127,c:356 -->>
+a <=> g --- 294 => 288 <<<
+32	2
+g:644,a:32,t:47,c:0 -->>
+t <=> c --- 301 => 295 <<<
+152	1
+g:0,a:16,t:152,c:364 -->>
+a <=> t --- 303 => 297 <<<
+9	2
+g:212,a:9,t:297,c:3 -->>
+t <=> a --- 306 => 300 <<<
+4	3
+g:32,a:449,t:4,c:112 -->>
+t <=> c --- 309 => 303 <<<
+13	3
+g:102,a:14,t:13,c:371 -->>
+t <=> g --- 312 => 306 <<<
+0	3
+g:252,a:175,t:0,c:22 -->>
+g <=> a --- 315 => 309 <<<
+110	1
+g:110,a:271,t:9,c:29 -->>
+a <=> g --- 321 => 315 <<<
+217	1
+g:316,a:217,t:0,c:4 -->>
+a <=> t --- 324 => 318 <<<
+14	3
+g:209,a:14,t:313,c:28 -->>
+t <=> c --- 327 => 321 <<<
+123	1
+g:1,a:5,t:123,c:318 -->>
+c <=> t --- 330 => 324 <<<
+161	1
+g:0,a:24,t:306,c:161 -->>
+c <=> a --- 333 => 327 <<<
+204	0
+g:0,a:188,t:14,c:204 -->>
+a <=> g --- 339 => 333 <<<
+9	3
+g:322,a:9,t:106,c:39 -->>
+g <=> a --- 349 => 343 <<<
+21	2
+g:21,a:302,t:149,c:2 -->>
+t <=> g --- 363 => 357 <<<
+10	2
+g:480,a:25,t:10,c:1 -->>
+t <=> g --- 366 => 360 <<<
+70	1
+g:378,a:23,t:70,c:13 -->>
+g <=> a --- 369 => 363 <<<
+84	1
+g:84,a:322,t:20,c:23 -->>
+a <=> g --- 370 => 364 <<<
+89	1
+g:191,a:89,t:60,c:0 -->>
+t <=> a --- 372 => 366 <<<
+29	3
+g:63,a:322,t:29,c:31 -->>
+c <=> t --- 391 => 385 <<<
+6	2
+g:22,a:2,t:397,c:6 -->>
+t <=> g --- 393 => 387 <<<
+16	3
+g:319,a:17,t:16,c:89 -->>
+a <=> t --- 414 => 408 <<<
+141	1
+g:2,a:141,t:237,c:44 -->>
+t <=> c --- 435 => 429 <<<
+101	1
+g:0,a:72,t:101,c:294 -->>
+t <=> a --- 441 => 435 <<<
+26	2
+g:9,a:299,t:26,c:34 -->>
+a <=> t --- 444 => 438 <<<
+1	3
+g:18,a:1,t:390,c:51 -->>
+t <=> c --- 462 => 456 <<<
+40	2
+g:3,a:101,t:40,c:260 -->>
+a <=> g --- 483 => 477 <<<
+87	2
+g:176,a:87,t:115,c:1 -->>
+g <=> a --- 489 => 483 <<<
+13	2
+g:13,a:376,t:18,c:9 -->>
+a <=> g --- 495 => 489 <<<
+48	2
+g:247,a:48,t:123,c:0 -->>
+t <=> g --- 501 => 495 <<<
+112	1
+g:288,a:18,t:112,c:0 -->>
+g <=> t --- 507 => 501 <<<
+7	3
+g:7,a:92,t:252,c:39 -->>
+a <=> g --- 522 => 516 <<<
+6	3
+g:272,a:6,t:86,c:12 -->>
+a <=> g --- 528 => 522 <<<
+34	2
+g:294,a:34,t:109,c:0 -->>
+a <=> t --- 534 => 528 <<<
+0	2
+g:0,a:0,t:351,c:5 -->>
+c <=> t --- 535 => 529 <<<
+25	1
+g:0,a:3,t:319,c:25 -->>
+t <=> a --- 537 => 531 <<<
+4	2
+g:26,a:339,t:4,c:1 -->>
+t <=> a --- 540 => 534 <<<
+92	1
+g:12,a:488,t:92,c:12 -->>
+c <=> t --- 541 => 535 <<<
+0	3
+g:7,a:54,t:314,c:0 -->>
+a <=> g --- 543 => 537 <<<
+18	3
+g:288,a:18,t:21,c:118 -->>
+t <=> c --- 549 => 543 <<<
+108	1
+g:12,a:9,t:108,c:223 -->>
+t <=> g --- 558 => 552 <<<
+5	1
+g:257,a:0,t:5,c:5 -->>
+t <=> a --- 561 => 555 <<<
+15	2
+g:27,a:504,t:15,c:4 -->>
+g <=> t --- 567 => 561 <<<
+1	3
+g:1,a:107,t:194,c:35 -->>
+c <=> t --- 594 => 588 <<<
+14	2
+g:15,a:13,t:252,c:14 -->>
+t <=> a --- 600 => 594 <<<
+72	1
+g:2,a:182,t:72,c:27 -->>
+t <=> c --- 615 => 609 <<<
+0	2
+g:86,a:0,t:0,c:167 -->>
+t <=> g --- 618 => 612 <<<
+5	2
+g:284,a:19,t:5,c:0 -->>
+a <=> t --- 651 => 645 <<<
+4	2
+g:3,a:4,t:290,c:6 -->>
+32	35	16
+'Hap22 (E)' NOT contains species 'A	G22'
+7,82	Hap22 (E)	Hap19-Hap22 (E) --->
+B11	HPRIM14
+H_ND_B11-HCO1_A01_015.scf
+H_ND_B11-HCO1_A01_015.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/H_ND_B11-HCO1_A01_015.scf._610
+tgaagaaccaaaattacgatctaataataatatagtaattcccccagctaagacaggcaatcttaaaactaacaaaaacctagtaacaattatagctcacacaaacaaagttaaaaactcaaatcttaaaacataactgattttaccttttaaacaagttgtaatgaaattaattccccctaaaatagaagaaacaccagctacatgcaaactaaaaatagcaaaatctactgaccccccaaaatgataaatagaattagacaaaggtggatagacagtccatcctgtcccgggtccaagaccaaccagtaaacttaacattataaataataaagccacagggactaatcaaaatcttaaattattcaaacgaggaaaagctatatctatagcattcattatcaaaggcaataaccaatttccaaaaccacctacagctacgggtataacaaaaaaaaaaattataagaaaagcatgtgcagtaaccatagaattataaatctgctcatctataataatactacctaccatccccaattctgtgcgaataattaatcttattctagcacctaaaaaaccagatcaaataccaacaatgaaatacgaagta
+
+Consensus:HPRIM14
+ttggattccctcctccactagggtcgaagaaagaagatccaaaattacgatctaacaataatatagtaataccaccagcaagaactggtaaacttaaaaccaataaaaaactagtaacaatcatagctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaatcttaccttttaaacaagtagtaataaaattaatcccccctaaaatagaagatactcctgccacatgtaatctaaaaatagctaaatcaatagaaccaccaaaatgataaaccgaattagataaaggaggataaacagttcaaccagttcctgggcctaaacctactaataaacttaaacttataaataataaagccacagggactagtcaaaaactcaaattatttaaacgaggaaaagccatatctatagcatttatcatcaaaggcaataatcaatttccaaaaccaccaacagcaactggtataacaaaaaaaaaaattattaaaaaagcatgagctgtaactatagaattataaatttgttcatctataataatccttcccactatccctaactccgtacgaataattaaacttatcctagcacctaaaaatcctgatcagattccaataataaa
+
+Alignment
+ttggattccctcctccactagggtcgaagaaagaagatccaaaattacgatctaacaataatatagtaataccaccagc*aagaactggtaaacttaaaaccaataaaaaactagtaacaatcatagctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaatcttaccttttaaacaagtagtaataaaattaatcccccctaaaatagaagatactcctgccacatgtaatctaaaaatagctaaatcaatagaaccaccaaaatgataaaccgaattagataaaggaggataaacagttcaaccagttcctgggcctaaacctactaataaacttaaacttataaataataaagccacagggactagtcaaaaactcaaattatttaaacgaggaaaagccatatctatagcatttatcatcaaaggcaataatcaatttccaaaaccaccaacagcaactggtataacaaaaaaaaaaattattaaaaaagcatgagctgtaactatagaattataaatttgttcatctataataatccttcccactatccctaactccgtacgaataattaaacttatcctagcacctaaaaatcctgatcagat*tc**caat**aat***aa**a
+***********************t****g*aag*a*a*ccaaaattacgatctaataataatatagtaattcccccagctaag*acaggcaatcttaaaactaacaaaaacctagtaacaattatagctcacacaaacaaagttaaaaactcaaatcttaaaacataactgattttaccttttaaacaagttgtaatgaaattaattccccctaaaatagaagaaacaccagctacatgcaaactaaaaatagcaaaatctactgaccccccaaaatgataaatagaattagacaaaggtggatagacagtccatcctgtcccgggtccaagaccaaccagtaaacttaacattataaataataaagccacagggactaatcaaaatcttaaattattcaaacgaggaaaagctatatctatagcattcattatcaaaggcaataaccaatttccaaaaccacctacagctacgggtataacaaaaaaaaaaattataagaaaagcatgtgcagtaaccatagaattataaatctgctcatctataataatactacctaccatccccaattctgtgcgaataattaatcttattctagcacctaaaaaaccagatcaaataccaacaatgaaatacgaagta
+c <=> t --- 55 => 24 <<<
+56	1
+g:0,a:10,t:585,c:56 -->>
+a <=> t --- 70 => 39 <<<
+68	1
+g:15,a:68,t:904,c:25 -->>
+a <=> c --- 73 => 42 <<<
+26	1
+g:8,a:26,t:3,c:655 -->>
+t <=> a --- 86 => 54 <<<
+68	2
+g:71,a:520,t:68,c:9 -->>
+t <=> c --- 89 => 57 <<<
+32	1
+g:29,a:9,t:32,c:506 -->>
+a <=> t --- 92 => 60 <<<
+100	1
+g:14,a:100,t:669,c:6 -->>
+c <=> t --- 101 => 69 <<<
+86	1
+g:0,a:19,t:735,c:86 -->>
+t <=> c --- 104 => 72 <<<
+81	1
+g:0,a:31,t:81,c:614 -->>
+a <=> c --- 110 => 78 <<<
+92	1
+g:14,a:92,t:28,c:693 -->>
+c <=> t --- 122 => 90 <<<
+83	1
+g:3,a:62,t:846,c:83 -->>
+a <=> c --- 131 => 99 <<<
+116	1
+g:1,a:116,t:1,c:600 -->>
+t <=> c --- 137 => 105 <<<
+100	1
+g:8,a:46,t:100,c:695 -->>
+c <=> t --- 143 => 111 <<<
+67	1
+g:20,a:17,t:704,c:67 -->>
+t <=> c --- 149 => 117 <<<
+125	1
+g:0,a:7,t:125,c:738 -->>
+a <=> g --- 170 => 138 <<<
+43	1
+g:1195,a:43,t:17,c:0 -->>
+c <=> t --- 173 => 141 <<<
+66	1
+g:8,a:0,t:888,c:66 -->>
+a <=> t --- 191 => 159 <<<
+62	1
+g:31,a:62,t:731,c:0 -->>
+a <=> g --- 197 => 165 <<<
+70	1
+g:1325,a:70,t:0,c:0 -->>
+c <=> t --- 206 => 174 <<<
+107	1
+g:0,a:7,t:1113,c:107 -->>
+t <=> a --- 224 => 192 <<<
+29	1
+g:21,a:734,t:29,c:21 -->>
+t <=> a --- 227 => 195 <<<
+59	1
+g:7,a:617,t:59,c:44 -->>
+t <=> a --- 230 => 198 <<<
+95	1
+g:14,a:571,t:95,c:31 -->>
+c <=> t --- 233 => 201 <<<
+64	1
+g:1,a:31,t:829,c:64 -->>
+t <=> c --- 239 => 207 <<<
+65	1
+g:17,a:31,t:65,c:599 -->>
+t <=> a --- 242 => 210 <<<
+75	1
+g:3,a:689,t:75,c:19 -->>
+t <=> a --- 254 => 222 <<<
+95	1
+g:7,a:573,t:95,c:31 -->>
+a <=> t --- 260 => 228 <<<
+52	1
+g:28,a:52,t:677,c:29 -->>
+t <=> c --- 262 => 230 <<<
+80	1
+g:7,a:12,t:80,c:748 -->>
+a <=> t --- 263 => 231 <<<
+36	1
+g:26,a:36,t:723,c:33 -->>
+a <=> c --- 266 => 234 <<<
+46	1
+g:0,a:46,t:18,c:746 -->>
+a <=> c --- 269 => 237 <<<
+24	2
+g:2,a:24,t:34,c:754 -->>
+c <=> t --- 283 => 251 <<<
+74	1
+g:2,a:34,t:671,c:74 -->>
+c <=> a --- 284 => 252 <<<
+74	1
+g:0,a:787,t:21,c:74 -->>
+t <=> c --- 293 => 261 <<<
+93	1
+g:14,a:30,t:93,c:631 -->>
+a <=> t --- 299 => 267 <<<
+145	1
+g:62,a:145,t:565,c:0 -->>
+a <=> g --- 305 => 273 <<<
+105	1
+g:685,a:105,t:7,c:0 -->>
+t <=> c --- 311 => 279 <<<
+94	1
+g:20,a:0,t:94,c:706 -->>
+a <=> t --- 314 => 282 <<<
+52	1
+g:10,a:52,t:780,c:20 -->>
+a <=> t --- 317 => 285 <<<
+40	1
+g:36,a:40,t:646,c:10 -->>
+t <=> c --- 320 => 288 <<<
+76	1
+g:31,a:11,t:76,c:649 -->>
+t <=> g --- 323 => 291 <<<
+48	1
+g:828,a:17,t:48,c:6 -->>
+g <=> t --- 326 => 294 <<<
+29	1
+g:29,a:4,t:516,c:27 -->>
+t <=> a --- 329 => 297 <<<
+80	1
+g:0,a:458,t:80,c:20 -->>
+a <=> g --- 331 => 299 <<<
+72	1
+g:486,a:72,t:10,c:13 -->>
+t <=> a --- 335 => 303 <<<
+97	1
+g:3,a:572,t:97,c:13 -->>
+t <=> c --- 338 => 306 <<<
+99	1
+g:0,a:28,t:99,c:653 -->>
+a <=> g --- 340 => 308 <<<
+73	1
+g:417,a:73,t:26,c:3 -->>
+a <=> c --- 350 => 318 <<<
+85	1
+g:5,a:85,t:41,c:572 -->>
+c <=> a --- 351 => 319 <<<
+67	1
+g:2,a:626,t:50,c:67 -->>
+g <=> a --- 379 => 347 <<<
+46	1
+g:46,a:632,t:33,c:15 -->>
+a <=> t --- 386 => 354 <<<
+69	1
+g:1,a:69,t:722,c:21 -->>
+c <=> t --- 389 => 357 <<<
+77	1
+g:7,a:30,t:654,c:77 -->>
+t <=> c --- 398 => 366 <<<
+105	1
+g:35,a:26,t:105,c:667 -->>
+c <=> t --- 413 => 381 <<<
+66	1
+g:12,a:19,t:735,c:66 -->>
+t <=> c --- 428 => 396 <<<
+122	1
+g:4,a:19,t:122,c:617 -->>
+c <=> t --- 431 => 399 <<<
+62	1
+g:19,a:27,t:791,c:62 -->>
+t <=> c --- 446 => 414 <<<
+118	1
+g:0,a:10,t:118,c:683 -->>
+a <=> t --- 464 => 432 <<<
+69	1
+g:30,a:69,t:674,c:11 -->>
+a <=> t --- 470 => 438 <<<
+56	1
+g:29,a:56,t:705,c:3 -->>
+t <=> g --- 473 => 441 <<<
+49	1
+g:372,a:29,t:49,c:4 -->>
+t <=> a --- 497 => 465 <<<
+71	1
+g:32,a:486,t:71,c:1 -->>
+a <=> g --- 499 => 467 <<<
+382	0
+g:271,a:382,t:0,c:3 -->>
+a <=> t --- 509 => 477 <<<
+47	2
+g:302,a:47,t:326,c:20 -->>
+t <=> a --- 512 => 480 <<<
+29	2
+g:127,a:311,t:29,c:29 -->>
+t <=> c --- 518 => 486 <<<
+90	2
+g:1,a:159,t:90,c:423 -->>
+t <=> c --- 533 => 501 <<<
+254	1
+g:49,a:0,t:254,c:394 -->>
+t <=> c --- 536 => 504 <<<
+197	1
+g:52,a:10,t:197,c:351 -->>
+c <=> a --- 551 => 519 <<<
+235	1
+g:38,a:459,t:7,c:235 -->>
+t <=> a --- 554 => 522 <<<
+28	3
+g:29,a:406,t:28,c:193 -->>
+c <=> t --- 557 => 525 <<<
+106	2
+g:13,a:191,t:381,c:106 -->>
+t <=> c --- 560 => 528 <<<
+51	2
+g:10,a:132,t:51,c:400 -->>
+t <=> c --- 566 => 534 <<<
+49	2
+g:1,a:128,t:49,c:355 -->>
+c <=> t --- 569 => 537 <<<
+48	1
+g:17,a:23,t:552,c:48 -->>
+c <=> t --- 572 => 540 <<<
+56	2
+g:203,a:0,t:357,c:56 -->>
+a <=> g --- 575 => 543 <<<
+36	2
+g:537,a:36,t:2,c:110 -->>
+a <=> t --- 587 => 555 <<<
+44	2
+g:13,a:44,t:387,c:160 -->>
+c <=> t --- 593 => 561 <<<
+198	1
+g:2,a:0,t:472,c:198 -->>
+t <=> a --- 608 => 576 <<<
+46	2
+g:12,a:361,t:46,c:140 -->>
+t <=> a --- 611 => 579 <<<
+15	3
+g:103,a:248,t:15,c:31 -->>
+g <=> a --- 617 => 585 <<<
+42	1
+g:42,a:383,t:0,c:0 -->>
+t <=> c --- 621 => 589 <<<
+35	1
+g:2,a:11,t:35,c:468 -->>
+66	12	2
+L_ND_B11-LCO1_A01_015.scf
+L_ND_B11-LCO1_A01_015.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/L_ND_B11-LCO1_A01_015.scf._646
+tgttggtatttgatctggttttttaggtgctagaataagattaattattcgcacagaattggggatggtaggtagtattattatagatgagcagatttataattctatggttactgcacatgcttttcttataatttttttttttgttatacccgtagctgtaggtggttttggaaattggttattgcctttgataatgaatgctatagatatagcttttcctcgtttgaataatttaagattttgattagtccctgtggctttattatttataatgttaagtttactggttggtcttggacccgggacaggatggactgtctatccacctttgtctaattctatttatcattttggggggtcagtagattttgctatttttagtttgcatgtagctggtgtttcttctattttagggggaattaatttcattacaacttgtttaaaaggtaaaatcagttatgttttaagatttgagtttttaactttgtttgtgtgagctataattgttactaggtttttgttagttttaagattgcctgtcttagctgggggaattactatattattattagatcgtaattttggttcttcattttttgaccctagcgggggtgggaaccccattttgtatcagcatttgttt
+
+Consensus:HPRIM14
+tttattattggaatctgatcaggatttttaggtgctaggataagtttaattattcgtacggagttagggatagtgggaaggattattatagatgaacaaatttataattctatagttacagctcatgcttttttaataatttttttttttgttataccagttgctgttggtggttttggaaattgattattgcctttgatgataaatgctatagatatggcttttcctcgtttaaataatttgagtttttgactagtccctgtggctttattatttataagtttaagtttattagtaggtttaggcccaggaactggttgaactgtttatcctcctttatctaattcggtttatcattttggtggttctattgatttagctatttttagattacatgtggcaggagtatcttctattttaggggggattaattttattactacttgtttaaaaggtaagattagttatgttttaagatttgaatttttgactttatttgtttgagctatgattgttactagttttttattggttttaagtttaccagttcttgctggtggtattactatattattgttagatcgtaattttggatcttctttcttcgaccctagtggaggagggaatccaa
+
+Alignment
+tttattattggaatctgatcaggatttttaggtgctaggataagtttaattattcgtacggagttagggatagtgggaaggattattatagatgaacaaatttataattctatagttacagctcatgcttttttaataatttttttttttgttataccagttgctgttggtggttttggaaattgattattgcctttgatgataaatgctatagatatggcttttcctcgtttaaataatttgagtttttgactagtccctgtggctttattatttataagtttaagtttattagtaggtttaggcccaggaactggttgaactgtttatcctcctttatctaattcggtttatcattttggtggttctattgatttagctatttttagattacatgtggcaggagtatcttctattttaggggggattaattttattactacttgtttaaaaggtaagattagttatgttttaagatttgaatttttgactttatttgtttgagctatgattgttactagttttttattggttttaagtttaccagttctt*gctggtggtattactatattattgttagatcgtaattttggatcttctttcttcgaccctagtggaggaggg******a******atc**ca******a
+*****tgttggtatttgatctggttttttaggtgctagaataagattaattattcgcacagaattggggatggtaggtagtattattatagatgagcagatttataattctatggttactgcacatgcttttcttataatttttttttttgttatacccgtagctgtaggtggttttggaaattggttattgcctttgataatgaatgctatagatatagcttttcctcgtttgaataatttaagattttgattagtccctgtggctttattatttataatgttaagtttactggttggtcttggacccgggacaggatggactgtctatccacctttgtctaattctatttatcattttggggggtcagtagattttgctatttttagtttgcatgtagctggtgtttcttctattttagggggaattaatttcattacaacttgtttaaaaggtaaaatcagttatgttttaagatttgagtttttaactttgtttgtgtgagctataattgttactaggtttttgttagttttaagattgcctg*tcttagctgggggaattactatattattattagatcgtaattttggttcttcattttttgaccctagcgggggtgggaaccccattttgtatcagcatttgttt
+a <=> g --- 6 => 1 <<<
+154	2
+g:944,a:154,t:782,c:47 -->>
+a <=> t --- 11 => 6 <<<
+555	1
+g:313,a:555,t:697,c:243 -->>
+c <=> t --- 14 => 9 <<<
+299	1
+g:148,a:132,t:1022,c:299 -->>
+a <=> t --- 20 => 15 <<<
+129	2
+g:68,a:129,t:822,c:219 -->>
+a <=> t --- 23 => 18 <<<
+279	1
+g:29,a:279,t:947,c:42 -->>
+g <=> a --- 38 => 33 <<<
+99	1
+g:99,a:957,t:34,c:0 -->>
+t <=> a --- 44 => 39 <<<
+192	1
+g:0,a:1303,t:192,c:0 -->>
+t <=> c --- 56 => 51 <<<
+94	2
+g:5,a:146,t:94,c:736 -->>
+g <=> a --- 59 => 54 <<<
+78	1
+g:78,a:639,t:77,c:0 -->>
+g <=> a --- 62 => 57 <<<
+110	1
+g:110,a:987,t:11,c:0 -->>
+a <=> g --- 65 => 60 <<<
+294	1
+g:1028,a:294,t:3,c:25 -->>
+a <=> g --- 71 => 66 <<<
+136	1
+g:1241,a:136,t:16,c:0 -->>
+g <=> a --- 74 => 69 <<<
+289	1
+g:289,a:785,t:75,c:14 -->>
+a <=> t --- 77 => 72 <<<
+164	1
+g:21,a:164,t:750,c:3 -->>
+g <=> t --- 80 => 75 <<<
+129	1
+g:129,a:9,t:699,c:43 -->>
+a <=> g --- 95 => 90 <<<
+43	1
+g:564,a:43,t:0,c:15 -->>
+a <=> g --- 98 => 93 <<<
+54	2
+g:388,a:54,t:105,c:0 -->>
+a <=> g --- 113 => 108 <<<
+70	1
+g:1252,a:70,t:2,c:0 -->>
+a <=> t --- 119 => 114 <<<
+112	1
+g:12,a:112,t:663,c:28 -->>
+t <=> a --- 122 => 117 <<<
+78	1
+g:12,a:642,t:78,c:33 -->>
+t <=> c --- 132 => 127 <<<
+60	1
+g:4,a:11,t:60,c:986 -->>
+a <=> t --- 134 => 129 <<<
+39	1
+g:0,a:39,t:823,c:32 -->>
+a <=> c --- 158 => 153 <<<
+9	2
+g:139,a:9,t:5,c:644 -->>
+t <=> a --- 161 => 156 <<<
+45	2
+g:87,a:481,t:45,c:26 -->>
+t <=> a --- 167 => 162 <<<
+53	2
+g:146,a:843,t:53,c:8 -->>
+a <=> g --- 185 => 180 <<<
+31	2
+g:386,a:31,t:164,c:0 -->>
+g <=> a --- 200 => 195 <<<
+56	1
+g:56,a:570,t:23,c:0 -->>
+a <=> g --- 203 => 198 <<<
+234	1
+g:504,a:234,t:16,c:0 -->>
+g <=> a --- 218 => 213 <<<
+137	1
+g:137,a:357,t:46,c:13 -->>
+a <=> g --- 233 => 228 <<<
+212	1
+g:444,a:212,t:25,c:10 -->>
+g <=> a --- 242 => 237 <<<
+48	1
+g:48,a:497,t:16,c:0 -->>
+t <=> a --- 245 => 240 <<<
+173	1
+g:28,a:816,t:173,c:12 -->>
+c <=> t --- 252 => 247 <<<
+35	2
+g:5,a:78,t:450,c:35 -->>
+g <=> t --- 280 => 275 <<<
+209	1
+g:209,a:60,t:274,c:0 -->>
+t <=> g --- 281 => 276 <<<
+164	1
+g:571,a:14,t:164,c:0 -->>
+t <=> c --- 291 => 286 <<<
+127	1
+g:9,a:68,t:127,c:356 -->>
+a <=> g --- 293 => 288 <<<
+32	2
+g:644,a:32,t:47,c:0 -->>
+a <=> t --- 296 => 291 <<<
+13	2
+g:201,a:13,t:272,c:1 -->>
+t <=> c --- 300 => 295 <<<
+152	1
+g:0,a:16,t:152,c:364 -->>
+a <=> t --- 302 => 297 <<<
+9	2
+g:212,a:9,t:297,c:3 -->>
+c <=> a --- 305 => 300 <<<
+112	1
+g:32,a:449,t:4,c:112 -->>
+a <=> c --- 308 => 303 <<<
+14	2
+g:102,a:14,t:13,c:371 -->>
+a <=> g --- 311 => 306 <<<
+175	1
+g:252,a:175,t:0,c:22 -->>
+t <=> a --- 314 => 309 <<<
+9	3
+g:110,a:271,t:9,c:29 -->>
+t <=> a --- 317 => 312 <<<
+88	1
+g:56,a:430,t:88,c:5 -->>
+a <=> g --- 320 => 315 <<<
+217	1
+g:316,a:217,t:0,c:4 -->>
+t <=> c --- 326 => 321 <<<
+123	1
+g:1,a:5,t:123,c:318 -->>
+t <=> a --- 332 => 327 <<<
+14	2
+g:0,a:188,t:14,c:204 -->>
+a <=> g --- 338 => 333 <<<
+9	3
+g:322,a:9,t:106,c:39 -->>
+g <=> t --- 347 => 342 <<<
+17	3
+g:17,a:119,t:260,c:39 -->>
+g <=> a --- 348 => 343 <<<
+21	2
+g:21,a:302,t:149,c:2 -->>
+t <=> g --- 362 => 357 <<<
+10	2
+g:480,a:25,t:10,c:1 -->>
+t <=> g --- 365 => 360 <<<
+70	1
+g:378,a:23,t:70,c:13 -->>
+t <=> a --- 368 => 363 <<<
+20	3
+g:84,a:322,t:20,c:23 -->>
+a <=> g --- 369 => 364 <<<
+89	1
+g:191,a:89,t:60,c:0 -->>
+t <=> a --- 371 => 366 <<<
+29	3
+g:63,a:322,t:29,c:31 -->>
+a <=> t --- 377 => 372 <<<
+22	2
+g:167,a:22,t:290,c:12 -->>
+a <=> t --- 389 => 384 <<<
+46	1
+g:13,a:46,t:314,c:0 -->>
+a <=> g --- 392 => 387 <<<
+17	2
+g:319,a:17,t:16,c:89 -->>
+g <=> a --- 398 => 393 <<<
+78	1
+g:78,a:223,t:16,c:11 -->>
+a <=> t --- 401 => 396 <<<
+13	3
+g:137,a:13,t:268,c:30 -->>
+a <=> t --- 404 => 399 <<<
+56	2
+g:199,a:56,t:167,c:2 -->>
+a <=> t --- 407 => 402 <<<
+62	1
+g:13,a:62,t:380,c:22 -->>
+g <=> a --- 425 => 420 <<<
+68	1
+g:68,a:617,t:8,c:0 -->>
+t <=> c --- 434 => 429 <<<
+101	1
+g:0,a:72,t:101,c:294 -->>
+t <=> a --- 440 => 435 <<<
+26	2
+g:9,a:299,t:26,c:34 -->>
+g <=> a --- 458 => 453 <<<
+16	1
+g:16,a:403,t:3,c:2 -->>
+t <=> c --- 461 => 456 <<<
+40	2
+g:3,a:101,t:40,c:260 -->>
+a <=> g --- 482 => 477 <<<
+87	2
+g:176,a:87,t:115,c:1 -->>
+g <=> a --- 488 => 483 <<<
+13	2
+g:13,a:376,t:18,c:9 -->>
+a <=> g --- 494 => 489 <<<
+48	2
+g:247,a:48,t:123,c:0 -->>
+t <=> g --- 500 => 495 <<<
+112	1
+g:288,a:18,t:112,c:0 -->>
+g <=> a --- 509 => 504 <<<
+20	1
+g:20,a:312,t:19,c:6 -->>
+t <=> g --- 521 => 516 <<<
+86	1
+g:272,a:6,t:86,c:12 -->>
+a <=> g --- 527 => 522 <<<
+34	2
+g:294,a:34,t:109,c:0 -->>
+g <=> a --- 530 => 525 <<<
+62	1
+g:62,a:290,t:20,c:0 -->>
+t <=> a --- 539 => 534 <<<
+92	1
+g:12,a:488,t:92,c:12 -->>
+a <=> g --- 542 => 537 <<<
+18	3
+g:288,a:18,t:21,c:118 -->>
+a <=> t --- 545 => 540 <<<
+20	3
+g:142,a:20,t:229,c:23 -->>
+t <=> g --- 558 => 552 <<<
+5	1
+g:257,a:0,t:5,c:5 -->>
+t <=> a --- 561 => 555 <<<
+15	2
+g:27,a:504,t:15,c:4 -->>
+g <=> a --- 576 => 570 <<<
+23	2
+g:23,a:267,t:102,c:0 -->>
+a <=> t --- 594 => 588 <<<
+13	3
+g:15,a:13,t:252,c:14 -->>
+t <=> a --- 600 => 594 <<<
+72	1
+g:2,a:182,t:72,c:27 -->>
+c <=> t --- 603 => 597 <<<
+16	1
+g:0,a:0,t:321,c:16 -->>
+c <=> t --- 606 => 600 <<<
+3	3
+g:88,a:16,t:194,c:3 -->>
+t <=> c --- 615 => 609 <<<
+0	2
+g:86,a:0,t:0,c:167 -->>
+a <=> g --- 618 => 612 <<<
+19	1
+g:284,a:19,t:5,c:0 -->>
+a <=> t --- 621 => 615 <<<
+0	3
+g:154,a:0,t:151,c:24 -->>
+a <=> t --- 651 => 645 <<<
+4	2
+g:3,a:4,t:290,c:6 -->>
+50	29	11
+****************************************************************************************************
+Checking on row number 23
+****************************************************************************************************
+'Hap1 (A)' contains 'A'
+'Hap1-Hap5 (A)' contains 'A'
+'Hap7 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 24
+****************************************************************************************************
+'Hap1-Hap2 (A)' contains 'A'
+'Hap35 (E)' NOT contains species 'A	D24'
+4,82	Hap35 (E)	Hap30-Hap35 (E) --->
+B3B1	HPRIM14
+H_ND_B3B1-HCO1_G05_035.scf
+H_ND_B3B1-HCO1_G05_035.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/H_ND_B3B1-HCO1_G05_035.scf._644
+aaatggggttcccacccccgctaggatcaaaaaatgaagaaccaaaattacgatctaataataatatagtaattcccccagctaagacaggcaatcttaaaactaacaaaaacctagtaacaattatagctcacacaaacaaagttaaaaactcaaatcttaaaacataactgattttaccttttaaacaagttgtaatgaaattaattccccctaaaatagaagaaacaccagctacatgcaaactaaaaatagcaaaatctactgaccccccaaaatgataaatagaattagacaaaggtggatagacagtccatcctgtcccgggtccaagaccaaccagtaaacttaacattataaataataaagccacagggactaatcaaaatcttaaattattcaaacgaggaaaagctatatctatagcattcattatcaaaggcaataaccaatttccaaaaccacctacagctacgggtataacaaaaaaaaaaattataagaaaagcatgtgcagtaaccatagaattataaatctgctcatctataataatactacctaccatccccaattctgtgcgaataattaatcttattctagcacctaaaaaaccagatcaaataccaacaatgaaatacgaagta
+
+Consensus:HPRIM14
+ttggattccctcctccactagggtcgaagaaagaagatccaaaattacgatctaacaataatatagtaataccaccagcaagaactggtaaacttaaaaccaataaaaaactagtaacaatcatagctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaatcttaccttttaaacaagtagtaataaaattaatcccccctaaaatagaagatactcctgccacatgtaatctaaaaatagctaaatcaatagaaccaccaaaatgataaaccgaattagataaaggaggataaacagttcaaccagttcctgggcctaaacctactaataaacttaaacttataaataataaagccacagggactagtcaaaaactcaaattatttaaacgaggaaaagccatatctatagcatttatcatcaaaggcaataatcaatttccaaaaccaccaacagcaactggtataacaaaaaaaaaaattattaaaaaagcatgagctgtaactatagaattataaatttgttcatctataataatccttcccactatccctaactccgtacgaataattaaacttatcctagcacctaaaaatcctgatcagattccaataataaa
+
+Alignment
+***ttggattccctcctccactagggtcgaagaaagaagatccaaaattacgatctaacaataatatagtaataccaccagc*aagaactggtaaacttaaaaccaataaaaaactagtaacaatcatagctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaatcttaccttttaaacaagtagtaataaaattaatcccccctaaaatagaagatactcctgccacatgtaatctaaaaatagctaaatcaatagaaccaccaaaatgataaaccgaattagataaaggaggataaacagttcaaccagttcctgggcctaaacctactaataaacttaaacttataaataataaagccacagggactagtcaaaaactcaaattatttaaacgaggaaaagccatatctatagcatttatcatcaaaggcaataatcaatttccaaaaccaccaacagcaactggtataacaaaaaaaaaaattattaaaaaagcatgagctgtaactatagaattataaatttgttcatctataataatccttcccactatccctaactccgtacgaataattaaacttatcctagcacctaaaaatcctgatcagat*tc**caat**aat***aa**a
+aaatggggttcccacccccgctaggatcaaaaaatgaagaaccaaaattacgatctaataataatatagtaattcccccagctaag*acaggcaatcttaaaactaacaaaaacctagtaacaattatagctcacacaaacaaagttaaaaactcaaatcttaaaacataactgattttaccttttaaacaagttgtaatgaaattaattccccctaaaatagaagaaacaccagctacatgcaaactaaaaatagcaaaatctactgaccccccaaaatgataaatagaattagacaaaggtggatagacagtccatcctgtcccgggtccaagaccaaccagtaaacttaacattataaataataaagccacagggactaatcaaaatcttaaattattcaaacgaggaaaagctatatctatagcattcattatcaaaggcaataaccaatttccaaaaccacctacagctacgggtataacaaaaaaaaaaattataagaaaagcatgtgcagtaaccatagaattataaatctgctcatctataataatactacctaccatccccaattctgtgcgaataattaatcttattctagcacctaaaaaaccagatcaaataccaacaatgaaatacgaagta
+t <=> g --- 4 => 4 <<<
+51	2
+g:1801,a:57,t:51,c:10 -->>
+a <=> g --- 7 => 7 <<<
+53	2
+g:1477,a:53,t:70,c:24 -->>
+t <=> a --- 13 => 13 <<<
+2	2
+g:0,a:602,t:2,c:226 -->>
+t <=> c --- 16 => 16 <<<
+14	3
+g:31,a:18,t:14,c:692 -->>
+a <=> g --- 19 => 19 <<<
+16	2
+g:913,a:16,t:10,c:51 -->>
+g <=> a --- 25 => 25 <<<
+12	3
+g:12,a:1002,t:58,c:32 -->>
+g <=> a --- 28 => 28 <<<
+4	3
+g:4,a:616,t:32,c:41 -->>
+g <=> a --- 31 => 31 <<<
+30	1
+g:30,a:602,t:1,c:12 -->>
+a <=> t --- 34 => 34 <<<
+23	1
+g:18,a:23,t:727,c:2 -->>
+t <=> a --- 40 => 40 <<<
+0	3
+g:11,a:783,t:0,c:26 -->>
+c <=> t --- 58 => 58 <<<
+0	3
+g:16,a:13,t:708,c:0 -->>
+a <=> t --- 73 => 73 <<<
+0	3
+g:9,a:0,t:1136,c:32 -->>
+a <=> c --- 76 => 76 <<<
+11	1
+g:9,a:11,t:9,c:743 -->>
+t <=> a --- 89 => 88 <<<
+0	3
+g:50,a:536,t:0,c:9 -->>
+t <=> c --- 92 => 91 <<<
+9	3
+g:12,a:31,t:9,c:570 -->>
+a <=> t --- 95 => 94 <<<
+9	2
+g:9,a:9,t:820,c:14 -->>
+c <=> t --- 104 => 103 <<<
+9	3
+g:34,a:23,t:861,c:9 -->>
+t <=> c --- 107 => 106 <<<
+21	2
+g:6,a:25,t:21,c:668 -->>
+a <=> c --- 113 => 112 <<<
+15	2
+g:9,a:15,t:32,c:820 -->>
+c <=> t --- 125 => 124 <<<
+3	3
+g:11,a:32,t:839,c:3 -->>
+a <=> c --- 134 => 133 <<<
+31	1
+g:0,a:31,t:2,c:607 -->>
+t <=> c --- 140 => 139 <<<
+0	3
+g:26,a:25,t:0,c:806 -->>
+c <=> t --- 146 => 145 <<<
+1	3
+g:19,a:33,t:790,c:1 -->>
+t <=> c --- 152 => 151 <<<
+46	1
+g:4,a:31,t:46,c:794 -->>
+a <=> g --- 173 => 172 <<<
+11	2
+g:844,a:11,t:2,c:18 -->>
+c <=> t --- 176 => 175 <<<
+5	2
+g:11,a:0,t:881,c:5 -->>
+a <=> t --- 194 => 193 <<<
+7	3
+g:45,a:7,t:642,c:21 -->>
+a <=> g --- 200 => 199 <<<
+35	1
+g:1449,a:35,t:14,c:0 -->>
+c <=> t --- 209 => 208 <<<
+48	1
+g:14,a:8,t:1078,c:48 -->>
+t <=> a --- 227 => 226 <<<
+10	2
+g:6,a:766,t:10,c:27 -->>
+t <=> a --- 230 => 229 <<<
+7	3
+g:32,a:604,t:7,c:71 -->>
+t <=> a --- 233 => 232 <<<
+39	2
+g:43,a:570,t:39,c:23 -->>
+c <=> t --- 236 => 235 <<<
+8	2
+g:7,a:27,t:707,c:8 -->>
+t <=> c --- 242 => 241 <<<
+29	2
+g:0,a:30,t:29,c:599 -->>
+t <=> a --- 245 => 244 <<<
+12	3
+g:40,a:754,t:12,c:26 -->>
+t <=> a --- 257 => 256 <<<
+3	3
+g:11,a:614,t:3,c:19 -->>
+a <=> t --- 263 => 262 <<<
+51	1
+g:9,a:51,t:678,c:11 -->>
+t <=> c --- 265 => 264 <<<
+52	1
+g:9,a:7,t:52,c:756 -->>
+a <=> t --- 266 => 265 <<<
+26	2
+g:27,a:26,t:528,c:26 -->>
+a <=> c --- 269 => 268 <<<
+16	3
+g:20,a:16,t:30,c:735 -->>
+a <=> c --- 272 => 271 <<<
+6	3
+g:49,a:6,t:21,c:740 -->>
+c <=> t --- 286 => 285 <<<
+29	2
+g:7,a:33,t:573,c:29 -->>
+c <=> a --- 287 => 286 <<<
+15	2
+g:16,a:740,t:8,c:15 -->>
+t <=> c --- 296 => 295 <<<
+13	2
+g:9,a:40,t:13,c:640 -->>
+a <=> t --- 302 => 301 <<<
+39	2
+g:58,a:39,t:642,c:6 -->>
+a <=> g --- 308 => 307 <<<
+37	1
+g:731,a:37,t:6,c:21 -->>
+t <=> c --- 314 => 313 <<<
+15	2
+g:8,a:28,t:15,c:660 -->>
+a <=> t --- 317 => 316 <<<
+5	3
+g:27,a:5,t:700,c:33 -->>
+a <=> t --- 320 => 319 <<<
+1	3
+g:87,a:1,t:450,c:15 -->>
+t <=> c --- 323 => 322 <<<
+8	2
+g:16,a:1,t:8,c:658 -->>
+t <=> g --- 326 => 325 <<<
+2	3
+g:877,a:25,t:2,c:8 -->>
+g <=> t --- 329 => 328 <<<
+5	2
+g:5,a:4,t:610,c:35 -->>
+t <=> a --- 332 => 331 <<<
+21	1
+g:11,a:465,t:21,c:14 -->>
+a <=> g --- 334 => 333 <<<
+31	1
+g:568,a:31,t:4,c:13 -->>
+t <=> a --- 338 => 337 <<<
+25	1
+g:25,a:586,t:25,c:15 -->>
+t <=> c --- 341 => 340 <<<
+23	2
+g:1,a:35,t:23,c:631 -->>
+a <=> g --- 343 => 342 <<<
+111	1
+g:497,a:111,t:15,c:0 -->>
+a <=> c --- 353 => 352 <<<
+29	1
+g:15,a:29,t:16,c:511 -->>
+c <=> a --- 354 => 353 <<<
+15	3
+g:20,a:586,t:25,c:15 -->>
+g <=> a --- 382 => 381 <<<
+8	2
+g:8,a:635,t:23,c:3 -->>
+a <=> t --- 389 => 388 <<<
+10	2
+g:2,a:10,t:685,c:31 -->>
+c <=> t --- 392 => 391 <<<
+1	2
+g:1,a:29,t:526,c:1 -->>
+t <=> c --- 401 => 400 <<<
+19	2
+g:8,a:30,t:19,c:610 -->>
+c <=> t --- 416 => 415 <<<
+13	3
+g:24,a:21,t:674,c:13 -->>
+t <=> c --- 431 => 430 <<<
+38	1
+g:28,a:13,t:38,c:541 -->>
+c <=> t --- 434 => 433 <<<
+4	3
+g:10,a:43,t:644,c:4 -->>
+t <=> c --- 449 => 448 <<<
+57	1
+g:0,a:8,t:57,c:673 -->>
+a <=> t --- 467 => 466 <<<
+33	1
+g:10,a:33,t:639,c:19 -->>
+a <=> t --- 473 => 472 <<<
+29	1
+g:9,a:29,t:690,c:3 -->>
+t <=> g --- 476 => 475 <<<
+14	1
+g:186,a:12,t:14,c:5 -->>
+t <=> a --- 500 => 499 <<<
+24	1
+g:17,a:378,t:24,c:21 -->>
+a <=> g --- 502 => 501 <<<
+258	1
+g:316,a:258,t:15,c:0 -->>
+a <=> t --- 512 => 511 <<<
+3	3
+g:238,a:3,t:403,c:29 -->>
+t <=> a --- 515 => 514 <<<
+22	2
+g:101,a:339,t:22,c:17 -->>
+t <=> c --- 521 => 520 <<<
+45	2
+g:10,a:117,t:45,c:421 -->>
+t <=> c --- 536 => 535 <<<
+158	1
+g:19,a:0,t:158,c:394 -->>
+t <=> c --- 539 => 538 <<<
+138	1
+g:12,a:15,t:138,c:394 -->>
+c <=> a --- 554 => 553 <<<
+139	1
+g:17,a:484,t:19,c:139 -->>
+t <=> a --- 557 => 556 <<<
+16	2
+g:6,a:471,t:16,c:160 -->>
+c <=> t --- 560 => 559 <<<
+51	2
+g:9,a:156,t:394,c:51 -->>
+t <=> c --- 563 => 562 <<<
+21	2
+g:3,a:112,t:21,c:408 -->>
+t <=> c --- 569 => 568 <<<
+9	2
+g:6,a:71,t:9,c:399 -->>
+c <=> t --- 572 => 571 <<<
+30	1
+g:4,a:20,t:503,c:30 -->>
+c <=> t --- 575 => 574 <<<
+23	2
+g:107,a:10,t:369,c:23 -->>
+a <=> g --- 578 => 577 <<<
+19	2
+g:627,a:19,t:2,c:92 -->>
+a <=> t --- 590 => 589 <<<
+14	2
+g:3,a:14,t:326,c:107 -->>
+c <=> t --- 596 => 595 <<<
+128	1
+g:9,a:1,t:379,c:128 -->>
+t <=> a --- 611 => 610 <<<
+6	2
+g:3,a:433,t:6,c:135 -->>
+t <=> a --- 614 => 613 <<<
+0	3
+g:78,a:278,t:0,c:22 -->>
+g <=> a --- 620 => 619 <<<
+10	2
+g:10,a:294,t:11,c:1 -->>
+t <=> c --- 624 => 623 <<<
+36	1
+g:1,a:3,t:36,c:492 -->>
+28	37	26
+L_ND_B3B1-LCO1_G05_035.scf
+L_ND_B3B1-LCO1_G05_035.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/L_ND_B3B1-LCO1_G05_035.scf._647
+ttgttggtatttgatctggttttttaggtgctagaataagattaattattcgcacagaattggggatggtaggtagtattattatagatgagcagatttataattctatggttactgcacatgcttttcttataatttttttttttgttatacccgtagctgtaggtggttttggaaattggttattgcctttgataatgaatgctatagatatagcttttcctcgtttgaataatttaagattttgattagtccctgtggctttattatttataatgttaagtttactggttggtcttggacccgggacaggatggactgtctatccacctttgtctaattctatttatcattttggggggtcagtagattttgctatttttagtttgcatgtagctggtgtttcttctattttagggggaattaatttcattacaacttgtttaaaaggtaaaatcagttatgttttaagatttgagtttttaactttgtttgtgtgagctataattgttactaggtttttgttagttttaagattgcctgtcttagctgggggaattactatattattattagatcgtaattttggttcttcattttttgatcctagcgggggtgggaaccccattttgtatcagcatttgttt
+
+Consensus:HPRIM14
+tttattattggaatctgatcaggatttttaggtgctaggataagtttaattattcgtacggagttagggatagtgggaaggattattatagatgaacaaatttataattctatagttacagctcatgcttttttaataatttttttttttgttataccagttgctgttggtggttttggaaattgattattgcctttgatgataaatgctatagatatggcttttcctcgtttaaataatttgagtttttgactagtccctgtggctttattatttataagtttaagtttattagtaggtttaggcccaggaactggttgaactgtttatcctcctttatctaattcggtttatcattttggtggttctattgatttagctatttttagattacatgtggcaggagtatcttctattttaggggggattaattttattactacttgtttaaaaggtaagattagttatgttttaagatttgaatttttgactttatttgtttgagctatgattgttactagttttttattggttttaagtttaccagttcttgctggtggtattactatattattgttagatcgtaattttggatcttctttcttcgaccctagtggaggagggaatccaa
+
+Alignment
+tttattattggaatctgatcaggatttttaggtgctaggataagtttaattattcgtacggagttagggatagtgggaaggattattatagatgaacaaatttataattctatagttacagctcatgcttttttaataatttttttttttgttataccagttgctgttggtggttttggaaattgattattgcctttgatgataaatgctatagatatggcttttcctcgtttaaataatttgagtttttgactagtccctgtggctttattatttataagtttaagtttattagtaggtttaggcccaggaactggttgaactgtttatcctcctttatctaattcggtttatcattttggtggttctattgatttagctatttttagattacatgtggcaggagtatcttctattttaggggggattaattttattactacttgtttaaaaggtaagattagttatgttttaagatttgaatttttgactttatttgtttgagctatgattgttactagttttttattggttttaagtttaccagttctt*gctggtggtattactatattattgttagatcgtaattttggatcttctttcttcgaccctagtggaggaggg******a******atc**ca******a
+****ttgttggtatttgatctggttttttaggtgctagaataagattaattattcgcacagaattggggatggtaggtagtattattatagatgagcagatttataattctatggttactgcacatgcttttcttataatttttttttttgttatacccgtagctgtaggtggttttggaaattggttattgcctttgataatgaatgctatagatatagcttttcctcgtttgaataatttaagattttgattagtccctgtggctttattatttataatgttaagtttactggttggtcttggacccgggacaggatggactgtctatccacctttgtctaattctatttatcattttggggggtcagtagattttgctatttttagtttgcatgtagctggtgtttcttctattttagggggaattaatttcattacaacttgtttaaaaggtaaaatcagttatgttttaagatttgagtttttaactttgtttgtgtgagctataattgttactaggtttttgttagttttaagattgcctg*tcttagctgggggaattactatattattattagatcgtaattttggttcttcattttttgatcctagcgggggtgggaaccccattttgtatcagcatttgttt
+a <=> g --- 6 => 2 <<<
+17	3
+g:915,a:17,t:143,c:21 -->>
+a <=> t --- 11 => 7 <<<
+182	1
+g:136,a:182,t:683,c:8 -->>
+c <=> t --- 14 => 10 <<<
+7	2
+g:13,a:2,t:846,c:7 -->>
+a <=> t --- 20 => 16 <<<
+27	1
+g:15,a:27,t:792,c:18 -->>
+a <=> t --- 23 => 19 <<<
+3	3
+g:19,a:3,t:807,c:7 -->>
+g <=> a --- 38 => 34 <<<
+15	1
+g:15,a:1064,t:12,c:5 -->>
+t <=> a --- 44 => 40 <<<
+25	1
+g:2,a:1444,t:25,c:0 -->>
+t <=> c --- 56 => 52 <<<
+7	1
+g:3,a:0,t:7,c:778 -->>
+g <=> a --- 59 => 55 <<<
+9	2
+g:9,a:766,t:12,c:0 -->>
+g <=> a --- 62 => 58 <<<
+13	2
+g:13,a:988,t:21,c:3 -->>
+a <=> g --- 65 => 61 <<<
+8	1
+g:1133,a:8,t:1,c:4 -->>
+a <=> g --- 71 => 67 <<<
+19	1
+g:1364,a:19,t:0,c:4 -->>
+g <=> a --- 74 => 70 <<<
+26	1
+g:26,a:898,t:9,c:5 -->>
+a <=> t --- 77 => 73 <<<
+17	2
+g:18,a:17,t:822,c:2 -->>
+g <=> t --- 80 => 76 <<<
+8	2
+g:8,a:24,t:753,c:3 -->>
+a <=> g --- 95 => 91 <<<
+6	3
+g:381,a:6,t:21,c:11 -->>
+a <=> g --- 98 => 94 <<<
+23	1
+g:355,a:23,t:5,c:2 -->>
+a <=> g --- 113 => 109 <<<
+0	3
+g:846,a:0,t:10,c:3 -->>
+a <=> t --- 119 => 115 <<<
+15	2
+g:8,a:15,t:570,c:19 -->>
+t <=> a --- 122 => 118 <<<
+20	1
+g:17,a:393,t:20,c:20 -->>
+t <=> c --- 132 => 128 <<<
+54	1
+g:1,a:6,t:54,c:556 -->>
+a <=> t --- 134 => 130 <<<
+16	2
+g:1,a:16,t:554,c:26 -->>
+a <=> c --- 158 => 154 <<<
+6	2
+g:74,a:6,t:2,c:455 -->>
+t <=> a --- 161 => 157 <<<
+12	3
+g:46,a:311,t:12,c:24 -->>
+t <=> a --- 167 => 163 <<<
+16	2
+g:67,a:259,t:16,c:3 -->>
+a <=> g --- 185 => 181 <<<
+4	3
+g:254,a:4,t:67,c:5 -->>
+g <=> a --- 200 => 196 <<<
+1	2
+g:1,a:310,t:21,c:0 -->>
+a <=> g --- 203 => 199 <<<
+85	1
+g:311,a:85,t:1,c:3 -->>
+g <=> a --- 218 => 214 <<<
+25	1
+g:25,a:209,t:17,c:6 -->>
+a <=> g --- 233 => 229 <<<
+80	1
+g:256,a:80,t:5,c:2 -->>
+g <=> a --- 242 => 238 <<<
+3	3
+g:3,a:264,t:8,c:5 -->>
+t <=> a --- 245 => 241 <<<
+49	1
+g:10,a:418,t:49,c:0 -->>
+c <=> t --- 252 => 248 <<<
+0	2
+g:0,a:19,t:265,c:0 -->>
+g <=> t --- 280 => 276 <<<
+73	1
+g:73,a:17,t:156,c:2 -->>
+t <=> g --- 281 => 277 <<<
+34	1
+g:316,a:15,t:34,c:0 -->>
+t <=> c --- 291 => 287 <<<
+31	1
+g:0,a:16,t:31,c:210 -->>
+a <=> g --- 293 => 289 <<<
+14	1
+g:336,a:14,t:2,c:10 -->>
+a <=> t --- 296 => 292 <<<
+1	2
+g:65,a:1,t:185,c:0 -->>
+t <=> c --- 300 => 296 <<<
+50	1
+g:1,a:0,t:50,c:211 -->>
+a <=> t --- 302 => 298 <<<
+4	2
+g:63,a:4,t:194,c:1 -->>
+c <=> a --- 305 => 301 <<<
+50	1
+g:18,a:251,t:0,c:50 -->>
+a <=> c --- 308 => 304 <<<
+10	2
+g:32,a:10,t:0,c:220 -->>
+a <=> g --- 311 => 307 <<<
+48	1
+g:160,a:48,t:11,c:17 -->>
+t <=> a --- 314 => 310 <<<
+6	3
+g:41,a:166,t:6,c:12 -->>
+t <=> a --- 317 => 313 <<<
+36	1
+g:16,a:225,t:36,c:8 -->>
+a <=> g --- 320 => 316 <<<
+68	1
+g:188,a:68,t:0,c:12 -->>
+t <=> c --- 326 => 322 <<<
+56	1
+g:6,a:1,t:56,c:176 -->>
+t <=> a --- 332 => 328 <<<
+0	3
+g:4,a:115,t:0,c:80 -->>
+a <=> g --- 338 => 334 <<<
+0	3
+g:168,a:0,t:50,c:10 -->>
+g <=> t --- 347 => 343 <<<
+0	3
+g:0,a:35,t:177,c:13 -->>
+g <=> a --- 348 => 344 <<<
+2	2
+g:2,a:162,t:58,c:2 -->>
+t <=> g --- 362 => 358 <<<
+0	2
+g:254,a:11,t:0,c:0 -->>
+t <=> g --- 365 => 361 <<<
+21	1
+g:233,a:4,t:21,c:2 -->>
+t <=> a --- 368 => 364 <<<
+4	3
+g:35,a:166,t:4,c:10 -->>
+a <=> g --- 369 => 365 <<<
+16	2
+g:108,a:16,t:36,c:2 -->>
+t <=> a --- 371 => 367 <<<
+15	2
+g:21,a:161,t:15,c:0 -->>
+a <=> t --- 377 => 373 <<<
+2	2
+g:46,a:2,t:177,c:1 -->>
+a <=> t --- 389 => 385 <<<
+11	1
+g:6,a:11,t:178,c:0 -->>
+a <=> g --- 392 => 388 <<<
+9	2
+g:160,a:9,t:8,c:31 -->>
+g <=> a --- 398 => 394 <<<
+29	1
+g:29,a:124,t:5,c:2 -->>
+a <=> t --- 401 => 397 <<<
+4	3
+g:31,a:4,t:169,c:7 -->>
+a <=> t --- 404 => 400 <<<
+0	2
+g:56,a:0,t:114,c:0 -->>
+a <=> t --- 407 => 403 <<<
+0	3
+g:5,a:0,t:196,c:3 -->>
+g <=> a --- 425 => 421 <<<
+18	1
+g:18,a:280,t:12,c:0 -->>
+t <=> c --- 434 => 430 <<<
+22	2
+g:0,a:23,t:22,c:147 -->>
+t <=> a --- 440 => 436 <<<
+8	2
+g:0,a:137,t:8,c:11 -->>
+g <=> a --- 458 => 454 <<<
+4	1
+g:4,a:192,t:1,c:0 -->>
+t <=> c --- 461 => 457 <<<
+13	2
+g:0,a:33,t:13,c:134 -->>
+a <=> g --- 482 => 478 <<<
+16	2
+g:93,a:16,t:32,c:0 -->>
+g <=> a --- 488 => 484 <<<
+12	1
+g:12,a:158,t:2,c:0 -->>
+a <=> g --- 494 => 490 <<<
+12	2
+g:111,a:12,t:27,c:3 -->>
+t <=> g --- 500 => 496 <<<
+30	1
+g:124,a:1,t:30,c:1 -->>
+g <=> a --- 509 => 505 <<<
+5	1
+g:5,a:133,t:1,c:0 -->>
+t <=> g --- 521 => 517 <<<
+21	1
+g:145,a:4,t:21,c:4 -->>
+a <=> g --- 527 => 523 <<<
+4	2
+g:127,a:4,t:28,c:1 -->>
+g <=> a --- 530 => 526 <<<
+12	1
+g:12,a:124,t:8,c:0 -->>
+t <=> a --- 539 => 535 <<<
+30	1
+g:2,a:214,t:30,c:0 -->>
+a <=> g --- 542 => 538 <<<
+3	3
+g:122,a:3,t:7,c:26 -->>
+a <=> t --- 545 => 541 <<<
+0	3
+g:35,a:0,t:106,c:13 -->>
+t <=> g --- 558 => 553 <<<
+4	1
+g:120,a:0,t:4,c:2 -->>
+t <=> a --- 561 => 556 <<<
+3	2
+g:14,a:215,t:3,c:1 -->>
+g <=> a --- 576 => 571 <<<
+0	2
+g:0,a:126,t:26,c:0 -->>
+a <=> t --- 594 => 589 <<<
+0	3
+g:8,a:0,t:112,c:5 -->>
+t <=> a --- 600 => 595 <<<
+18	1
+g:2,a:79,t:18,c:14 -->>
+c <=> t --- 603 => 598 <<<
+11	1
+g:0,a:0,t:131,c:11 -->>
+c <=> t --- 606 => 601 <<<
+5	2
+g:29,a:3,t:97,c:5 -->>
+c <=> t --- 609 => 604 <<<
+22	1
+g:6,a:13,t:90,c:22 -->>
+t <=> c --- 615 => 610 <<<
+0	3
+g:27,a:9,t:0,c:68 -->>
+a <=> g --- 618 => 613 <<<
+0	2
+g:131,a:0,t:0,c:15 -->>
+a <=> t --- 621 => 616 <<<
+0	3
+g:42,a:0,t:87,c:3 -->>
+a <=> t --- 651 => 646 <<<
+19	1
+g:8,a:19,t:106,c:1 -->>
+41	31	19
+'Hap1 (A)' contains 'A'
+'Hap1 (A)' contains 'A'
+****************************************************************************************************
+Checking on row number 25
+****************************************************************************************************
+'Hap4 (F)' contains 'F'
+'Hap16-Hap19 (F)' contains 'F'
+'Hap15 (F)' contains 'F'
+'Hap11-Hap12 (F)' contains 'F'
+****************************************************************************************************
+Checking on row number 26
+****************************************************************************************************
+'Hap4 (F)' contains 'F'
+'Hap16-Hap22 (F)' contains 'F'
+'Hap14 (F)' contains 'F'
+'Hap11-Hap12 (F)' contains 'F'
+****************************************************************************************************
+Checking on row number 27
+****************************************************************************************************
+'Hap4 (F)' contains 'F'
+'Hap17-Hap20 (F)' contains 'F'
+'Hap13 (F)' contains 'F'
+'Hap11-Hap13 (F)' contains 'F'
+****************************************************************************************************
+Checking on row number 28
+****************************************************************************************************
+'Hap4 (F)' contains 'F'
+'Hap17-Hap22 (F)' contains 'F'
+'Hap16 (F)' contains 'F'
+'Hap11-Hap13 (F)' contains 'F'
+****************************************************************************************************
+Checking on row number 29
+****************************************************************************************************
+'Hap4 (F)' contains 'F'
+'Hap16-Hap19 (F)' contains 'F'
+'Hap17 (F)' contains 'F'
+'Hap11-Hap12 (F)' contains 'F'
+****************************************************************************************************
+Checking on row number 30
+****************************************************************************************************
+'Hap4 (F)' contains 'F'
+'Hap18-Hap21 (F)' contains 'F'
+'Hap19 (F)' contains 'F'
+'Hap14-Hap15 (F)' contains 'F'
+****************************************************************************************************
+Checking on row number 31
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6 (C)' contains 'C'
+'Hap10 (C)' contains 'C'
+'Hap4-Hap7 (C)' contains 'C'
+'Hap10-Hap15 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 32
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap14 (C)' contains 'C'
+'Hap10 (C)' contains 'C'
+'Hap7-Hap8 (C)' contains 'C'
+'Hap10-Hap16 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 33
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 34
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap11 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 35
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 36
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap7 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 37
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 38
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 39
+****************************************************************************************************
+'Hap5-Hap7 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4-Hap5 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 40
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 41
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 42
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 43
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 44
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 45
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 46
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 47
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 48
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 49
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap10-Hap15 (C)' contains 'C'
+'Hap10 (C)' contains 'C'
+'Hap4-Hap6 (C)' contains 'C'
+'Hap10-Hap13 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 50
+****************************************************************************************************
+'Hap6 (C)' contains 'C'
+'Hap12-Hap13 (C)' contains 'C'
+'Hap10 (C)' contains 'C'
+'Hap9 (C)' contains 'C'
+'Hap10-Hap14 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 51
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap10-Hap14 (C)' contains 'C'
+'Hap10 (C)' contains 'C'
+'Hap4-Hap9 (C)' contains 'C'
+'Hap10-Hap12 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 52
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap10-Hap14 (C)' contains 'C'
+'Hap10 (C)' contains 'C'
+'Hap4-Hap9 (C)' contains 'C'
+'Hap10-Hap12 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 53
+****************************************************************************************************
+'Hap6 (C)' contains 'C'
+'Hap10-Hap15 (C)' contains 'C'
+'Hap10 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap12 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 54
+****************************************************************************************************
+'Hap6 (C)' contains 'C'
+'Hap6-Hap10 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 55
+****************************************************************************************************
+'Hap6 (C)' contains 'C'
+'Hap6-Hap11 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+'Hap10-Hap11 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 56
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap10 (C)' contains 'C'
+'Hap8 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 57
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap6-Hap8 (C)' contains 'C'
+'Hap12 (C)' contains 'C'
+'Hap4 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 58
+****************************************************************************************************
+'Hap6 (C)' contains 'C'
+'Hap12-Hap13 (C)' contains 'C'
+'Hap10 (C)' contains 'C'
+'Hap9-Hap10 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 59
+****************************************************************************************************
+'Hap5-Hap6 (C)' contains 'C'
+'Hap37 (E)' NOT contains species 'C	D59'
+4,73	Hap37 (E)	Hap33-Hap37 (E) --->
+B22	A32
+H_B22-HCO1_E02_024.scf
+H_B22-HCO1_E02_024.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/H_B22-HCO1_E02_024.scf._618
+tcaaaaaaagaagagccaaaattacgatctaataataatatcgtaataccaccagctaaaacaggtagactaagtactaataaaaatctagtaacaattatcgctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaattttaccttttaaacatgtagtaataaaattaattccccctaaaattgaagaaacaccagctacatgaagactaaaaatagcaaaatcaatcgaaccaccaaaatgataaacagaattagataaaggggggtaaactgttcatcccgtaccaggacctaaaccaactaataagcttaaaactataaataataaagcaacaggaacaagtcaaaaccttaaattatttaaacgaggaaatgctatatctatagcatttatcattaaaggtaataatcaatttccaaaacctccaacagcaaccggtataacaaaaaagaaaattattaagaaagcatgggcagtaactatagaattataaatctgctcatctataataatcctgccaactatacctagctcagtgcgaataatcaaacttattctagctcctaaaaaaccagatcaaataccaataataaaatataatgta
+
+Consensus:A32
+ttggattcccccccccactagggtcaaaaaaagaagatccaaaattacgatctaacaataatatagtaataccaccagcaagaactggtaaacttaaaaccaataaaaaactagtaacaatcatagctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaatcttaccttttaaacaagtagtaataaaattaatcccccctaaaatagaagatactcctgccacatgtaatctaaaaatagctaaatcaatagaaccaccaaaatgataaactgaattagataaaggaggataaacagttcagccagttcctggacctaagcctactaataaacttaaacttataaataataaagccacagggactaatcaaaaactcaaattatttaaacgaggaaaagccatatctatagcatttatcattaaaggcaataatcaatttccaaaaccaccaacagcaactggtataacaaaaaaaaaaattattaaaaaagcatgagctgtaactatagaattataaatttgttcatctataatgattcttcccactatccctaactccgtacgaataattaaacttatcctagcacctaaaaatcctgatcagattccaataataaa
+
+Alignment
+ttggattcccccccccactagggtcaaaaaaagaagatccaaaattacgatctaacaataatatagtaataccaccagcaagaactggtaaacttaaaaccaataaaaaactagtaacaatcatagctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaatcttaccttttaaacaagtagtaataaaattaatcccccctaaaatagaagatactcctgccacatgtaatctaaaaatagctaaatcaatagaaccaccaaaatgataaactgaattagataaaggaggataaacagttcagccagttcctggacctaagcctactaataaacttaaacttataaataataaagccacagggactaatcaaaaactcaaattatttaaacgaggaaaagccatatctatagcatttatcattaaaggcaataatcaatttccaaaaccaccaacagcaactggtataacaaaaaaaaaaattattaaaaaagcatgagctgtaactatagaattataaatttgttcatctataatgattcttcccactatccctaactccgtacgaataattaaacttatcctagcacctaaaaatcctgatcagattcc***aat***a*ataa***a
+***********************tcaaaaaaagaagagccaaaattacgatctaataataatatcgtaataccaccagctaaaacaggtagactaagtactaataaaaatctagtaacaattatcgctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaattttaccttttaaacatgtagtaataaaattaattccccctaaaattgaagaaacaccagctacatgaagactaaaaatagcaaaatcaatcgaaccaccaaaatgataaacagaattagataaaggggggtaaactgttcatcccgtaccaggacctaaaccaactaataagcttaaaactataaataataaagcaacaggaacaagtcaaaaccttaaattatttaaacgaggaaatgctatatctatagcatttatcattaaaggtaataatcaatttccaaaacctccaacagcaaccggtataacaaaaaagaaaattattaagaaagcatgggcagtaactatagaattataaatctgctcatctataataatcctgccaactatacctagctcagtgcgaataatcaaacttattctagctcctaaaaaaccagatcaaataccaataataaaatataatgta
+t <=> g --- 37 => 14 <<<
+18	2
+g:589,a:5,t:18,c:19 -->>
+c <=> t --- 55 => 32 <<<
+16	2
+g:34,a:15,t:623,c:16 -->>
+a <=> c --- 64 => 41 <<<
+20	2
+g:39,a:20,t:15,c:669 -->>
+a <=> t --- 79 => 56 <<<
+9	2
+g:0,a:9,t:717,c:28 -->>
+g <=> a --- 81 => 58 <<<
+1	3
+g:1,a:620,t:16,c:4 -->>
+t <=> a --- 85 => 62 <<<
+19	2
+g:47,a:656,t:19,c:9 -->>
+a <=> g --- 90 => 67 <<<
+27	1
+g:571,a:27,t:2,c:5 -->>
+t <=> a --- 94 => 71 <<<
+8	2
+g:0,a:770,t:8,c:22 -->>
+a <=> g --- 96 => 73 <<<
+44	1
+g:593,a:44,t:2,c:2 -->>
+a <=> t --- 97 => 74 <<<
+35	1
+g:1,a:35,t:573,c:6 -->>
+c <=> t --- 100 => 77 <<<
+23	2
+g:14,a:28,t:715,c:23 -->>
+a <=> t --- 109 => 86 <<<
+14	2
+g:4,a:14,t:780,c:30 -->>
+c <=> t --- 121 => 98 <<<
+19	1
+g:1,a:7,t:831,c:19 -->>
+a <=> c --- 124 => 101 <<<
+2	3
+g:18,a:2,t:5,c:696 -->>
+c <=> t --- 172 => 149 <<<
+5	2
+g:52,a:0,t:1007,c:5 -->>
+a <=> t --- 187 => 164 <<<
+18	3
+g:29,a:18,t:868,c:21 -->>
+c <=> t --- 205 => 182 <<<
+51	1
+g:0,a:20,t:1062,c:51 -->>
+a <=> t --- 217 => 194 <<<
+36	1
+g:6,a:36,t:837,c:2 -->>
+t <=> a --- 223 => 200 <<<
+14	2
+g:86,a:823,t:14,c:12 -->>
+t <=> a --- 226 => 203 <<<
+35	2
+g:11,a:604,t:35,c:50 -->>
+t <=> a --- 229 => 206 <<<
+0	3
+g:14,a:614,t:0,c:29 -->>
+c <=> t --- 232 => 209 <<<
+2	3
+g:6,a:51,t:848,c:2 -->>
+t <=> a --- 238 => 215 <<<
+13	2
+g:86,a:887,t:13,c:2 -->>
+a <=> g --- 240 => 217 <<<
+13	1
+g:655,a:13,t:0,c:9 -->>
+t <=> a --- 241 => 218 <<<
+23	3
+g:30,a:1351,t:23,c:29 -->>
+t <=> a --- 253 => 230 <<<
+2	3
+g:12,a:601,t:2,c:43 -->>
+a <=> c --- 262 => 239 <<<
+3	2
+g:0,a:3,t:47,c:800 -->>
+t <=> a --- 283 => 260 <<<
+24	1
+g:16,a:658,t:24,c:13 -->>
+a <=> g --- 298 => 275 <<<
+10	1
+g:1033,a:10,t:1,c:0 -->>
+a <=> g --- 301 => 278 <<<
+15	3
+g:972,a:15,t:30,c:25 -->>
+a <=> t --- 307 => 284 <<<
+15	2
+g:47,a:15,t:801,c:5 -->>
+g <=> t --- 313 => 290 <<<
+0	3
+g:0,a:7,t:899,c:31 -->>
+a <=> c --- 316 => 293 <<<
+19	2
+g:13,a:19,t:28,c:713 -->>
+t <=> a --- 319 => 296 <<<
+9	3
+g:63,a:693,t:9,c:53 -->>
+t <=> a --- 322 => 299 <<<
+43	1
+g:10,a:573,t:43,c:19 -->>
+g <=> a --- 331 => 308 <<<
+0	3
+g:0,a:553,t:47,c:37 -->>
+t <=> a --- 334 => 311 <<<
+36	1
+g:7,a:648,t:36,c:10 -->>
+a <=> g --- 343 => 320 <<<
+11	2
+g:639,a:11,t:6,c:18 -->>
+c <=> a --- 350 => 327 <<<
+25	1
+g:2,a:744,t:14,c:25 -->>
+t <=> c --- 351 => 328 <<<
+91	1
+g:0,a:9,t:91,c:639 -->>
+c <=> a --- 367 => 344 <<<
+8	3
+g:70,a:595,t:11,c:8 -->>
+g <=> a --- 373 => 350 <<<
+57	1
+g:57,a:831,t:6,c:13 -->>
+t <=> a --- 376 => 353 <<<
+0	3
+g:27,a:595,t:0,c:9 -->>
+a <=> g --- 378 => 355 <<<
+4	2
+g:550,a:4,t:30,c:2 -->>
+a <=> c --- 385 => 362 <<<
+8	2
+g:7,a:8,t:66,c:642 -->>
+c <=> t --- 388 => 365 <<<
+12	2
+g:0,a:19,t:678,c:12 -->>
+a <=> t --- 409 => 386 <<<
+43	2
+g:57,a:43,t:693,c:4 -->>
+c <=> t --- 412 => 389 <<<
+0	3
+g:20,a:52,t:705,c:0 -->>
+c <=> t --- 439 => 416 <<<
+0	3
+g:28,a:72,t:422,c:0 -->>
+a <=> t --- 460 => 437 <<<
+3	3
+g:5,a:3,t:660,c:74 -->>
+t <=> c --- 472 => 449 <<<
+29	2
+g:47,a:8,t:29,c:641 -->>
+a <=> g --- 487 => 464 <<<
+38	1
+g:383,a:38,t:23,c:6 -->>
+a <=> g --- 499 => 476 <<<
+58	1
+g:415,a:58,t:21,c:0 -->>
+a <=> g --- 508 => 485 <<<
+1	3
+g:654,a:1,t:28,c:4 -->>
+t <=> a --- 511 => 488 <<<
+5	3
+g:47,a:557,t:5,c:10 -->>
+t <=> c --- 532 => 509 <<<
+112	1
+g:0,a:3,t:112,c:582 -->>
+t <=> c --- 535 => 512 <<<
+75	1
+g:16,a:7,t:75,c:517 -->>
+g <=> a --- 547 => 524 <<<
+5	2
+g:5,a:691,t:1,c:12 -->>
+t <=> c --- 550 => 527 <<<
+48	1
+g:48,a:0,t:48,c:667 -->>
+t <=> g --- 553 => 530 <<<
+4	3
+g:989,a:9,t:4,c:26 -->>
+c <=> a --- 556 => 533 <<<
+0	3
+g:51,a:435,t:7,c:0 -->>
+c <=> a --- 562 => 539 <<<
+68	1
+g:45,a:511,t:1,c:68 -->>
+a <=> g --- 567 => 544 <<<
+36	1
+g:335,a:36,t:0,c:25 -->>
+c <=> a --- 571 => 548 <<<
+17	3
+g:32,a:581,t:24,c:17 -->>
+a <=> g --- 574 => 551 <<<
+16	1
+g:876,a:16,t:1,c:16 -->>
+t <=> c --- 583 => 560 <<<
+38	1
+g:3,a:23,t:38,c:583 -->>
+c <=> t --- 592 => 569 <<<
+44	1
+g:0,a:12,t:615,c:44 -->>
+a <=> t --- 598 => 575 <<<
+8	2
+g:0,a:8,t:723,c:33 -->>
+t <=> a --- 607 => 584 <<<
+0	3
+g:14,a:618,t:0,c:64 -->>
+t <=> a --- 610 => 587 <<<
+3	3
+g:83,a:433,t:3,c:7 -->>
+g <=> a --- 616 => 593 <<<
+87	1
+g:87,a:388,t:14,c:7 -->>
+t <=> a --- 619 => 596 <<<
+2	3
+g:108,a:546,t:2,c:21 -->>
+25	23	24
+L_B22-LCO1_E02_024.scf
+L_B22-LCO1_E02_024.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/L_B22-LCO1_E02_024.scf._632
+ctggttttttaggagctagaataagtttgattattcgcactgagctaggtatagttggcaggattattatagatgagcagatttataattctatagttactgcccatgctttcttaataattttcttttttgttataccggttgctgttggaggttttggaaattgattattacctttaatgataaatgctatagatatagcatttcctcgtttaaataatttaaggttttgacttgttcctgttgctttattatttatagttttaagcttattagttggtttaggtcctggtacgggatgaacagtttacccccctttatctaattctgtttatcattttggtggttcgattgattttgctatttttagtcttcatgtagctggtgtttcttcaattttagggggaattaattttattactacatgtttaaaaggtaaaattagttatgttttaagatttgaatttttgactttatttgtttgagcgataattgttactagatttttattagtacttagtctacctgttttagctggtggtattacgatattattattagatcgtaattttggctcttctttttttgaccctagtggtggtgggaatccaattttatatcaacatttattt
+
+Consensus:A32
+tttattattggaatctgatcaggatttttaggtgctaggataagtttaattattcgtacggagttagggatagtgggaagaatcattatagatgaacaaatttataattctatagttacagctcatgcttttttaataatttttttttttgttataccagttgctgttggtggttttggaaattgattattgcctttaatgataaatgctatagatatggcttttcctcgtttaaataatttgagtttttgattagtccctgtggctttattatttataagtttaagtttattagtaggcttaggtccaggaactggctgaactgtttatcctcctttatctaattcagtttatcattttggtggttctattgatttagctatttttagattacatgtggcaggagtatcttctattttaggggggattaattttattactacttgtttaaaaggtaagattagttatgttttaagatttgaatttttgactttatttgtttgagctatgattgttactagttttttattggttttaagtttaccagttcttgctggtggtattactatattattgttagatcgtaattttggatcttctttttttgaccctagtgggggggggaatccaa
+
+Alignment
+tttattattggaatctgatcaggatttttaggtgctaggataagtttaattattcgtacggagttagggatagtgggaagaatcattatagatgaacaaatttataattctatagttacagctcatgcttttttaataatttttttttttgttataccagttgctgttggtggttttggaaattgattattgcctttaatgataaatgctatagatatggcttttcctcgtttaaataatttgagtttttgattagtccctgtggctttattatttataagtttaagtttattagtaggcttaggtccaggaactggctgaactgtttatcctcctttatctaattcagtttatcattttggtggttctattgatttagctatttttagattacatgtggcaggagtatcttctattttaggggggattaattttattactacttgtttaaaaggtaagattagttatgttttaagatttgaatttttgactttatttgtttgagctatgattgttactagttttttattggttttaagtttaccagttcttgctggtggtattactatattattgttagatcgtaattttggatcttctttttttgaccctagtgg*gg*ggg*********gga*atc**ca***a***
+**************c***t**ggttttttaggagctagaataagtttgattattcgcactgagctaggtatagttggcaggattattatagatgagcagatttataattctatagttactgcccatgctttcttaataattttcttttttgttataccggttgctgttggaggttttggaaattgattattacctttaatgataaatgctatagatatagcatttcctcgtttaaataatttaaggttttgacttgttcctgttgctttattatttatagttttaagcttattagttggtttaggtcctggtacgggatgaacagtttacccccctttatctaattctgtttatcattttggtggttcgattgattttgctatttttagtcttcatgtagctggtgtttcttcaattttagggggaattaattttattactacatgtttaaaaggtaaaattagttatgttttaagatttgaatttttgactttatttgtttgagcgataattgttactagatttttattagtacttagtctacctgttttagctggtggtattacgatattattattagatcgtaattttggctcttctttttttgaccctagtggtggtgggaatccaattttatatcaacatttattt
+a <=> t --- 23 => 4 <<<
+53	2
+g:140,a:53,t:556,c:31 -->>
+t <=> a --- 32 => 13 <<<
+30	2
+g:48,a:861,t:30,c:14 -->>
+g <=> a --- 38 => 19 <<<
+19	1
+g:19,a:714,t:1,c:14 -->>
+a <=> g --- 47 => 28 <<<
+4	3
+g:816,a:4,t:22,c:23 -->>
+t <=> c --- 56 => 37 <<<
+8	1
+g:3,a:1,t:8,c:608 -->>
+g <=> t --- 59 => 40 <<<
+12	3
+g:12,a:41,t:735,c:29 -->>
+t <=> c --- 63 => 44 <<<
+39	1
+g:21,a:15,t:39,c:672 -->>
+g <=> t --- 68 => 49 <<<
+22	2
+g:22,a:29,t:617,c:0 -->>
+g <=> t --- 74 => 55 <<<
+25	1
+g:25,a:3,t:858,c:8 -->>
+a <=> c --- 77 => 58 <<<
+9	3
+g:31,a:9,t:39,c:437 -->>
+a <=> g --- 80 => 61 <<<
+17	2
+g:1218,a:17,t:0,c:40 -->>
+c <=> t --- 83 => 64 <<<
+44	1
+g:9,a:36,t:746,c:44 -->>
+a <=> g --- 95 => 76 <<<
+13	2
+g:556,a:13,t:0,c:16 -->>
+a <=> g --- 98 => 79 <<<
+18	2
+g:534,a:18,t:0,c:24 -->>
+a <=> t --- 119 => 100 <<<
+5	3
+g:10,a:5,t:827,c:31 -->>
+t <=> c --- 122 => 103 <<<
+36	2
+g:65,a:1,t:36,c:762 -->>
+t <=> c --- 131 => 112 <<<
+82	1
+g:0,a:0,t:82,c:757 -->>
+t <=> c --- 143 => 124 <<<
+55	1
+g:7,a:23,t:55,c:737 -->>
+a <=> g --- 158 => 139 <<<
+0	2
+g:733,a:0,t:0,c:62 -->>
+t <=> a --- 170 => 151 <<<
+3	2
+g:45,a:929,t:3,c:1 -->>
+g <=> a --- 191 => 172 <<<
+2	3
+g:2,a:770,t:11,c:17 -->>
+g <=> a --- 218 => 199 <<<
+29	2
+g:29,a:510,t:35,c:2 -->>
+t <=> a --- 221 => 202 <<<
+9	2
+g:10,a:579,t:9,c:9 -->>
+g <=> a --- 242 => 223 <<<
+7	2
+g:7,a:607,t:24,c:2 -->>
+t <=> g --- 245 => 226 <<<
+3	3
+g:1186,a:75,t:3,c:8 -->>
+t <=> c --- 252 => 233 <<<
+22	1
+g:10,a:22,t:22,c:580 -->>
+a <=> t --- 254 => 235 <<<
+28	1
+g:22,a:28,t:646,c:4 -->>
+c <=> t --- 257 => 238 <<<
+9	2
+g:19,a:0,t:541,c:9 -->>
+g <=> t --- 263 => 244 <<<
+25	1
+g:25,a:0,t:577,c:5 -->>
+a <=> g --- 279 => 260 <<<
+18	1
+g:396,a:18,t:0,c:1 -->>
+g <=> t --- 280 => 261 <<<
+7	1
+g:7,a:4,t:401,c:0 -->>
+t <=> c --- 287 => 268 <<<
+3	2
+g:3,a:29,t:3,c:475 -->>
+a <=> t --- 296 => 277 <<<
+7	2
+g:21,a:7,t:469,c:2 -->>
+c <=> t --- 299 => 280 <<<
+1	3
+g:14,a:25,t:345,c:1 -->>
+a <=> t --- 308 => 289 <<<
+0	3
+g:25,a:0,t:511,c:1 -->>
+a <=> t --- 311 => 292 <<<
+56	1
+g:1,a:56,t:316,c:9 -->>
+t <=> g --- 314 => 295 <<<
+2	1
+g:415,a:2,t:2,c:2 -->>
+c <=> a --- 317 => 298 <<<
+31	1
+g:12,a:603,t:15,c:31 -->>
+t <=> a --- 323 => 304 <<<
+0	3
+g:35,a:424,t:0,c:8 -->>
+t <=> c --- 329 => 310 <<<
+23	1
+g:9,a:8,t:23,c:547 -->>
+t <=> c --- 332 => 313 <<<
+0	1
+g:0,a:0,t:0,c:569 -->>
+a <=> t --- 347 => 328 <<<
+13	1
+g:10,a:13,t:450,c:6 -->>
+t <=> g --- 368 => 349 <<<
+0	2
+g:334,a:50,t:0,c:0 -->>
+a <=> t --- 377 => 358 <<<
+5	2
+g:59,a:5,t:492,c:5 -->>
+a <=> t --- 389 => 370 <<<
+13	2
+g:2,a:13,t:327,c:23 -->>
+t <=> c --- 390 => 371 <<<
+7	1
+g:0,a:2,t:7,c:549 -->>
+a <=> t --- 392 => 373 <<<
+20	1
+g:1,a:20,t:469,c:7 -->>
+g <=> a --- 398 => 379 <<<
+12	2
+g:12,a:369,t:6,c:13 -->>
+a <=> t --- 401 => 382 <<<
+6	2
+g:35,a:6,t:534,c:1 -->>
+a <=> t --- 404 => 385 <<<
+4	2
+g:25,a:4,t:267,c:4 -->>
+a <=> t --- 407 => 388 <<<
+7	3
+g:22,a:7,t:448,c:10 -->>
+t <=> a --- 413 => 394 <<<
+19	1
+g:3,a:272,t:19,c:10 -->>
+g <=> a --- 425 => 406 <<<
+19	1
+g:19,a:690,t:5,c:0 -->>
+t <=> a --- 443 => 424 <<<
+46	1
+g:8,a:272,t:46,c:8 -->>
+g <=> a --- 458 => 439 <<<
+12	1
+g:12,a:422,t:0,c:2 -->>
+t <=> g --- 506 => 487 <<<
+0	3
+g:380,a:11,t:0,c:2 -->>
+g <=> a --- 509 => 490 <<<
+8	2
+g:8,a:355,t:9,c:1 -->>
+t <=> a --- 521 => 502 <<<
+12	1
+g:2,a:547,t:12,c:0 -->>
+g <=> a --- 530 => 511 <<<
+2	2
+g:2,a:493,t:13,c:0 -->>
+t <=> a --- 533 => 514 <<<
+2	2
+g:0,a:409,t:2,c:10 -->>
+t <=> c --- 534 => 515 <<<
+24	1
+g:0,a:1,t:24,c:423 -->>
+a <=> t --- 536 => 517 <<<
+3	1
+g:1,a:3,t:405,c:1 -->>
+t <=> c --- 540 => 521 <<<
+15	1
+g:2,a:1,t:15,c:451 -->>
+a <=> t --- 545 => 526 <<<
+0	3
+g:16,a:0,t:464,c:6 -->>
+c <=> t --- 549 => 530 <<<
+2	3
+g:16,a:32,t:402,c:2 -->>
+t <=> a --- 551 => 532 <<<
+46	1
+g:8,a:448,t:46,c:2 -->>
+t <=> g --- 566 => 547 <<<
+0	3
+g:202,a:33,t:0,c:17 -->>
+g <=> a --- 575 => 556 <<<
+0	3
+g:0,a:477,t:20,c:2 -->>
+a <=> c --- 593 => 574 <<<
+0	3
+g:1,a:0,t:47,c:247 -->>
+g <=> t --- 633 => 614 <<<
+0	3
+g:0,a:38,t:344,c:1 -->>
+g <=> t --- 634 => 615 <<<
+1	3
+g:1,a:4,t:337,c:6 -->>
+29	24	18
+'Hap10 (C)' contains 'C'
+'Hap16 (C)' contains 'C'
+****************************************************************************************************
+Checking on row number 60
+****************************************************************************************************
+'Hap9-Hap10 (D)' contains 'D'
+'Hap45 (D)' contains 'D'
+'Hap37 (D)' contains 'D'
+'Hap36-Hap38 (D)' contains 'D'
+'Hap36-Hap37 (D)' contains 'D'
+****************************************************************************************************
+Checking on row number 61
+****************************************************************************************************
+'Hap9-Hap10 (D)' contains 'D'
+'Hap45 (D)' contains 'D'
+'Hap39 (D)' contains 'D'
+'Hap36 (D)' contains 'D'
+'Hap37 (D)' contains 'D'
+****************************************************************************************************
+Checking on row number 62
+****************************************************************************************************
+'Hap9-Hap10 (D)' contains 'D'
+'Hap45-Hap46 (D)' contains 'D'
+'Hap38 (D)' contains 'D'
+'Hap36-Hap37 (D)' contains 'D'
+'Hap38-Hap39 (D)' contains 'D'
+****************************************************************************************************
+Checking on row number 63
+****************************************************************************************************
+'Hap11-Hap16 (E)' contains 'E'
+'Hap25-Hap29 (E)' contains 'E'
+'Hap21 (E)' contains 'E'
+'Hap17-Hap21 (E)' contains 'E'
+'Hap17-Hap31 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 64
+****************************************************************************************************
+'Hap11-Hap16 (E)' contains 'E'
+'Hap23-Hap32 (E)' contains 'E'
+'Hap28 (E)' contains 'E'
+'Hap33-Hap34 (E)' contains 'E'
+'Hap19-Hap21 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 65
+****************************************************************************************************
+'Hap11-Hap16 (E)' contains 'E'
+'Hap28-Hap29 (E)' contains 'E'
+'Hap20 (E)' contains 'E'
+'Hap25 (E)' contains 'E'
+'Hap28 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 66
+****************************************************************************************************
+'Hap11-Hap16 (E)' contains 'E'
+'Hap38-Hap41 (E)' contains 'E'
+'Hap22 (E)' contains 'E'
+'Hap32 (E)' contains 'E'
+'Hap17-Hap30 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 67
+****************************************************************************************************
+'Hap11-Hap16 (E)' contains 'E'
+'Hap30-Hap36 (E)' contains 'E'
+'Hap10 (C)' NOT contains species 'E	E67'
+5,31	Hap10 (C)	Hap10 (C) --->
+B39	H004
+H_B39_LCOI_55.scf
+H_B39_LCOI_55.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/H_B39_LCOI_55.scf._642
+attggattcccaccaccactagggtcaaaaaaagaagagccaaaattacgatctaataataatatcgtaataccaccagctaaaacaggtagactaagtactaataaaaatctagtaacaattatcgctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaattttaccttttaaacatgtagtaataaaattaattccccctaaaattgaagaaacaccagctacatgaagactaaaaatagcaaaatcaatcgaaccaccaaaatgataaacagaattagataaaggggggtaaactgttcatcccgtaccaggacctaaaccaactaataagcttaaaactataaataataaagcaacaggaacaagtcaaaaccttaaattatttaaacgaggaaatgctatatctatagcatttatcattaaaggtaataatcaatttccaaaacctccaacagcaaccggtataacaaaaaagaaaattattaagaaagcatgggcagtaactatagaattataaatctgctcatctataataatcctgccaactatacctagctcagtgcgaataatcaaacttattctagctcctaaaaaaccagatcaaataccaataataaaatataatgta
+
+Consensus:H004
+ttggattcccaccaccactagggtcaaaaaaagaagagccaaaattacgatctaataataatatcgtaataccaccagctaaaacaggtagactaagtactaataaaaatctagtaacaattatcgctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaattttaccttttaaacatgtagtaataaaattaattccccctaaaattgaagaaacaccagctacatgaagactaaaaatagcaaaatcaatcgaaccaccaaaatgataaacagaattagataaaggggggtaaactgttcatcccgtaccaggacctaaaccaactaataagcttaaaactataaataataaagcaacaggaacaagtcaaaaccttaaattatttaaacgaggaaatgctatatctatagcatttatcattaaaggtaataatcaatttccaaaacctccaacagcaaccggtataacaaaaaagaaaattattaagaaagcatgggcagtaactatagaattataaatctgctcatctataataatcctgccaactatacctagctcagtgcgaataatcaaacttattctagctcctaaaaaaccagatcaaataccaataataaa
+
+Alignment
+*ttggattcccaccaccactagggtcaaaaaaagaagagccaaaattacgatctaataataatatcgtaataccaccagctaaaacaggtagactaagtactaataaaaatctagtaacaattatcgctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaattttaccttttaaacatgtagtaataaaattaattccccctaaaattgaagaaacaccagctacatgaagactaaaaatagcaaaatcaatcgaaccaccaaaatgataaacagaattagataaaggggggtaaactgttcatcccgtaccaggacctaaaccaactaataagcttaaaactataaataataaagcaacaggaacaagtcaaaaccttaaattatttaaacgaggaaatgctatatctatagcatttatcattaaaggtaataatcaatttccaaaacctccaacagcaaccggtataacaaaaaagaaaattattaagaaagcatgggcagtaactatagaattataaatctgctcatctataataatcctgccaactatacctagctcagtgcgaataatcaaacttattctagctcctaaaaaaccagatcaaatacc***aat***a*ataa***a
+attggattcccaccaccactagggtcaaaaaaagaagagccaaaattacgatctaataataatatcgtaataccaccagctaaaacaggtagactaagtactaataaaaatctagtaacaattatcgctcaaacaaataaagtcaaaaattcaaatcttaaaacataactaattttaccttttaaacatgtagtaataaaattaattccccctaaaattgaagaaacaccagctacatgaagactaaaaatagcaaaatcaatcgaaccaccaaaatgataaacagaattagataaaggggggtaaactgttcatcccgtaccaggacctaaaccaactaataagcttaaaactataaataataaagcaacaggaacaagtcaaaaccttaaattatttaaacgaggaaatgctatatctatagcatttatcattaaaggtaataatcaatttccaaaacctccaacagcaaccggtataacaaaaaagaaaattattaagaaagcatgggcagtaactatagaattataaatctgctcatctataataatcctgccaactatacctagctcagtgcgaataatcaaacttattctagctcctaaaaaaccagatcaaataccaataataaaatataatgta
+0	0	0
+L_B39_HCOI_54.scf
+L_B39_HCOI_54.scf	/home/urbe/Tools/MyTools/ConTAMPR
+Chromatogram:>/home/urbe/Tools/MyTools/ConTAMPR/markers/L_B39_HCOI_54.scf._643
+tggtatttgatctggttttttaggagctagaataagtttgattattcgcactgagctaggtatagttggcaggattattatagatgagcagatttataattctatagttactgcccatgctttcttaataattttcttttttgttataccggttgctgttggaggttttggaaattgattattacctttaatgataaatgctatagatatagcatttcctcgtttaaataatttaaggttttgacttgttcctgttgctttattatttatagttttaagcttattagttggtttaggtcctggtacgggatgaacagtttacccccctttatctaattctgtttatcattttggtggttcgattgattttgctatttttagtcttcatgtagctggtgtttcttcaattttagggggaattaattttattactacatgtttaaaaggtaaaattagttatgttttaagatttgaatttttgactttatttgtttgagcgataattgttactagatttttattagtacttagtctacctgttttagctggtggtattacgatattattattagatcgtaattttggctcttctttttttgaccctagtggtggtgggaatccaattttatatcaacatttattt
+
+Consensus:H004
+tttattattggtatttgatctggttttttaggagctagaataagtttgattattcgcactgagctaggtatagttggcaggattattatagatgagcagatttataattctatagttactgcccatgctttcttaataattttcttttttgttataccggttgctgttggaggttttggaaattgattattacctttaatgataaatgctatagatatagcatttcctcgtttaaataatttaaggttttgacttgttcctgttgctttattatttatagttttaagcttattagttggtttaggtcctggtacgggatgaacagtttacccccctttatctaattctgtttatcattttggtggttcgattgattttgctatttttagtcttcatgtagctggtgtttcttcaattttagggggaattaattttattactacatgtttaaaaggtaaaattagttatgttttaagatttgaatttttgactttatttgtttgagcgataattgttactagatttttattagtacttagtctacctgttttagctggtggtattacgatattattattagatcgtaattttggctcttctttttttgaccctagtggtggtgggaatccaa
+
+Alignment
+tttattattggtatttgatctggttttttaggagctagaataagtttgattattcgcactgagctaggtatagttggcaggattattatagatgagcagatttataattctatagttactgcccatgctttcttaataattttcttttttgttataccggttgctgttggaggttttggaaattgattattacctttaatgataaatgctatagatatagcatttcctcgtttaaataatttaaggttttgacttgttcctgttgctttattatttatagttttaagcttattagttggtttaggtcctggtacgggatgaacagtttacccccctttatctaattctgtttatcattttggtggttcgattgattttgctatttttagtcttcatgtagctggtgtttcttcaattttagggggaattaattttattactacatgtttaaaaggtaaaattagttatgttttaagatttgaatttttgactttatttgtttgagcgataattgttactagatttttattagtacttagtctacctgttttagctggtggtattacgatattattattagatcgtaattttggctcttctttttttgaccctagtggtggtggg***********a*atc**ca***a***
+********tggtatttgatctggttttttaggagctagaataagtttgattattcgcactgagctaggtatagttggcaggattattatagatgagcagatttataattctatagttactgcccatgctttcttaataattttcttttttgttataccggttgctgttggaggttttggaaattgattattacctttaatgataaatgctatagatatagcatttcctcgtttaaataatttaaggttttgacttgttcctgttgctttattatttatagttttaagcttattagttggtttaggtcctggtacgggatgaacagtttacccccctttatctaattctgtttatcattttggtggttcgattgattttgctatttttagtcttcatgtagctggtgtttcttcaattttagggggaattaattttattactacatgtttaaaaggtaaaattagttatgttttaagatttgaatttttgactttatttgtttgagcgataattgttactagatttttattagtacttagtctacctgttttagctggtggtattacgatattattattagatcgtaattttggctcttctttttttgaccctagtggtggtgggaatccaattttatatcaacatttattt
+0	0	0
+'Hap16 (E)' contains 'E'
+'Hap19 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 68
+****************************************************************************************************
+'Hap11-Hap12 (E)' contains 'E'
+'Hap26 (E)' contains 'E'
+'Hap35 (E)' contains 'E'
+'Hap19-Hap23 (E)' contains 'E'
+'Hap32-Hap33 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 69
+****************************************************************************************************
+'Hap11-Hap12 (E)' contains 'E'
+'Hap26 (E)' contains 'E'
+'Hap36 (E)' contains 'E'
+'Hap19-Hap35 (E)' contains 'E'
+'Hap34-Hap35 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 70
+****************************************************************************************************
+'Hap16 (E)' contains 'E'
+'Hap31 (E)' contains 'E'
+'Hap33 (E)' contains 'E'
+'Hap28-Hap29 (E)' contains 'E'
+'Hap18 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 71
+****************************************************************************************************
+'Hap16 (E)' contains 'E'
+'Hap39-Hap43 (E)' contains 'E'
+'Hap23 (E)' contains 'E'
+'Hap27 (E)' contains 'E'
+'Hap17-Hap27 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 72
+****************************************************************************************************
+'Hap16 (E)' contains 'E'
+'Hap39-Hap44 (E)' contains 'E'
+'Hap26 (E)' contains 'E'
+'Hap27 (E)' contains 'E'
+'Hap17-Hap27 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 73
+****************************************************************************************************
+'Hap16 (E)' contains 'E'
+'Hap33-Hap37 (E)' contains 'E'
+'Hap28 (E)' contains 'E'
+'Hap32-Hap34 (E)' contains 'E'
+'Hap19-Hap21 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 74
+****************************************************************************************************
+'Hap16 (E)' contains 'E'
+'Hap42 (E)' contains 'E'
+'Hap33 (E)' contains 'E'
+'Hap17-Hap18 (E)' contains 'E'
+'Hap17-Hap26 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 75
+****************************************************************************************************
+'Hap16 (E)' contains 'E'
+'Hap37 (E)' contains 'E'
+'Hap29 (E)' contains 'E'
+'Hap34 (E)' contains 'E'
+'Hap21 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 76
+****************************************************************************************************
+'Hap16 (E)' contains 'E'
+'Hap29-Hap40 (E)' contains 'E'
+'Hap25 (E)' contains 'E'
+'Hap26-Hap27 (E)' contains 'E'
+'Hap17-Hap27 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 77
+****************************************************************************************************
+'Hap16 (E)' contains 'E'
+'Hap24 (E)' contains 'E'
+'Hap27 (E)' contains 'E'
+'Hap29 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 78
+****************************************************************************************************
+'Hap16 (E)' contains 'E'
+'Hap27 (E)' contains 'E'
+'Hap30-Hap31 (E)' contains 'E'
+'Hap17-Hap31 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 79
+****************************************************************************************************
+'Hap14-Hap16 (E)' contains 'E'
+'Hap24-Hap36 (E)' contains 'E'
+'Hap34 (E)' contains 'E'
+'Hap26-Hap27 (E)' contains 'E'
+'Hap17 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 80
+****************************************************************************************************
+'Hap12-Hap15 (E)' contains 'E'
+'Hap27-Hap34 (E)' contains 'E'
+'Hap33 (E)' contains 'E'
+'Hap18-Hap22 (E)' contains 'E'
+'Hap20-Hap23 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 81
+****************************************************************************************************
+'Hap12 (E)' contains 'E'
+'Hap26 (E)' contains 'E'
+'Hap36 (E)' contains 'E'
+'Hap24 (E)' contains 'E'
+'Hap24-Hap25 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 82
+****************************************************************************************************
+'Hap13-Hap16 (E)' contains 'E'
+'Hap30-Hap35 (E)' contains 'E'
+'Hap31 (E)' contains 'E'
+'Hap16 (E)' contains 'E'
+'Hap19-Hap22 (E)' contains 'E'
+****************************************************************************************************
+Checking on row number 83
+****************************************************************************************************
+'Hap17-Hap18 (B)' contains 'B'
+'Hap47-Hap48 (B)' contains 'B'
+'Hap40 (B)' contains 'B'
+'Hap39-Hap40 (B)' contains 'B'
+'Hap40 (B)' contains 'B'
