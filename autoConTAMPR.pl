@@ -22,7 +22,6 @@ use List::Util qw< sum >;
 use Statistics::Distributions qw< chisqrprob >;
 use Term::ProgressBar 2.00;
 use Bio::Perl;
-use 5.012;
 
 print  <<'WELCOME';  
 	  /\	
