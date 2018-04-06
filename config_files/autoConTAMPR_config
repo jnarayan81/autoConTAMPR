@@ -1,0 +1,15 @@
+# comment lines are ignored;
+# end directory names with '/' charactere whenever possible
+# you can reference the data_dir in the other parameters by writing "$data_dir", when applicable (path to directories or files)
+
+-=-=-= PATH TO EXTERNAL PROGRAMS USED BY autoConTAMPR =-=-=-
+
+circos = /home/jitendra/Downloads/circos-0.69-6/bin
+rscript = /usr/bin/R
+
+-=-=-= PARAMETERS FOR INTERNAL USE =-=-=-
+
+result = result.out
+summary = summary
+log_file = final_log.log
+log_err = error_log.log

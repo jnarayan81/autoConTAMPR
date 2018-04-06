@@ -1,0 +1,39 @@
+#-----------------------------------------------------------------------------------------------------------------------------
+#---PROJECT PARAMETERS---
+
+data_dir = /home/jitendra/Downloads/MyTool/autoConTAMPR/2JF
+out_dir =/home/jitendra/Downloads/MyTool/autoConTAMPR/out
+
+#-----------------------------------------------------------------------------------------------------------------------------
+#---GENERAL SETTINGS
+
+mode = general	 	# 'general' for all_vs_all, and 'selected' for selected.
+max_processors = 1	# Number of processor for BLAST only
+verbose = 1      	# Print all detail #1 to print nice log messages telling you what is going on. 0 otherwise
+force=1
+mismatch=1   		# Zero is by default
+reverse=1    		# 1 for yes 0 for no
+overlaps=1		# 1 to remove and 0 to keep
+extend=50		# extend=5000 #Extend the size of all breakspoints before checking -- in bp
+chekerExtend=10		# chekerExtend=100 # Extend the size of the breakpoints regions -- in bp
+palsize=10		# Size of the palindrome to consider positive
+
+check=1                 # Check the q4 region in GFF file provided 1 to yes else 0
+draw=1			# 1 if you wish to drwo the final table with R 
+clean=1			# clean the tmp files at the end
+
+download=1		# 1 for download and 0 for does not download 
+threshold=1 		# Threshold to plot the main circos plot with all connections
+len=600 		# Length of the markers; used while circos plot
+method=approx 		# "approx" if you want to use percentage appraoch in HSB reconstruction, else keep it "normal" (distance way). 
+
+#---GENERAL PENALTY
+mutation=-1		# Penalise the mutation
+score=0			# Score to filter out weak hits and plot/stats
+consider=4 		# In case of polyG what should be minimum G size to consider
+
+#Important files location
+#contaminated_seq =  /home/jitendra/Downloads/MyTool/autoConTAMPR/COI_full_LC.fas
+contaminated_seq =  /home/jitendra/Downloads/MyTool/autoConTAMPR/COIfinal_LC_JF1.fas
+table =  /home/jitendra/Downloads/MyTool/autoConTAMPR/table_JF1.csv
+
