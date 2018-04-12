@@ -1,66 +1,99 @@
 use strict;
 use warnings;
+
 use re qw(eval);
 use vars qw($matchStart);
 
-sub validateHelp {
-  my $ver = $_[0];
-  print "\n  autoConTAMPR --validate $ver \n\n";
-  print "    Usage: autoConTAMPR.pl --validate/-v --conf/-c <configuration file>\n\n";
-  print "    To check the contamination in the consensus markers fasta sequences\n\n";
-  print "    The path to a valid autoConTAMPR configuration file. This file contains all parameters needed to execute  autoConTAMPR.\n\n";
+#Check perl modules
+sub installModules {
+my ($script, $download) = @_;
+die "Provide script file name on the command line\n" unless defined $script;
 
-exit(1);
+my @modules = qw(
+Cwd;
+File::chdir;
+File::Copy;
+File::Temp;
+File::Spec::Functions;
+File::Basename;
+FindBin;
+lib::abs;
+File::Remove;
+File::Path;
+Capture::Tiny;
+Getopt::Long;
+Data::Dumper;
+File::Find;
+Pod::Usage;
+Spreadsheet::Read;
+autodie;
+File::Temp;
+File::Copy;
+Carp; 
+Path::Tiny;
+POSIX;
+Scalar::Util;
+IO::File;
+Bio::SCF;
+Bio::DB::Fasta;
+File::Path;
+Statistics::ChiSquare;
+List::Util;
+Statistics::Distributions;
+Term::ProgressBar 2.00;
+Bio::SeqIO;
+CPAN;
+);
+
+print "Checking mandatory modules for autoConTAMPR\n\n";
+checkModules(\@modules, $download); ## Provide the name of all modules
+
+=pod	
+until ( do $script ) {
+    my $expire = $@;
+    if ( my ($file) = $expire =~ /^Can't locate (.+?) in/ ) {
+        my $module = $file;
+        $module =~ s/\.(\w+)$//;
+        $module = join('::', split '/', $module);
+        print "Attempting to install '$module' via cpan\n";
+        system(cpan => $module);
+        last unless prompt(y => 'Try Again?', '', 'n');
+    }
+    else {
+        die $expire;
+    }
+}
+=cut
+
 }
 
-sub annotHelp {
-  my $ver = $_[0];
-  print "\n  autoConTAMPR --annot $ver \n\n";
-  print "    Usage: autoConTAMPR.pl --annot/-x --conf/-c <configuration file>\n\n";
-  print "    To annotate the autoConTAMPR results \n\n";
-  print "    The path to a valid autoConTAMPR configuration file. This file contains all parameters needed to execute  autoConTAMPR.\n\n";
-
-exit(1);
-}
-
-sub fullHelp {
-  my $ver = $_[0];
-  print "\n  autoConTAMPR --full $ver \n\n";
-  print "    Usage: autoConTAMPR.pl --full/-f --conf/-c <configuration file>\n\n";
-  print "    To run complete in one GO \n\n";
-  print "    The path to a valid autoConTAMPR configuration file. This file contains all parameters needed to execute  autoConTAMPR.\n\n";
-
-exit(1);
-}
-
-sub installHelp {
-  my $ver = $_[0];
-  print "\n  autoConTAMPR --full $ver \n\n";
-  print "    Usage: autoConTAMPR.pl --install/-i --conf/-c <configuration file>\n\n";
-  print "    To run complete in one GO \n\n";
-  print "    The path to a valid autoConTAMPR configuration file. This file contains all parameters needed to execute  autoConTAMPR.\n\n";
-
-exit(1);
-}
-
-sub plotHelp {
-  my $ver = $_[0];
-  print "\n  autoConTAMPR --plot $ver \n\n";
-  print "    Usage: autoConTAMPR.pl --plot/-p --conf/-c <configuration file>\n\n";
-  print "    To plot the autoConTAMPR results \n\n";
-  print "    The path to a valid autoConTAMPR configuration file. This file contains all parameters needed to execute  autoConTAMPR.\n\n";
-
-exit(1);
+#Check the modules and if not install try to install it
+sub checkModules {
+	my ($reqMod_ref, $download)=@_;
+	my @reqMod=@$reqMod_ref;
+	for(@reqMod) {
+    	eval "use $_";
+    		if ($@) {
+        		warn "Not found -> $_ module\t Need to install $_ \n" if $@;
+			if ($download eq '1') { print "Trying to download using CPAN\n"; CPAN::Shell->install($_); }
+    		} else {
+        		print "Found : $_\n";
+    		}
+	}
 }
 
 
 #All individual against all
 sub allConTAMPRLocal {
-my ($table, $consensus, $markerDir, $outfile, $draw, $brutal, $verbose, $logfile, $param)=@_;
+my ($table, $consensus, $markerDir, $outfile, $draw, $brutal, $verbose, $logfh, $param, $wfh, $logerr)=@_;
 
-my $logfh = IO::File->new("$logfile",'w') if $verbose;
+#my $logfh = IO::File->new("$logfile",'w') if $verbose;
 my $ofh = IO::File->new("$outfile",'w') if $verbose;
 my $seperator='*' x 100;
+
+#Store into hash
+my $hash_ref = storeIntoHash ($table, 1);
+my %hash = %$hash_ref;
 
 my $ss = ReadData ("$table", attr => 1)->[1]; #Reading sheet 1 
 my $book = Spreadsheet::Read->new ("$table");
@@ -75,9 +108,9 @@ foreach my $row (1 .. $ss->{maxrow}) {
         	#printf "%s %-3s %d  ", $cell, $ss->{$cell}, $ss->{attr}[$col][$row]{merged};
 		if ($col == 1) { $speciesName=$ss->{$cell}; next;}		
 		#print "$cell\t";
-		if ($col == 2) { $rVal=$ss->{$cell}; print "$rVal\n";}
+		if ($col == 2) { $rVal=$ss->{$cell};}
 		next if $col > 2;
-		my @col = $sheet->column($col); foreach (@col) { print "$_\n";} #exit; # Column 2 is indivisual name
+		my @col = $sheet->column($col);  #foreach (@col) { print "$_\n";} #exit; # Column 2 is indivisual name
 		shift @col;
 		if (index($ss->{$cell}, "($speciesName)") != -1) { print $logfh "'$ss->{$cell}' contains '$speciesName'\n" if $verbose; }
 
@@ -95,12 +128,15 @@ foreach my $row (1 .. $ss->{maxrow}) {
 			my ($indRName)="_"."$rVal"."_";
 			my ($indCName)=$cVal;
 
-			print "$indRName\t$indCName\n" if $verbose;
-			my ($fileArray_ref) = returnFilePath($markerDir,$indRName);
+			#print "$indRName\t$indCName\n" if $verbose;
+			my ($fileArray_ref) = returnFilePath($markerDir,$indRName, $wfh);
 			#my $workDir=getcwd(); 
 			my @fArray= @$fileArray_ref;
 			my $lHand=''; my $hHand=''; my $direction='NA';
-
+			
+			#Ignore if not scf file found
+			next if (!@fArray) and ($param->{ignore} == 1);
+			
 			#Lets work on both scf files
 			my $tSec=1; my $tThi=1; my $tFou=1;
 			foreach my $f (sort {$a cmp $b} @fArray) {
@@ -125,7 +161,9 @@ foreach my $row (1 .. $ss->{maxrow}) {
 			my $chisprob=Statistics::Distributions::fprob(2,3,$chi);
 			my $chichi='NA';
 			$tSec= $tSec-1; $tThi= $tThi-1; $tFou= $tFou-1; # Just to count 1 less (because cnt start from 1)
-			print $ofh "$speciesName\t$indRName\t$indCName\t$ss->{$cell}\t$tSec\t$tThi\t$tFou\t$chiVal\t$chi\t$chisprob\t$chichi\n";
+			my $spsNameConnection=$hash{$ss->{$cell}};
+			$indRName =~ s/\_//g;
+			print $ofh "$speciesName\t$indRName\t$indCName\t$spsNameConnection\t$tSec\t$tThi\t$tFou\t$chiVal\n";
 
 			if ($brutal eq "yes") { print $logfh "\nExiting with ONE run --- \n\n" if $verbose; exit; }	
 		}
@@ -139,12 +177,11 @@ close $ofh;
 #Reformat the result data
 reformatOut($outfile, "$param->{out_dir}/results/plotData");
 my $workDir = getcwd();
-	if ($draw) { 
-	print "\nYou have opted to draw final table- Drawing ...\n";
+	if ($draw) {
+	print $logfh "\nYou have opted to draw final table- Drawing ...\n";
 	my $rDrawer = system "Rscript $workDir/utils/conPlot.R $param->{out_dir}/results/plotData $param->{out_dir}/results/seeStat.pdf";
-		if(! $rDrawer) { print "Done with drawing final table with R :)\n\n"; exit(1); }
+		if(! $rDrawer) { print $logfh "Done with drawing final table with R :)\n\n"; exit(1); }
 		else { print "\nIt seems, R path is not set correctly, please set the R path in autoConTAMPR_config file and re-run!!\n - Terminated final R drawing abnormally !!\n"; exit; }
-
 	}
 }
 
@@ -158,6 +195,25 @@ close $in;
 return $all;
 }
 
+
+#store into hash
+sub storeIntoHash {
+my ($table, $col)=@_;
+my %hash;
+open(my $fh, '<:encoding(UTF-8)', $table) or die "Could not open file '$table' $!";
+while (my $row = <$fh>) {
+  chomp $row;
+  my @tmp = split '\t', $row;
+  if ($col == 1) {
+  $hash{$tmp[1]}=$tmp[0];
+  }
+  elsif($col == 3) {
+  $hash{$tmp[0]}=$tmp[3];
+  }
+}
+return \%hash;
+}
+
 #Write to the file
 sub write_file {
 my ($filename, $content) = @_;
@@ -168,7 +224,7 @@ return;
 }
 
 
-#All individual against all
+#All individual against all --not in use just for testing
 sub allConTAMPRGlobal {
 my ($table, $consensus, $markerDir, $outfile, $plot, $brutal, $verbose, $logfile)=@_;
 
@@ -242,87 +298,6 @@ if ($plot) { system "Rscript $workDir/utils/conPlot.R plotData";}
 
 }
 
-
-
-#Check perl modules
-
-
-sub installModules {
-my ($script, $download) = @_;
-die "Provide script file name on the command line\n" unless defined $script;
-
-my @modules = qw(
-Cwd;
-File::chdir;
-File::Copy;
-File::Temp;
-File::Spec::Functions;
-File::Basename;
-FindBin;
-lib::abs;
-File::Remove;
-File::Path;
-Capture::Tiny;
-Getopt::Long;
-Data::Dumper;
-File::Find;
-Pod::Usage;
-Spreadsheet::Read;
-autodie;
-File::Temp;
-File::Copy;
-Carp; 
-Path::Tiny;
-POSIX;
-IO::File;
-Bio::SCF;
-Bio::DB::Fasta;
-File::Path;
-Statistics::ChiSquare;
-List::Util;
-Statistics::Distributions;
-Term::ProgressBar 2.00;
-Bio::SeqIO;
-CPAN;
-);
-
-print "Checking mandatory modules for autoConTAMPR\n\n";
-checkModules(\@modules, $download); ## Provide the name of all modules
-
-=pod	
-until ( do $script ) {
-    my $expire = $@;
-    if ( my ($file) = $expire =~ /^Can't locate (.+?) in/ ) {
-        my $module = $file;
-        $module =~ s/\.(\w+)$//;
-        $module = join('::', split '/', $module);
-        print "Attempting to install '$module' via cpan\n";
-        system(cpan => $module);
-        last unless prompt(y => 'Try Again?', '', 'n');
-    }
-    else {
-        die $expire;
-    }
-}
-=cut
-}
-
-#Check the modules and if not install try to install it
-sub checkModules {
-	my ($reqMod_ref, $download)=@_;
-	my @reqMod=@$reqMod_ref;
-	for(@reqMod) {
-    	eval "use $_";
-    		if ($@) {
-        		warn "Not found -> $_ module\t Need to install $_ \n" if $@;
-			if ($download eq '1') { print "Trying to download using CPAN\n"; CPAN::Shell->install($_); }
-    		} else {
-        		print "Found : $_\n";
-    		}
-	}
-}
-
-
 # Read config files in the form element = value #comment --->
 sub read_config_files {
   my $project_config_file = shift;
@@ -339,37 +314,23 @@ sub read_config_files {
   $param{out_dir} = read_config('out_dir', $param{out_dir}, $user_config);
 
 # PROJECT CONFIGURATION --->
-  $param{contaminated_seq} = read_config('contaminated_seq', '', $user_config);
+  $param{consensus} = read_config('consensus', '', $user_config);
   $param{verbose} = read_config('verbose', '', $user_config);
   $param{force} = read_config('force', '', $user_config);
-  $param{mismatch} = read_config('mismatch', '', $user_config);
-  $param{reverse} = read_config('reverse', '', $user_config);
-  $param{overlaps} = read_config('overlaps', '', $user_config);
-  $param{extend} = read_config('extend', '', $user_config);
-  $param{chekerExtend} = read_config('chekerExtend', '', $user_config);
-  $param{palsize} = read_config('palsize', '', $user_config);
   $param{check} = read_config('check', '', $user_config);
   $param{draw} = read_config('draw', '', $user_config);
   $param{clean} = read_config('clean', '', $user_config);
+  $param{separate} = read_config('separate', '', $user_config);
+  $param{ignore} = read_config('ignore', '', $user_config);
 
   $param{download} = read_config('download', '', $user_config);
   $param{table} = read_config('table', '', $user_config);
 
   $param{threshold} = read_config('threshold', '', $user_config);
-  $param{method} = read_config('method', '', $user_config);
   $param{len} = read_config('len', '', $user_config);
-
-# PROJECT PENALTY --->
-  $param{mutation} = read_config('mutation', '', $user_config);
-  $param{score} = read_config('score', '', $user_config);
-  $param{consider} = read_config('consider', '', $user_config);
-
 
 #GENERAL SETTINGS
   $param{mode} = read_config('mode', '', $user_config);
-
-# QUALITY AND PERFORMANCE --->
-  $param{max_processors} = read_config('max_processors', '', $user_config);
 
   close($user_config);
 
@@ -383,8 +344,6 @@ sub read_config_files {
   $param{summary} = read_config('summary', '', $autoConTAMPR_config);
   $param{warnings} = read_config('warnings', '', $autoConTAMPR_config);
 
-# EXTERNAL ERROR HANDLING --->
-  $param{tries} = read_config('tries', '', $autoConTAMPR_config);
   close($autoConTAMPR_config);
   return \%param;
 }
@@ -416,11 +375,6 @@ sub parameters_validator { #check for all parameters,
   my $config_path = getcwd();
   $config_path =~ s/\/\w+$/\/config_files/;
 
-# OUT FILES --->
-  if (!defined $param->{out_dir}) { die ("No path to autoConTAMPR was specified in autoConTAMPR_config at $config_path, please open this file and fill the parameter 'out_dir'.\n"); }
-  if (!-d $param->{out_dir}) { die ("The path to autoConTAMPR isn't a valid directory, please check if the path in 'out_dir' is correct: $param->{out_dir}\n"); }
-  if (!-w $param->{out_dir}) { die ("You don't have permission to write in the autoConTAMPR directory, please redefine your permissions for this directory.\n"); }
-
 # INPUT FILES --->
   if (!defined $param->{data_dir}) { die ("No path to the nucleotide files was specified in your project's configuration file, please fill the parameter 'data_dir'.\n"); }
   if (!-d $param->{data_dir}) { die ("The path to your project's nucleotide files isn't a valid directory, please check if the path in 'data_dir' is correct: $param->{data_dir}\n"); }
@@ -429,15 +383,29 @@ sub parameters_validator { #check for all parameters,
 
 # PROJECT CONFIGURATION --->
 
-  if (!defined $param->{verbose}) { $param->{verbose} = 0; } # default value
-  if (!defined $param->{force}) { $param->{force} = 0; } # default value
-  if (!defined $param->{mismatch}) { $param->{mismatch} = 0; } # default value
-  if (!defined $param->{reverse}) { $param->{reverse} = 0; } # default value
-  if (!defined $param->{overlaps}) { $param->{overlaps} = 0; } # default value 0 to keep all
-  if (!defined $param->{extend}) { $param->{extend} = 0; } # default value 0
+  if (!defined $param->{verbose}) { $param->{verbose} = 1; } # default value
+  if (!defined $param->{force}) { $param->{force} = 1; } # default value
+  if (!defined $param->{check}) { $param->{force} = 1; } # default value
+  if (!defined $param->{draw}) { $param->{force} = 1; } # default value
+  if (!defined $param->{clean}) { $param->{force} = 1; } # default value
+  if (!defined $param->{separate}) { $param->{force} = 1; } # default value
+  if (!defined $param->{ignore}) { $param->{force} = 1; } # default value
+  if (!defined $param->{download}) { $param->{force} = 1; } # default value
+  if (!defined $param->{threshold}) { $param->{force} = 0.05; } # default value
+  if (!defined $param->{len}) { $param->{force} = 600; } # default value
+  if (!defined $param->{force}) { $param->{force} = 1; } # default value
 
-# EXTERNAL ERROR HANDLING --->
-  if (!defined $param->{tries} || $param->{tries} !~ /^\d+$/) { $param->{tries} = 3; } # must be a number, and not a negative one; also must be an integer
+  if (! looks_like_number($param->{verbose})) { print "$param->{verbose} should be number in your config file\n"; exit;}
+  if (! looks_like_number($param->{force})) { print "$param->{force} should be number in your config file\n"; exit;}
+  if (! looks_like_number($param->{check})) { print "$param->{check} should be number in your config file\n"; exit;}
+  if (! looks_like_number($param->{draw})) { print "$param->{draw} should be number in your config file\n"; exit;}
+  if (! looks_like_number($param->{clean})) { print "$param->{clean} should be number in your config file\n"; exit;}
+  if (! looks_like_number($param->{separate})) { print "$param->{separate} should be number in your config file\n"; exit;}
+  if (! looks_like_number($param->{ignore})) { print "$param->{ignore} should be number in your config file\n"; exit;}
+  if (! looks_like_number($param->{download})) { print "$param->{download} should be number in your config file\n"; exit;}
+  if (! looks_like_number($param->{threshold})) { print "$param->{threshold} should be number in your config file\n"; exit;}
+  if (! looks_like_number($param->{len})) { print "$param->{len} should be number in your config file\n"; exit;}
+  if (! looks_like_number($param->{force})) { print "$param->{force} should be number in your config file\n"; exit;}
 
   if (!defined $param->{out_dir}) {die "Project directory not configured. Please set out_dir element in configuration file\n";}
 
@@ -780,17 +748,17 @@ sub sorter {
 
 sub detectStat {
 my ($file, $outfile, $score, $sequence_data_ref)=@_;
-my @terms;
-my %genome=%{$sequence_data_ref};
+  my @terms;
+  my %genome=%{$sequence_data_ref};
 
-my $fh = &read_fh($file);
-my $out =&write_fh($outfile);
-while (<$fh>) { chomp; push @terms, [split /\t/]; }
-my $Ids_ref=extractIds(\@terms);
-foreach my $id (@$Ids_ref) {
-my ($all, %pal, %str);
-my $len = $genome{$id}{len};
-my $palN=0; my $palY=0; my $strP=0; my $strR=0;
+  my $fh = &read_fh($file);
+  my $out =&write_fh($outfile);
+  while (<$fh>) { chomp; push @terms, [split /\t/]; }
+  my $Ids_ref=extractIds(\@terms);
+  foreach my $id (@$Ids_ref) {
+  my ($all, %pal, %str);
+  my $len = $genome{$id}{len};
+  my $palN=0; my $palY=0; my $strP=0; my $strR=0;
 
 	for my $item (@terms) {
     		if ($item->[1] eq $id) {
@@ -801,11 +769,11 @@ my $palN=0; my $palY=0; my $strP=0; my $strR=0;
 		$all++;
     		}
 	}
-if ($pal{0}) { $palN=$pal{0};}
-if ($pal{1}) { $palY=$pal{1};}
-if ($str{P}) { $strP=$str{P};}
-if ($str{R}) { $strR=$str{R};}
-print $out "$id\t$all\t$palN\t$palY\t$strP\t$strR\n";
+  if ($pal{0}) { $palN=$pal{0};}
+  if ($pal{1}) { $palY=$pal{1};}
+  if ($str{P}) { $strP=$str{P};}
+  if ($str{R}) { $strR=$str{R};}
+  print $out "$id\t$all\t$palN\t$palY\t$strP\t$strR\n";
 }
 
 }
@@ -814,28 +782,28 @@ print $out "$id\t$all\t$palN\t$palY\t$strP\t$strR\n";
 
 sub analyticStat {
 my ($file, $outfile, $score, $sequence_data_ref)=@_;
-my @terms;
-my %genome=%{$sequence_data_ref};
+  my @terms;
+  my %genome=%{$sequence_data_ref};
 
-my $fh = &read_fh($file);
-my $out =&write_fh($outfile);
-while (<$fh>) { chomp; push @terms, [split /\t/]; }
-my $Ids_ref=extractIds(\@terms);
-my $feature_ref=extractFeature(\@terms);
+  my $fh = &read_fh($file);
+  my $out =&write_fh($outfile);
+  while (<$fh>) { chomp; push @terms, [split /\t/]; }
+  my $Ids_ref=extractIds(\@terms);
+  my $feature_ref=extractFeature(\@terms);
 
-foreach my $id (@$Ids_ref) {
-my %feature;
+  foreach my $id (@$Ids_ref) {
+  my %feature;
 	for my $item (@terms) {
 	if ($item->[11] eq $id) { if ($item->[9] >= $score) { $feature{$item->[13]}++; } } #$item->[9] >= 0 for score filter
 	}
-print $out "$id\t";
-my $len = $genome{$id}{len};
+  print $out "$id\t";
+  my $len = $genome{$id}{len};
 
-foreach my $f(@$feature_ref) {
+  foreach my $f(@$feature_ref) {
 	if ($feature{$f}) { print $out "$feature{$f}/$len\t"; }
 	else { print $out "0\t";} }
-print $out "\n";
-}
+  print $out "\n";
+  }
 
 }
 
@@ -877,7 +845,6 @@ return $avCov;
 
 sub extractSeq_genome {
 my ($file, $chr, $st, $ed)=@_;
-use Bio::DB::Fasta;
 my $db = Bio::DB::Fasta->new($file);
 my $seq = $db->seq($chr, $st => $ed);
 return $seq;
@@ -1054,32 +1021,6 @@ close $infh;
 
 
 #subroutines here ------
-#Help section
-sub printUsage {
-  my $ver = $_[0];
-  print "\n autoConTAMPR $ver\n\n";
-
-  print "Usage: $0 perl autoConTAMPR.pl -t table.csv -m markers -o outTable -p -c COI_full_LC.fas --brutal no --verbose \n\n";
-  print	"Options:\n";
-  print "	--table|-t	table with the contamination info (specially formated)\n";
-  print "	--consensus|--c	consensus markers fasta sequence\n";
-  print "	--infile|--f	infile\n";
-  print "	--markerDir|-m	marker files in a directory (special name format)\n";
-  print "	--outfile|-o	outfile for results\n";
-  print "	--plot|-p	plot the result\n";
-  print "	--brutal|-b	brutally delete all intermediate file\n";
-  print "	--help|-h|?	print the help\n";
-  print "	--who|-w	print the developer name\n";
-  print "	--verbose	print the log file\n";
-  print "	--logfile	name of the logfile\n\n";
-
-print "Point to NOTE:\n";
-print "Consensus fasta file should be in lower case : tr A-Z a-z < input.fa\n";
-print "Name of the all the markers file should begin with L or H\n";
-print "The constamination table have special format (see the default table in sample data)\n\n";
-
-exit;
-}
 
 sub Who {
 print "autoConTAMPR by Jitendra, Nico, JF and Karine\n";
@@ -1117,7 +1058,7 @@ close $infh;
 #Return name of both files
 #File should be named in this format:H_D14-HCO1_*.scf direction_indivisualName-markerName_*.scf
 sub returnFilePath {
-my ($dir, $mName)=@_;
+my ($dir, $mName, $wfh)=@_;
 my @fArray; my $wDir;
     opendir(DIR, $dir) or die  die "Can't open $dir: $!";
     while (my $file = readdir(DIR)) {
@@ -1129,7 +1070,7 @@ my @fArray; my $wDir;
     }
     closedir(DIR);
 if (scalar(@fArray) > 2) { print "Something looks wrong, have ($#fArray+1) AND I expect 2 file\n"; exit;} 
-elsif (!@fArray) { print "No chromatogram file found for $mName, Check filename carefully\n";}
+elsif (!@fArray) { print $wfh "No chromatogram file found for $mName, Check filename carefully\n";}
 return (\@fArray);
 }
 
@@ -1240,7 +1181,7 @@ my $db = Bio::DB::Fasta->new( $mFasta );
 #my $write_fh = IO::File->new("tmpConsensus.fa",'w');
 my $sequence = $db->seq($mIndLC);
 if  (!defined( $sequence )) {
-      print "Sequence $mIndLC not found. STRANGE !!!\n"; exit;
+      print "Sequence $mIndLC not found. STRANGE !!!\n Seems your consensus file have some missing sequences\n"; exit;
     }
 #print ">$mInd\n", "$sequence\n";
 #print $write_fh ">$mId\n", "$sequence\n";
@@ -1434,12 +1375,14 @@ if ($plot) { system "Rscript $workDir/utils/conPlot.R plotData";}
 
 #Plot the contamination graph
 sub circosPlot {
-my ($ConTAMPR_out, $table, $param)=@_;
+my ($ConTAMPR_out, $table, $param, $log)=@_;
 
 open(OUTseq, ">$param->{out_dir}/circos/circos.sequences.txt") or die("Cannot create circos.sequences.txt\n");   
 open(OUTsegdup, ">$param->{out_dir}/circos/circos.segdup.txt") or die("Cannot create circos.segdup.txt\n");     
 
-print "Generating circos files.\n";
+#Store into hash
+my $hash_ref = storeIntoHash ($table, 3);
+my %hash = %$hash_ref;
 
 my $ss = ReadData ("$table", attr => 1)->[1]; #Reading sheet 1 
 my $book = Spreadsheet::Read->new ("$table");
@@ -1447,18 +1390,16 @@ my $sheet = $book->sheet (1);     # OO
 my @col = $sheet->column(2); #foreach (@col) { print "$_\n";} #exit; # Column 2 is indivisual name
 shift @col;
 
-my $seqCnt; my %seqHash;
+my $seqCnt; my %seqHash; 
 foreach my $cVal(@col) {
 	$seqCnt++;
 	my $seq="seq"."$seqCnt";
 	my $markerLen=$param->{len}; #Legth of the expected size of the markers
 	my $tmpRow=$seqCnt+1;# Depends upon unsorted array ... dont sort
 	my $cell = cr2cell (1,$tmpRow); 
-        my $spsName=$ss->{$cell};
+        my $spsName=trim ($ss->{$cell});
 	my $blkColor='NA';
-	if ($spsName eq "A") { $blkColor='red'; } elsif ($spsName eq "B") { $blkColor='green';}
-	elsif ($spsName eq "C") { $blkColor='yellow'; } elsif ($spsName eq "D") { $blkColor='pink';}
-	elsif ($spsName eq "E") { $blkColor='black'; } elsif ($spsName eq "F") { $blkColor='blue';}
+	$blkColor=$hash{$spsName};
 
 	#chr - seq1132 contig_1131 0 18652167 red_a4
 	my $seqLine="chr - $seq $cVal 0 $markerLen $blkColor";	
@@ -1467,11 +1408,11 @@ foreach my $cVal(@col) {
 	}
 close OUTseq;
 
-print "Generating circos segdup file\n";
+#print "Generating circos segdup file\n";
 
 foreach my $cVal(@col) {
 	open(INConTAMPR, $ConTAMPR_out) or die("Cannot open $ConTAMPR_out\n -Terminated !! \n Either you forgot to run --validation step OR Folder name is changed\n");
-	my $markerLen=600;
+	my $markerLen=$param->{len};
 	while (<INConTAMPR>) {
 		next if /^\s*$/;
 		my @splitline = split(/\t/, $_);
@@ -1499,6 +1440,21 @@ close OUTsegdup;
 system ("$param->{circos}/circos -silent -conf $param->{out_dir}/circos/circos.conf");
 }
 
+
+## Subroutine to open & read logfile 
+sub extractSpsLine {
+my ($infile, $outfile, $sps)=@_;  
+    open (IN, $infile); 
+    open (OUT, ">", $outfile) or die "$!"; 
+    while (<IN>) {
+	chomp $_;
+	my @tmpLine = split '\t', $_;
+        if ($tmpLine[0] eq $sps) {  
+            print OUT "$_\n"; 
+        } 
+    } 
+    close OUT;
+} 
 
 
 # Smith-Waterman  Algorithm LOCAL
@@ -1614,14 +1570,14 @@ $starti=$i; $startj=$j;
     }   
 }
 
-print "$starti\t$startj\n";
+#print "$starti\t$startj\n";
 $align1 = reverse $align1;
 $align2 = reverse $align2;
 print $logfh "$align1\n" if $verbose;
 print $logfh "$align2\n" if $verbose;
 
 my $alnLen=length ($align1); 
-print "$scfLen $alnLen\n";
+#print "$scfLen $alnLen\n";
 if ($scfLen < ($alnLen/2)) { print "The length of alignment is too small between $chroId (length: $scfLen), $indCName (alignment length:$alnLen) !! \nPossible orientation error. Flip the scf file strand and try again\n"; exit(1);}
 
 return ($align1, $align2, $starti, $startj);
@@ -1667,6 +1623,41 @@ print $logfh "\nEND/#\n\n" if $verbose;
 #print "$second\t$third\t$four\n" if $verbose;
 return ($second, $third, $four);
 }
+
+
+sub validateHelp {
+  my $ver = $_[0];
+  print "\n  autoConTAMPR --validate $ver \n\n";
+  print "    Usage: autoConTAMPR.pl --validate/-v --conf/-c <configuration file>\n\n";
+  print "    To check the contamination in the consensus markers fasta sequences\n\n";
+  print "    The path to a valid autoConTAMPR configuration file. This file contains all parameters needed to execute  autoConTAMPR.\n\n";
+print "Point to NOTE:
+1.Consensus fasta file should be in lower case : tr A-Z a-z < input.fa
+2.Name of the all the markers file should begin with L or H
+3.The constamination table have special format (see the default table in sample data)\n";
+exit(1);
+}
+
+sub installHelp {
+  my $ver = $_[0];
+  print "\n  autoConTAMPR --full $ver \n\n";
+  print "    Usage: autoConTAMPR.pl --install/-i --conf/-c <configuration file>\n\n";
+  print "    To run complete in one GO \n\n";
+  print "    The path to a valid autoConTAMPR configuration file. This file contains all parameters needed to execute  autoConTAMPR.\n\n";
+
+exit(1);
+}
+
+sub plotHelp {
+  my $ver = $_[0];
+  print "\n  autoConTAMPR --plot $ver \n\n";
+  print "    Usage: autoConTAMPR.pl --plot/-p --conf/-c <configuration file>\n\n";
+  print "    To plot the autoConTAMPR results \n\n";
+  print "    The path to a valid autoConTAMPR configuration file. This file contains all parameters needed to execute  autoConTAMPR.\n\n";
+
+exit(1);
+}
+
 
 
 #Chi-squared test calculation
