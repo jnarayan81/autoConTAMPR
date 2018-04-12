@@ -3,7 +3,7 @@
 args = commandArgs(trailingOnly=TRUE)
 
 xdata <- read.table( args[1], sep="\t", header=TRUE)
-head(xdata);
+#head(xdata);
 
 #odata <- read.table( args[2], sep="\t", header=TRUE)
 #head(xdata);
