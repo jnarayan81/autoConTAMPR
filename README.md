@@ -136,3 +136,7 @@ Feel free to clone this repository and use it under the licensing terms.
 Additionally, as the project is on github, you may submit patches, ticket requests, edit the wiki, send pull requests - anything you like and have the permissions to do. I will enjoy any and all contributions, I'm sure! :)
 
 As always, you can contact the authors at jitendra.narayan@unamur.be, jflot@ulb.ac.be, nicolas.debortoli@unamur.be and karine.vandoninck@unamur.be.
+
+## CITATION
+
+Reply to Cross-Contamination Explains "Inter and Intraspecific Horizontal Genetic Transfers" between Asexual Bdelloid Rotifers (Wilson, Nowell & Barraclough 2018) Jean-François Flot, Nicolas Debortoli, Bernard Hallet, Jitendra Narayan, Karine Van Doninck doi: https://doi.org/10.1101/368209
