@@ -141,6 +141,13 @@ installModules($0, "$param_ref->{download}"); exit;
 }
 
 #---------------------------------------
+#Brutal warning
+if ($param_ref->{brutal} eq "yes") {print "Brutal mode is ON, it will terminated after one run\nchange the setting in config file if needed\n\n";}
+#---------------------------------------
+#check consensus file
+my $conRes = checkConsensus($param_ref->{consensus});
+if (!$conRes) { print "It seems, you have gapped consensus sequences !!\nI recommend to try 'alnmode = global' in config file\n\nTERMINATING...\n"; exit;}
+#---------------------------------------
 if ($plot) {
 if (!-e "$param_ref->{out_dir}/results") { print "It seems you forgot to run --validate or -v steps\n"; exit;}
 print "Generating circos files.\n";
@@ -226,8 +233,13 @@ print "$nam the chromatogram files using autoConTAMPR $param_ref->{mode} mode\n"
 
 if ($validate and ($param_ref->{mode} eq "general")) {
 #my ($table, $consensus, $markerDir, $outfile, $draw, $brutal, $verbose, $logfile)=@_;
-allConTAMPRLocal ("$param_ref->{table}", "$param_ref->{consensus}", "$param_ref->{data_dir}", "$param_ref->{out_dir}/results/$param_ref->{result}.$nam", "$param_ref->{draw}", "brutal", "no", $LOG, $param_ref, $WARN, $LOG_ERR); # concated both species name in $SpsArray_ref
+if($param_ref->{alnmode} eq 'global') {
+allConTAMPRGlobal ("$param_ref->{table}", "$param_ref->{consensus}", "$param_ref->{data_dir}", "$param_ref->{out_dir}/results/$param_ref->{result}.$nam", "$param_ref->{draw}", "$param_ref->{brutal}", "$param_ref->{verbose}", $LOG, $param_ref, $WARN, $LOG_ERR); # concated both species name in $SpsArray_ref
+}
+elsif ($param_ref->{alnmode} eq 'local') {
+allConTAMPRLocal ("$param_ref->{table}", "$param_ref->{consensus}", "$param_ref->{data_dir}", "$param_ref->{out_dir}/results/$param_ref->{result}.$nam", "$param_ref->{draw}", "$param_ref->{brutal}", "$param_ref->{verbose}", $LOG, $param_ref, $WARN, $LOG_ERR); # concated both species name in $SpsArray_ref
 
+}
 }
 
 #---------------------------------------
@@ -236,7 +248,8 @@ print "Thanks for opting selected mode, we are working on it. Try later ...\n"; 
 #my ($table, $consensus, $markerDir, $outfile, $draw, $brutal, $verbose, $logfile)=@_;
 if (!$param_ref->{table}) {print "It seems you forgot to provide me the TABLE of individual, please check readme for detail\n";}
 
-splConTAMPR("$param_ref->{table}", "$param_ref->{consensus}", "$param_ref->{data_dir}", "$param_ref->{out_dir}/results/$param_ref->{result}.$nam", "$param_ref->{draw}", "brutal", "no", $LOG, $param_ref, $WARN, $LOG_ERR); # concated both species name in $SpsArray_ref
+#not active
+splConTAMPR("$param_ref->{table}", "$param_ref->{consensus}", "$param_ref->{data_dir}", "$param_ref->{out_dir}/results/$param_ref->{result}.$nam", "$param_ref->{draw}", "$param_ref->{brutal}", "$param_ref->{verbose}", $LOG, $param_ref, $WARN, $LOG_ERR); # concated both species name in $SpsArray_ref
 }
 #-------------------------------------------------------------------------------
 #Lets clean the files
@@ -278,6 +291,10 @@ __END__
 #Convert to lowercase
 awk '{ if ($0 !~ />/) {print toupper($0)} else {print $0} }' name.fasta
 
+
 tr A-Z a-z < input 
+
+#multi lone fasta to single line fasta
+perl -pe '/^>/ ? print "\n" : chomp' in.fasta | tail -n +2 > out.fasta
 
 

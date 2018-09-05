@@ -223,12 +223,29 @@ close $out;
 return;
 }
 
+#check consensus
+sub checkConsensus {
+    my $file = $_[0];
+    my $sequence;
+    open (READ, $file) || die "Cannot open consensus $file: $!.\n";
+    while (<READ>){
+        next if (/^>/); # skip for header
+	next if(/^\s*$/);  #skip for empty line 
+	next if /^$/;
+	if ( $_ !~ /^\w+$/) { #Contain "-"
+		print "$_\n";
+	    return 0;
+        }
+    }
+return 1;
+}
 
 #All individual against all --not in use just for testing
 sub allConTAMPRGlobal {
-my ($table, $consensus, $markerDir, $outfile, $plot, $brutal, $verbose, $logfile)=@_;
+#$table, $consensus, $markerDir, $outfile, $draw, $brutal, $verbose, $logfh, $param, $wfh, $logerr
+my ($table, $consensus, $markerDir, $outfile, $plot, $brutal, $verbose, $logfh, $param, $wfh, $logerr)=@_;
 
-my $logfh = IO::File->new("$logfile",'w') if $verbose;
+#my $logfh = IO::File->new("$logfile",'w') if $verbose;
 my $ofh = IO::File->new("$outfile",'w') if $verbose;
 my $seperator='*' x 100;
 
@@ -245,15 +262,15 @@ foreach my $row (1 .. $ss->{maxrow}) {
         	#printf "%s %-3s %d  ", $cell, $ss->{$cell}, $ss->{attr}[$col][$row]{merged};
 		if ($col == 1) { $speciesName=$ss->{$cell}; next;}		
 		#print "$cell\t";
-		if ($col == 2) { $rVal=$ss->{$cell}; print "$rVal ->>\n";}
+		if ($col == 2) { $rVal=$ss->{$cell}; } #print "$rVal ->>\n";
 		next if $col > 2;
-		my @col = $sheet->column($col); foreach (@col) { print "$_ <<-\n";} #exit; # Column 2 is indivisual name
+		my @col = $sheet->column($col); #foreach (@col) { print "$_ <<-\n";} #exit; # Column 2 is indivisual name
 		shift @col;
 		if (index($ss->{$cell}, "($speciesName)") != -1) { print $logfh "'$ss->{$cell}' contains '$speciesName'\n" if $verbose; }
 		foreach my $cVal (@col) {
 			my ($indRName)="_"."$rVal"."_";
 			my ($indCName)=$cVal;
-			print "$indRName\t$indCName ++ \n" if $verbose;
+			#print "$indRName\t$indCName ++ \n" if $verbose;
 			my ($fileArray_ref) = returnFilePath($markerDir,$indRName);
 			my @fArray= @$fileArray_ref;
 			my $lHand=''; my $hHand=''; my $direction='NA';
@@ -331,6 +348,8 @@ sub read_config_files {
 
 #GENERAL SETTINGS
   $param{mode} = read_config('mode', '', $user_config);
+  $param{alnmode} = read_config('alnmode', '', $user_config);
+  $param{brutal} = read_config('brutal', '', $user_config);
 
   close($user_config);
 
