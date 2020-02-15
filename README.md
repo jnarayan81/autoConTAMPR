@@ -8,7 +8,7 @@
 # autoConTAMPR
 autoConTAMPR: Automatic Contingency Table Analysis of Minority Peak Ranks
 
-Implemented by jitendra.narayan@unamur.be, jflot@ulb.ac.be, nicolas.debortoli@unamur.be and karine.vandoninck@unamur.be
+Implemented by ~~jitendra.narayan@unamur.be~~, jnarayan81@gmail.com, jflot@ulb.ac.be, nicolas.debortoli@unamur.be and karine.vandoninck@unamur.be
 
 ## LICENSE
 
